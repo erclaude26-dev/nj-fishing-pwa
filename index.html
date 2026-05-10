@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0f1419">
+<title>NJ Fishing</title>
+<link rel="manifest" href="manifest.json">
+<style>
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  body { font-family: -apple-system, system-ui, Segoe UI, Roboto, sans-serif; margin: 0; background: #0f1419; color: #e6edf3; padding: 0 0 40px; min-height: 100vh; }
+  header { padding: 16px; border-bottom: 1px solid #30363d; position: sticky; top: 0; background: #0f1419; z-index: 10; display: flex; justify-content: space-between; align-items: center; }
+  header h1 { margin: 0; font-size: 18px; }
+  button { background: #238636; color: white; border: 0; padding: 8px 14px; border-radius: 6px; font-size: 14px; font-weight: 500; cursor: pointer; }
+  button:disabled { background: #444; cursor: wait; }
+  button.secondary { background: #21262d; border: 1px solid #30363d; }
+  button.danger { background: #da3633; }
+  .tabs { display: flex; border-bottom: 1px solid #30363d; background: #161b22; position: sticky; top: 56px; z-index: 9; }
+  .tab { flex: 1; padding: 12px; text-align: center; font-size: 14px; color: #8b949e; border: 0; background: transparent; border-bottom: 2px solid transparent; }
+  .tab.active { color: #e6edf3; border-bottom-color: #2f81f7; }
+  .view { display: none; padding: 16px; }
+  .view.active { display: block; }
+  .card { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 14px; margin-bottom: 12px; }
+  .card h2 { font-size: 15px; margin: 0 0 10px; color: #c9d1d9; }
+  .row { display: flex; justify-content: space-between; gap: 8px; padding: 4px 0; font-size: 14px; }
+  .row .label { color: #8b949e; }
+  .row .value { color: #e6edf3; font-weight: 500; text-align: right; }
+  .stocked-item { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 12px; margin-bottom: 10px; }
+  .stocked-item .name { font-size: 15px; font-weight: 600; margin-bottom: 4px; }
+  .stocked-item .meta { font-size: 12px; color: #8b949e; margin-bottom: 6px; }
+  .stocked-item .gauge { font-size: 12px; padding-top: 6px; border-top: 1px solid #30363d; margin-top: 6px; color: #adbac7; }
+  .stocked-item .no-gauge { font-size: 11px; color: #6e7681; font-style: italic; padding-top: 6px; border-top: 1px solid #30363d; margin-top: 6px; }
+  .status { font-size: 13px; color: #8b949e; padding: 8px 0; }
+  .status.error { color: #f85149; }
+  input, select, textarea { background: #0d1117; color: #e6edf3; border: 1px solid #30363d; border-radius: 6px; padding: 8px; font-size: 14px; width: 100%; font-family: inherit; }
+  textarea { min-height: 60px; resize: vertical; }
+  label { font-size: 13px; color: #8b949e; display: block; margin: 8px 0 4px; }
+  .log-item { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 12px; margin-bottom: 10px; }
+  .log-item .when { font-size: 12px; color: #8b949e; }
+  .log-item .what { font-size: 15px; font-weight: 600; margin: 2px 0; }
+  .log-item .where { font-size: 13px; color: #adbac7; }
+  .log-item .notes { font-size: 13px; color: #c9d1d9; margin-top: 6px; white-space: pre-wrap; }
+  .log-actions { display: flex; gap: 8px; margin-top: 8px; }
+  .log-actions button { font-size: 12px; padding: 4px 10px; }
+  .toolbar { display: flex; gap: 8px; margin-bottom: 12px; }
+  .toolbar button { flex: 1; }
+  .form-actions { display: flex; gap: 8px; margin-top: 12px; }
+  .small { font-size: 12px; color: #6e7681; }
+  .hidden { display: none !important; }
+  details { background: #0d1117; border: 1px solid #30363d; border-radius: 6px; padding: 8px 12px; margin-top: 8px; }
+  details summary { cursor: pointer; font-size: 13px; color: #adbac7; }
+  details[open] summary { margin-bottom: 8px; }
+  .timestamp { font-size: 11px; color: #6e7681; padding: 0 16px 4px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🎣 NJ Fishing</h1>
+  <button id="refresh-btn">Refresh</button>
+</header>
+
+<div class="tabs">
+  <button class="tab active" data-view="now">Now</button>
+  <button class="tab" data-view="waters">Waters</button>
+  <button class="tab" data-view="log">Log</button>
+</div>
+
+<div class="timestamp" id="last-updated"></div>
+
+<!-- NOW VIEW -->
+<section class="view active" id="view-now">
+  <div class="card">
+    <h2>Location</h2>
+    <div id="loc-status" class="status">Getting GPS…</div>
+    <div id="loc-content" class="hidden">
+      <div class="row"><span class="label">Coordinates</span><span class="value" id="loc-coords">—</span></div>
+      <div class="row"><span class="label">Accuracy</span><span class="value" id="loc-accuracy">—</span></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Weather</h2>
+    <div id="weather-status" class="status">Waiting on location…</div>
+    <div id="weather-content" class="hidden">
+      <div class="row"><span class="label">Air temp</span><span class="value" id="wx-temp">—</span></div>
+      <div class="row"><span class="label">Feels like</span><span class="value" id="wx-feels">—</span></div>
+      <div class="row"><span class="label">Humidity</span><span class="value" id="wx-humidity">—</span></div>
+      <div class="row"><span class="label">Wind</span><span class="value" id="wx-wind">—</span></div>
+      <div class="row"><span class="label">Precip (last 24h)</span><span class="value" id="wx-precip">—</span></div>
+      <div class="row"><span class="label">Pressure trend</span><span class="value" id="wx-pressure">—</span></div>
+      <div class="row"><span class="label">Cloud cover</span><span class="value" id="wx-cloud">—</span></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Sun & Moon</h2>
+    <div id="sun-status" class="status">Waiting on location…</div>
+    <div id="sun-content" class="hidden">
+      <div class="row"><span class="label">Sunrise</span><span class="value" id="sun-rise">—</span></div>
+      <div class="row"><span class="label">Sunset</span><span class="value" id="sun-set">—</span></div>
+      <div class="row"><span class="label">Moon phase</span><span class="value" id="moon-phase">—</span></div>
+      <div class="row"><span class="label">Moon illum</span><span class="value" id="moon-illum">—</span></div>
+      <div class="row"><span class="label">Solunar major</span><span class="value" id="solunar-major">—</span></div>
+      <div class="row"><span class="label">Solunar minor</span><span class="value" id="solunar-minor">—</span></div>
+    </div>
+    <details><summary>What is solunar?</summary>
+      <div class="small">Solunar theory predicts heightened fish feeding activity around moon overhead (major) and moonrise/moonset (minor). Computed locally from moon position. Treat as one data point, not gospel.</div>
+    </details>
+  </div>
+</section>
+
+<!-- WATERS VIEW -->
+<section class="view" id="view-waters">
+  <div id="waters-status" class="status">Loading stocked waters…</div>
+  <div id="waters-list"></div>
+</section>
+
+<!-- LOG VIEW -->
+<section class="view" id="view-log">
+  <div class="toolbar">
+    <button id="log-new-btn">+ New Catch</button>
+    <button id="log-export-btn" class="secondary">Export</button>
+  </div>
+  <div id="log-form" class="card hidden">
+    <h2>New catch</h2>
+    <label>Species</label>
+    <input id="f-species" placeholder="e.g. Rainbow Trout">
+    <label>Length (in) <span class="small">— optional</span></label>
+    <input id="f-length" type="number" step="0.25" inputmode="decimal">
+    <label>Water</label>
+    <input id="f-water" placeholder="e.g. Saddle River, Ridgewood">
+    <label>Method / lure <span class="small">— optional</span></label>
+    <input id="f-method" placeholder="e.g. PowerBait, #16 BHN">
+    <label>Notes</label>
+    <textarea id="f-notes" placeholder="Conditions, location detail, what worked..."></textarea>
+    <div class="form-actions">
+      <button id="f-save">Save</button>
+      <button id="f-cancel" class="secondary">Cancel</button>
+    </div>
+    <div class="small" style="margin-top:8px">Date, time, and GPS auto-captured at save.</div>
+  </div>
+  <div id="log-list"></div>
+</section>
+
+<script>
+/* ====== CONFIG ====== */
+
+// Manual mapping: stocked stream NAME (from NJDEP) -> USGS gauge ID for water conditions.
+// Add more rows as you verify them. Without a row here, the water shows "no gauge."
+// Source: NJDEP feature service NAME field; gauge IDs from waterdata.usgs.gov.
+const GAUGE_MAP = {
+  "Saddle River": "USGS-01390500",  // Saddle River at Ridgewood
+  "Pequannock River": "USGS-01380500",  // Pequannock River at Macopin Intake Dam
+  "Ramapo River": "USGS-01387500",  // Ramapo River near Mahwah
+  "Wanaque River": "USGS-01386000",  // Wanaque River at Awosting
+  "Pompton River": "USGS-01388000"  // Pompton River at Pompton Plains
+};
+// If any of the above gauges turn out to be wrong/inactive, edit this map and re-deploy.
+
+const NJDEP_STREAMS_URL = "https://mapsdep.nj.gov/arcgis/rest/services/Features/Environmental_admin/MapServer/35/query";
+const METEO_URL = "https://api.open-meteo.com/v1/forecast";
+const USGS_URL = "https://api.waterdata.usgs.gov/ogcapi/v0/collections/latest-continuous/items";
+
+const MAX_WATERS_DISPLAYED = 20;
+const SEARCH_RADIUS_MILES = 50;
+
+/* ====== STATE ====== */
+let state = {
+  lat: null,
+  lon: null,
+  weather: null,
+  stockedWaters: [],
+  log: []
+};
+
+/* ====== UTILITIES ====== */
+const $ = (id) => document.getElementById(id);
+const haversineMiles = (lat1, lon1, lat2, lon2) => {
+  const R = 3958.8;
+  const toRad = (d) => d * Math.PI / 180;
+  const dLat = toRad(lat2 - lat1);
+  const dLon = toRad(lon2 - lon1);
+  const a = Math.sin(dLat/2)**2 + Math.cos(toRad(lat1))*Math.cos(toRad(lat2))*Math.sin(dLon/2)**2;
+  return 2 * R * Math.asin(Math.sqrt(a));
+};
+const fmtTime = (d) => d.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
+const fmtDate = (d) => d.toLocaleDateString([], { month: 'short', day: 'numeric', year: 'numeric' });
+
+/* ====== TABS ====== */
+document.querySelectorAll('.tab').forEach(t => {
+  t.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(x => x.classList.remove('active'));
+    document.querySelectorAll('.view').forEach(x => x.classList.remove('active'));
+    t.classList.add('active');
+    $('view-' + t.dataset.view).classList.add('active');
+    if (t.dataset.view === 'log') renderLog();
+  });
+});
+
+/* ====== LOCATION ====== */
+function getLocation() {
+  return new Promise((resolve, reject) => {
+    if (!navigator.geolocation) { reject(new Error('Geolocation not supported')); return; }
+    navigator.geolocation.getCurrentPosition(
+      (pos) => resolve({ lat: pos.coords.latitude, lon: pos.coords.longitude, acc: pos.coords.accuracy }),
+      (err) => reject(err),
+      { enableHighAccuracy: true, timeout: 15000, maximumAge: 60000 }
+    );
+  });
+}
+
+/* ====== WEATHER ====== */
+async function fetchWeather(lat, lon) {
+  const params = new URLSearchParams({
+    latitude: lat, longitude: lon,
+    current: 'temperature_2m,relative_humidity_2m,apparent_temperature,precipitation,cloud_cover,pressure_msl,wind_speed_10m,wind_direction_10m',
+    daily: 'sunrise,sunset,precipitation_sum',
+    hourly: 'pressure_msl',
+    past_days: 1,
+    forecast_days: 1,
+    temperature_unit: 'fahrenheit',
+    wind_speed_unit: 'mph',
+    precipitation_unit: 'inch',
+    timezone: 'America/New_York'
+  });
+  const r = await fetch(METEO_URL + '?' + params);
+  if (!r.ok) throw new Error('Weather HTTP ' + r.status);
+  return await r.json();
+}
+
+/* ====== STOCKED WATERS ====== */
+async function fetchStockedNear(lat, lon, radiusMiles) {
+  // ArcGIS spatial query: geometry as a point in WGS84, with a distance buffer in meters.
+  const meters = radiusMiles * 1609.34;
+  const params = new URLSearchParams({
+    geometry: JSON.stringify({ x: lon, y: lat, spatialReference: { wkid: 4326 } }),
+    geometryType: 'esriGeometryPoint',
+    inSR: '4326',
+    spatialRel: 'esriSpatialRelIntersects',
+    distance: String(meters),
+    units: 'esriSRUnit_Meter',
+    outFields: 'NAME,GNIS_NAME,CLOSURES,STREAM_ID',
+    returnGeometry: 'true',
+    outSR: '4326',
+    f: 'geojson'
+  });
+  const r = await fetch(NJDEP_STREAMS_URL + '?' + params);
+  if (!r.ok) throw new Error('NJDEP HTTP ' + r.status);
+  const data = await r.json();
+  return data.features || [];
+}
+
+function approxDistanceToStream(feature, userLat, userLon) {
+  const g = feature.geometry;
+  if (!g) return null;
+  // Polylines: array of arrays of [lon, lat] (MultiLineString) or array of [lon, lat] (LineString)
+  let allCoords = [];
+  if (g.type === 'LineString') allCoords = g.coordinates;
+  else if (g.type === 'MultiLineString') allCoords = g.coordinates.flat();
+  if (allCoords.length === 0) return null;
+  let min = Infinity;
+  for (const [lon, lat] of allCoords) {
+    const d = haversineMiles(userLat, userLon, lat, lon);
+    if (d < min) min = d;
+  }
+  return min;
+}
+
+/* ====== USGS GAUGE ====== */
+async function fetchGauge(siteId) {
+  const params = new URLSearchParams({
+    monitoring_location_id: siteId,
+    f: 'json',
+    limit: '20'
+  });
+  const r = await fetch(USGS_URL + '?' + params);
+  if (!r.ok) throw new Error('USGS HTTP ' + r.status);
+  const data = await r.json();
+  const features = data.features || [];
+  // Pick most useful parameters: 00060 (cfs discharge), 00065 (gage height ft), 00010 (water temp C)
+  const wanted = { '00060': null, '00065': null, '00010': null };
+  for (const f of features) {
+    const p = f.properties || {};
+    if (wanted.hasOwnProperty(p.parameter_code)) wanted[p.parameter_code] = p;
+  }
+  return wanted;
+}
+
+/* ====== SOLUNAR / MOON ====== */
+// Simple moon phase calculation. Not astronomical-grade but fine for fishing.
+function moonInfo(date) {
+  // Days since known new moon: Jan 6, 2000 18:14 UTC
+  const known = Date.UTC(2000, 0, 6, 18, 14, 0);
+  const synodic = 29.53058867;
+  const days = (date.getTime() - known) / 86400000;
+  const phase = ((days % synodic) + synodic) % synodic;
+  const fraction = phase / synodic;
+  const illum = (1 - Math.cos(2 * Math.PI * fraction)) / 2;
+  let name = 'New Moon';
+  if (fraction < 0.0625) name = 'New Moon';
+  else if (fraction < 0.1875) name = 'Waxing Crescent';
+  else if (fraction < 0.3125) name = 'First Quarter';
+  else if (fraction < 0.4375) name = 'Waxing Gibbous';
+  else if (fraction < 0.5625) name = 'Full Moon';
+  else if (fraction < 0.6875) name = 'Waning Gibbous';
+  else if (fraction < 0.8125) name = 'Last Quarter';
+  else if (fraction < 0.9375) name = 'Waning Crescent';
+  else name = 'New Moon';
+  return { phase: name, illum: Math.round(illum * 100), age: phase };
+}
+
+// Approximate solunar windows using moon overhead/underfoot times.
+// Real solunar tables use lunar transit times — this is a rough approximation.
+function approxSolunarWindows(date, lat, lon) {
+  // Lunar day is ~24h 50min, so moon overhead shifts ~50 min later each day.
+  // We use the local moon transit using a coarse approximation.
+  const info = moonInfo(date);
+  // Time of upper transit ~ when moon is roughly overhead. We approximate as solar noon shifted by moon age.
+  const noon = new Date(date);
+  noon.setHours(12, 0, 0, 0);
+  const shiftHours = (info.age / 29.53) * 24.84; // moon age in hours
+  const upperTransit = new Date(noon.getTime() + shiftHours * 3600000);
+  const lowerTransit = new Date(upperTransit.getTime() + 12.42 * 3600000);
+  // Wrap into same day
+  function sameDay(t) {
+    const d = new Date(date);
+    d.setHours(t.getHours(), t.getMinutes(), 0, 0);
+    return d;
+  }
+  return {
+    majorAM: fmtTime(sameDay(lowerTransit)) + ' (low)',
+    majorPM: fmtTime(sameDay(upperTransit)) + ' (high)'
+  };
+}
+
+/* ====== RENDERING ====== */
+function renderLocation(loc) {
+  $('loc-status').classList.add('hidden');
+  $('loc-content').classList.remove('hidden');
+  $('loc-coords').textContent = loc.lat.toFixed(4) + ', ' + loc.lon.toFixed(4);
+  $('loc-accuracy').textContent = '±' + Math.round(loc.acc) + ' m';
+}
+
+function renderWeather(w) {
+  if (!w) return;
+  const c = w.current;
+  $('weather-status').classList.add('hidden');
+  $('weather-content').classList.remove('hidden');
+  $('wx-temp').textContent = c.temperature_2m + ' °F';
+  $('wx-feels').textContent = c.apparent_temperature + ' °F';
+  $('wx-humidity').textContent = c.relative_humidity_2m + '%';
+  const windDir = degToCompass(c.wind_direction_10m);
+  $('wx-wind').textContent = c.wind_speed_10m + ' mph ' + windDir;
+  // 24h precip sum (yesterday + today's so-far from daily)
+  const daily = w.daily;
+  const precip24h = (daily.precipitation_sum[0] || 0) + (daily.precipitation_sum[1] || 0);
+  $('wx-precip').textContent = precip24h.toFixed(2) + ' in';
+  // Pressure trend: compare last 6h average to current
+  const press = w.hourly?.pressure_msl || [];
+  if (press.length >= 12) {
+    const recent = press.slice(-6).reduce((a,b)=>a+b,0) / 6;
+    const earlier = press.slice(-12, -6).reduce((a,b)=>a+b,0) / 6;
+    const diff = recent - earlier;
+    let trend = 'Steady';
+    if (diff > 1) trend = 'Rising ↑';
+    else if (diff < -1) trend = 'Falling ↓';
+    $('wx-pressure').textContent = c.pressure_msl.toFixed(0) + ' hPa, ' + trend;
+  } else {
+    $('wx-pressure').textContent = c.pressure_msl.toFixed(0) + ' hPa';
+  }
+  $('wx-cloud').textContent = c.cloud_cover + '%';
+
+  // Sun
+  $('sun-status').classList.add('hidden');
+  $('sun-content').classList.remove('hidden');
+  const sr = new Date(daily.sunrise[1] || daily.sunrise[0]);
+  const ss = new Date(daily.sunset[1] || daily.sunset[0]);
+  $('sun-rise').textContent = fmtTime(sr);
+  $('sun-set').textContent = fmtTime(ss);
+}
+
+function degToCompass(d) {
+  const dirs = ['N','NNE','NE','ENE','E','ESE','SE','SSE','S','SSW','SW','WSW','W','WNW','NW','NNW'];
+  return dirs[Math.round(d / 22.5) % 16];
+}
+
+function renderMoon(lat, lon) {
+  const now = new Date();
+  const m = moonInfo(now);
+  $('moon-phase').textContent = m.phase;
+  $('moon-illum').textContent = m.illum + '%';
+  const sol = approxSolunarWindows(now, lat, lon);
+  $('solunar-major').textContent = sol.majorPM;
+  $('solunar-minor').textContent = sol.majorAM;
+}
+
+function renderStockedWaters(features, userLat, userLon) {
+  const list = $('waters-list');
+  list.innerHTML = '';
+  if (features.length === 0) {
+    $('waters-status').textContent = 'No stocked streams found within ' + SEARCH_RADIUS_MILES + ' miles.';
+    return;
+  }
+  // Compute distances, sort, dedupe by name (NJDEP returns multiple segments per stream)
+  const byName = new Map();
+  for (const f of features) {
+    const name = f.properties.NAME || f.properties.GNIS_NAME || 'Unknown';
+    const dist = approxDistanceToStream(f, userLat, userLon);
+    if (!byName.has(name) || (dist !== null && dist < byName.get(name).dist)) {
+      byName.set(name, { feature: f, dist });
+    }
+  }
+  const sorted = Array.from(byName.values()).sort((a,b) => (a.dist ?? 999) - (b.dist ?? 999));
+  $('waters-status').textContent = sorted.length + ' stocked stream(s) within ' + SEARCH_RADIUS_MILES + ' miles. Tap "Refresh" for live gauge data.';
+
+  for (const { feature, dist } of sorted.slice(0, MAX_WATERS_DISPLAYED)) {
+    const name = feature.properties.NAME || feature.properties.GNIS_NAME || 'Unknown';
+    const closures = feature.properties.CLOSURES;
+    const div = document.createElement('div');
+    div.className = 'stocked-item';
+    let html = '<div class="name">' + escapeHtml(name) + '</div>';
+    html += '<div class="meta">' + (dist !== null ? dist.toFixed(1) + ' mi away' : 'distance unknown');
+    if (closures) html += ' • Note: ' + escapeHtml(closures);
+    html += '</div>';
+    // Match against gauge map (try exact, then loose contains)
+    let gaugeId = GAUGE_MAP[name];
+    if (!gaugeId) {
+      for (const key of Object.keys(GAUGE_MAP)) {
+        if (name.toLowerCase().includes(key.toLowerCase())) { gaugeId = GAUGE_MAP[key]; break; }
+      }
+    }
+    if (gaugeId) {
+      html += '<div class="gauge" data-gauge="' + gaugeId + '">Loading gauge ' + gaugeId.replace('USGS-','') + '…</div>';
+    } else {
+      html += '<div class="no-gauge">No USGS gauge mapped for this water.</div>';
+    }
+    div.innerHTML = html;
+    list.appendChild(div);
+  }
+  // Fetch gauge data for each unique gauge in parallel
+  const gaugeElems = list.querySelectorAll('[data-gauge]');
+  const uniqueGauges = new Set(Array.from(gaugeElems).map(e => e.dataset.gauge));
+  uniqueGauges.forEach(async (g) => {
+    try {
+      const data = await fetchGauge(g);
+      const parts = [];
+      if (data['00060']) parts.push('Flow: ' + data['00060'].value + ' cfs');
+      if (data['00065']) parts.push('Stage: ' + data['00065'].value + ' ft');
+      if (data['00010']) {
+        const c = parseFloat(data['00010'].value);
+        const f = (c * 9/5 + 32).toFixed(1);
+        parts.push('Water: ' + f + '°F');
+      }
+      const text = parts.length ? parts.join(' · ') : 'No current readings';
+      const ts = data['00060']?.time || data['00065']?.time;
+      const tsText = ts ? ' (as of ' + fmtTime(new Date(ts)) + ')' : '';
+      list.querySelectorAll('[data-gauge="' + g + '"]').forEach(el => {
+        el.textContent = text + tsText;
+      });
+    } catch (e) {
+      list.querySelectorAll('[data-gauge="' + g + '"]').forEach(el => {
+        el.textContent = 'Gauge ' + g.replace('USGS-','') + ': load failed (' + e.message + ')';
+      });
+    }
+  });
+}
+
+function escapeHtml(s) {
+  if (!s) return '';
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+/* ====== CATCH LOG ====== */
+function loadLog() {
+  try {
+    state.log = JSON.parse(localStorage.getItem('catchLog') || '[]');
+  } catch (e) {
+    state.log = [];
+  }
+}
+function saveLog() {
+  localStorage.setItem('catchLog', JSON.stringify(state.log));
+}
+function renderLog() {
+  const list = $('log-list');
+  list.innerHTML = '';
+  if (state.log.length === 0) {
+    list.innerHTML = '<div class="status">No catches logged yet.</div>';
+    return;
+  }
+  const sorted = [...state.log].sort((a,b) => b.ts - a.ts);
+  for (const entry of sorted) {
+    const d = new Date(entry.ts);
+    const div = document.createElement('div');
+    div.className = 'log-item';
+    div.innerHTML = `
+      <div class="when">${escapeHtml(fmtDate(d))} · ${escapeHtml(fmtTime(d))}</div>
+      <div class="what">${escapeHtml(entry.species || '(no species)')}${entry.length ? ' · ' + entry.length + '"' : ''}</div>
+      <div class="where">${escapeHtml(entry.water || '')}${entry.method ? ' — ' + escapeHtml(entry.method) : ''}</div>
+      ${entry.notes ? '<div class="notes">' + escapeHtml(entry.notes) + '</div>' : ''}
+      ${entry.lat ? '<div class="small">GPS: ' + entry.lat.toFixed(4) + ', ' + entry.lon.toFixed(4) + '</div>' : ''}
+      <div class="log-actions">
+        <button class="danger" onclick="deleteLogEntry('${entry.id}')">Delete</button>
+      </div>
+    `;
+    list.appendChild(div);
+  }
+}
+function deleteLogEntry(id) {
+  if (!confirm('Delete this entry?')) return;
+  state.log = state.log.filter(e => e.id !== id);
+  saveLog();
+  renderLog();
+}
+$('log-new-btn').addEventListener('click', () => {
+  $('log-form').classList.remove('hidden');
+});
+$('f-cancel').addEventListener('click', () => {
+  $('log-form').classList.add('hidden');
+  ['f-species','f-length','f-water','f-method','f-notes'].forEach(id => $(id).value = '');
+});
+$('f-save').addEventListener('click', async () => {
+  let lat = null, lon = null;
+  try {
+    const loc = await getLocation();
+    lat = loc.lat; lon = loc.lon;
+  } catch (e) { /* allow saving without GPS */ }
+  const entry = {
+    id: Date.now().toString(36) + Math.random().toString(36).slice(2,8),
+    ts: Date.now(),
+    species: $('f-species').value.trim(),
+    length: $('f-length').value ? parseFloat($('f-length').value) : null,
+    water: $('f-water').value.trim(),
+    method: $('f-method').value.trim(),
+    notes: $('f-notes').value.trim(),
+    lat, lon
+  };
+  state.log.push(entry);
+  saveLog();
+  $('log-form').classList.add('hidden');
+  ['f-species','f-length','f-water','f-method','f-notes'].forEach(id => $(id).value = '');
+  renderLog();
+});
+$('log-export-btn').addEventListener('click', () => {
+  const data = JSON.stringify(state.log, null, 2);
+  const blob = new Blob([data], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'catch-log-' + new Date().toISOString().slice(0,10) + '.json';
+  a.click();
+  URL.revokeObjectURL(url);
+});
+window.deleteLogEntry = deleteLogEntry;
+
+/* ====== MAIN ====== */
+async function loadAll() {
+  const btn = $('refresh-btn');
+  btn.disabled = true; btn.textContent = 'Loading…';
+  $('last-updated').textContent = '';
+  $('loc-status').textContent = 'Getting GPS…'; $('loc-status').classList.remove('hidden','error'); $('loc-content').classList.add('hidden');
+  $('weather-status').textContent = 'Waiting on location…'; $('weather-status').classList.remove('hidden','error'); $('weather-content').classList.add('hidden');
+  $('sun-status').textContent = 'Waiting on location…'; $('sun-status').classList.remove('hidden','error'); $('sun-content').classList.add('hidden');
+  $('waters-status').textContent = 'Waiting on location…';
+  $('waters-list').innerHTML = '';
+
+  let loc;
+  try {
+    loc = await getLocation();
+    state.lat = loc.lat; state.lon = loc.lon;
+    renderLocation(loc);
+  } catch (e) {
+    $('loc-status').textContent = 'Location error: ' + e.message + '. Enable GPS in browser settings.';
+    $('loc-status').classList.add('error');
+    btn.disabled = false; btn.textContent = 'Refresh';
+    return;
+  }
+
+  // Run weather, stocked waters, moon in parallel
+  const tasks = [
+    fetchWeather(loc.lat, loc.lon).then(w => { state.weather = w; renderWeather(w); })
+      .catch(e => { $('weather-status').textContent = 'Weather error: ' + e.message; $('weather-status').classList.add('error'); }),
+    fetchStockedNear(loc.lat, loc.lon, SEARCH_RADIUS_MILES).then(feats => {
+      state.stockedWaters = feats;
+      renderStockedWaters(feats, loc.lat, loc.lon);
+    }).catch(e => {
+      $('waters-status').textContent = 'NJDEP error: ' + e.message;
+      $('waters-status').classList.add('error');
+    })
+  ];
+  renderMoon(loc.lat, loc.lon);
+
+  await Promise.all(tasks);
+  $('last-updated').textContent = 'Updated ' + fmtTime(new Date());
+  btn.disabled = false; btn.textContent = 'Refresh';
+}
+
+$('refresh-btn').addEventListener('click', loadAll);
+
+// Register service worker for PWA install
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('sw.js').catch(() => { /* ok if missing */ });
+  });
+}
+
+// Initial load
+loadLog();
+loadAll();
+</script>
+</body>
+</html>
