@@ -1,0 +1,4953 @@
+{
+  "season": "2026 Spring",
+  "source": "NJDEP Fish & Wildlife \u2014 2026 Spring Trout Allocations PDF",
+  "source_url": "https://dep.nj.gov/njfw/",
+  "stocking_hotline": "(609) 940-7266",
+  "all_trout_species": "Rainbow Trout",
+  "schedule_notes": "All trout stocked will be Rainbow Trout only. Schedule subject to change per NJDEP Fish & Wildlife. Pre-season stocking occurs as a range (Mar 23 - Apr 10); no specific day given. In-season stocking occurs on the listed weekday of the given week.",
+  "stocking_calendar": {
+    "pre_season": {
+      "start": "2026-03-23",
+      "end": "2026-04-10"
+    },
+    "weeks": [
+      {
+        "week": 1,
+        "monday": "2026-04-13"
+      },
+      {
+        "week": 2,
+        "monday": "2026-04-20"
+      },
+      {
+        "week": 3,
+        "monday": "2026-04-27"
+      },
+      {
+        "week": 4,
+        "monday": "2026-05-04"
+      },
+      {
+        "week": 5,
+        "monday": "2026-05-11"
+      },
+      {
+        "week": 6,
+        "monday": "2026-05-18"
+      },
+      {
+        "week": 7,
+        "monday": "2026-05-25"
+      }
+    ],
+    "day_codes": {
+      "M": 0,
+      "T": 1,
+      "W": 2,
+      "R": 3,
+      "F": 4
+    },
+    "day_names": {
+      "M": "Monday",
+      "T": "Tuesday",
+      "W": "Wednesday",
+      "R": "Thursday",
+      "F": "Friday"
+    }
+  },
+  "totals_reported": {
+    "pre_season": 188040,
+    "season_total": 570010
+  },
+  "totals_computed": {
+    "pre_season": 188040,
+    "season_total": 570010
+  },
+  "waters": [
+    {
+      "name": "Alexauken Creek",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 280,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "W",
+          "count": 280
+        },
+        {
+          "week": 4,
+          "day": "W",
+          "count": 280
+        }
+      ],
+      "season_total": 840
+    },
+    {
+      "name": "Alms House Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 100,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "R",
+          "count": 100
+        },
+        {
+          "week": 2,
+          "day": "M",
+          "count": 100
+        },
+        {
+          "week": 3,
+          "day": "R",
+          "count": 100
+        }
+      ],
+      "season_total": 400
+    },
+    {
+      "name": "Amwell Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 390,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "R",
+          "count": 290
+        },
+        {
+          "week": 2,
+          "day": "W",
+          "count": 290
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 290
+        }
+      ],
+      "season_total": 1260
+    },
+    {
+      "name": "Andover Jct Brook",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 170,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "M",
+          "count": 170
+        },
+        {
+          "week": 4,
+          "day": "R",
+          "count": 170
+        }
+      ],
+      "season_total": 510
+    },
+    {
+      "name": "Assunpink Creek",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 550,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "W",
+          "count": 220
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 220
+        },
+        {
+          "week": 4,
+          "day": "W",
+          "count": 220
+        },
+        {
+          "week": 5,
+          "day": "W",
+          "count": 220
+        }
+      ],
+      "season_total": 1430
+    },
+    {
+      "name": "Atwater Pond - Black River WMA",
+      "suspended": true,
+      "tca": false,
+      "pre_season_count": 0,
+      "schedule": [],
+      "season_total": 0
+    },
+    {
+      "name": "Barbour's Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 420,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "T",
+          "count": 310
+        },
+        {
+          "week": 2,
+          "day": "T",
+          "count": 310
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 310
+        }
+      ],
+      "season_total": 1350
+    },
+    {
+      "name": "Beaver Brook (Morris)",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 350,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "W",
+          "count": 140
+        },
+        {
+          "week": 3,
+          "day": "R",
+          "count": 140
+        },
+        {
+          "week": 4,
+          "day": "W",
+          "count": 140
+        }
+      ],
+      "season_total": 770
+    },
+    {
+      "name": "Beaver Brook (Warren)",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 660,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "F",
+          "count": 260
+        },
+        {
+          "week": 3,
+          "day": "R",
+          "count": 260
+        },
+        {
+          "week": 4,
+          "day": "R",
+          "count": 260
+        },
+        {
+          "week": 5,
+          "day": "R",
+          "count": 260
+        }
+      ],
+      "season_total": 1700
+    },
+    {
+      "name": "Best Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 320,
+      "schedule": [],
+      "season_total": 320
+    },
+    {
+      "name": "Big Flat Brook (above Steam Mill Bridge)",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 520,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "F",
+          "count": 210
+        },
+        {
+          "week": 3,
+          "day": "F",
+          "count": 210
+        },
+        {
+          "week": 4,
+          "day": "W",
+          "count": 210
+        },
+        {
+          "week": 5,
+          "day": "R",
+          "count": 210
+        }
+      ],
+      "season_total": 1360
+    },
+    {
+      "name": "Big Flat Brook (below Steam Mill Bridge)",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 9130,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "F",
+          "count": 3420
+        },
+        {
+          "week": 2,
+          "day": "F",
+          "count": 3040
+        },
+        {
+          "week": 3,
+          "day": "F",
+          "count": 3040
+        },
+        {
+          "week": 4,
+          "day": "F",
+          "count": 3040
+        },
+        {
+          "week": 5,
+          "day": "F",
+          "count": 3040
+        },
+        {
+          "week": 6,
+          "day": "F",
+          "count": 1900
+        },
+        {
+          "week": 7,
+          "day": "F",
+          "count": 1900
+        }
+      ],
+      "season_total": 28510
+    },
+    {
+      "name": "Birch Grove Park Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 400,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "W",
+          "count": 300
+        },
+        {
+          "week": 2,
+          "day": "W",
+          "count": 300
+        },
+        {
+          "week": 3,
+          "day": "T",
+          "count": 300
+        }
+      ],
+      "season_total": 1300
+    },
+    {
+      "name": "Black River",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 1670,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "W",
+          "count": 670
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 670
+        },
+        {
+          "week": 4,
+          "day": "W",
+          "count": 670
+        },
+        {
+          "week": 5,
+          "day": "W",
+          "count": 670
+        },
+        {
+          "week": 6,
+          "day": "W",
+          "count": 420
+        },
+        {
+          "week": 7,
+          "day": "W",
+          "count": 420
+        }
+      ],
+      "season_total": 5190
+    },
+    {
+      "name": "Blair Creek",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 240,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "R",
+          "count": 100
+        },
+        {
+          "week": 4,
+          "day": "R",
+          "count": 100
+        }
+      ],
+      "season_total": 440
+    },
+    {
+      "name": "Blair Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 290,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "R",
+          "count": 220
+        },
+        {
+          "week": 2,
+          "day": "R",
+          "count": 220
+        },
+        {
+          "week": 3,
+          "day": "R",
+          "count": 220
+        }
+      ],
+      "season_total": 950
+    },
+    {
+      "name": "Blue Mountain Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 330,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "F",
+          "count": 250
+        },
+        {
+          "week": 2,
+          "day": "F",
+          "count": 250
+        },
+        {
+          "week": 3,
+          "day": "F",
+          "count": 250
+        }
+      ],
+      "season_total": 1080
+    },
+    {
+      "name": "Branch Brook Park Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 540,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "T",
+          "count": 400
+        },
+        {
+          "week": 2,
+          "day": "T",
+          "count": 400
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 400
+        },
+        {
+          "week": 4,
+          "day": "T",
+          "count": 400
+        }
+      ],
+      "season_total": 2140
+    },
+    {
+      "name": "Brookaloo Swamp",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 100,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "F",
+          "count": 100
+        },
+        {
+          "week": 4,
+          "day": "T",
+          "count": 100
+        }
+      ],
+      "season_total": 300
+    },
+    {
+      "name": "Buckhorn Creek",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 300,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "T",
+          "count": 300
+        },
+        {
+          "week": 4,
+          "day": "W",
+          "count": 300
+        }
+      ],
+      "season_total": 900
+    },
+    {
+      "name": "Burnham Park Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 350,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "M",
+          "count": 260
+        },
+        {
+          "week": 2,
+          "day": "W",
+          "count": 260
+        },
+        {
+          "week": 3,
+          "day": "R",
+          "count": 260
+        },
+        {
+          "week": 4,
+          "day": "W",
+          "count": 260
+        }
+      ],
+      "season_total": 1390
+    },
+    {
+      "name": "Capoolong Creek",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 940,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "T",
+          "count": 380
+        },
+        {
+          "week": 3,
+          "day": "M",
+          "count": 380
+        },
+        {
+          "week": 4,
+          "day": "M",
+          "count": 380
+        },
+        {
+          "week": 5,
+          "day": "W",
+          "count": 380
+        },
+        {
+          "week": 6,
+          "day": "W",
+          "count": 240
+        }
+      ],
+      "season_total": 2700
+    },
+    {
+      "name": "Carteret Park Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 170,
+      "schedule": [],
+      "season_total": 170
+    },
+    {
+      "name": "Cedar Brook Park Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 350,
+      "schedule": [],
+      "season_total": 350
+    },
+    {
+      "name": "Clinton Reservoir",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 950,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "F",
+          "count": 950
+        },
+        {
+          "week": 4,
+          "day": "F",
+          "count": 950
+        },
+        {
+          "week": 6,
+          "day": "F",
+          "count": 950
+        }
+      ],
+      "season_total": 3800
+    },
+    {
+      "name": "Clove Brook",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 770,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "M",
+          "count": 310
+        },
+        {
+          "week": 3,
+          "day": "T",
+          "count": 310
+        },
+        {
+          "week": 4,
+          "day": "M",
+          "count": 310
+        },
+        {
+          "week": 5,
+          "day": "M",
+          "count": 310
+        },
+        {
+          "week": 6,
+          "day": "M",
+          "count": 190
+        }
+      ],
+      "season_total": 2200
+    },
+    {
+      "name": "Cohansey River",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 200,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "R",
+          "count": 100
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 100
+        },
+        {
+          "week": 4,
+          "day": "R",
+          "count": 100
+        },
+        {
+          "week": 5,
+          "day": "R",
+          "count": 100
+        }
+      ],
+      "season_total": 600
+    },
+    {
+      "name": "Cooper Pond",
+      "suspended": true,
+      "tca": false,
+      "pre_season_count": 0,
+      "schedule": [],
+      "season_total": 0
+    },
+    {
+      "name": "Corliss Park Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 490,
+      "schedule": [],
+      "season_total": 490
+    },
+    {
+      "name": "Crystal Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 550,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "R",
+          "count": 410
+        },
+        {
+          "week": 2,
+          "day": "W",
+          "count": 410
+        },
+        {
+          "week": 3,
+          "day": "F",
+          "count": 410
+        },
+        {
+          "week": 4,
+          "day": "W",
+          "count": 410
+        }
+      ],
+      "season_total": 2190
+    },
+    {
+      "name": "Culvers Lake Brook",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 320,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "M",
+          "count": 130
+        },
+        {
+          "week": 4,
+          "day": "M",
+          "count": 130
+        }
+      ],
+      "season_total": 580
+    },
+    {
+      "name": "D&R Canal",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 1490,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "W",
+          "count": 600
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 600
+        },
+        {
+          "week": 4,
+          "day": "W",
+          "count": 600
+        },
+        {
+          "week": 5,
+          "day": "W",
+          "count": 600
+        }
+      ],
+      "season_total": 3890
+    },
+    {
+      "name": "D&R Feeder Canal",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 4220,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "W",
+          "count": 1690
+        },
+        {
+          "week": 3,
+          "day": "M",
+          "count": 1690
+        },
+        {
+          "week": 4,
+          "day": "W",
+          "count": 1690
+        },
+        {
+          "week": 5,
+          "day": "M",
+          "count": 1690
+        },
+        {
+          "week": 6,
+          "day": "W",
+          "count": 1060
+        },
+        {
+          "week": 7,
+          "day": "W",
+          "count": 1060
+        }
+      ],
+      "season_total": 13100
+    },
+    {
+      "name": "Dahnert's Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 260,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "T",
+          "count": 190
+        },
+        {
+          "week": 2,
+          "day": "T",
+          "count": 190
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 190
+        },
+        {
+          "week": 4,
+          "day": "T",
+          "count": 190
+        }
+      ],
+      "season_total": 1020
+    },
+    {
+      "name": "Daley's Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 280,
+      "schedule": [],
+      "season_total": 280
+    },
+    {
+      "name": "Deer Path Park Pond",
+      "suspended": true,
+      "tca": false,
+      "pre_season_count": 0,
+      "schedule": [],
+      "season_total": 0
+    },
+    {
+      "name": "Demott Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 320,
+      "schedule": [],
+      "season_total": 320
+    },
+    {
+      "name": "Diamond Mill Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 320,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "W",
+          "count": 240
+        },
+        {
+          "week": 2,
+          "day": "R",
+          "count": 240
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 240
+        }
+      ],
+      "season_total": 1040
+    },
+    {
+      "name": "Drakes Brook",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 210,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "W",
+          "count": 100
+        },
+        {
+          "week": 3,
+          "day": "R",
+          "count": 100
+        },
+        {
+          "week": 4,
+          "day": "W",
+          "count": 100
+        }
+      ],
+      "season_total": 510
+    },
+    {
+      "name": "Dry Brook",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 170,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "M",
+          "count": 100
+        },
+        {
+          "week": 3,
+          "day": "R",
+          "count": 100
+        },
+        {
+          "week": 4,
+          "day": "M",
+          "count": 100
+        }
+      ],
+      "season_total": 470
+    },
+    {
+      "name": "Echo Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 370,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "M",
+          "count": 270
+        },
+        {
+          "week": 2,
+          "day": "M",
+          "count": 270
+        },
+        {
+          "week": 3,
+          "day": "M",
+          "count": 270
+        }
+      ],
+      "season_total": 1180
+    },
+    {
+      "name": "Edgewater Park Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 100,
+      "schedule": [],
+      "season_total": 100
+    },
+    {
+      "name": "Edward A Grekoski Park Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 190,
+      "schedule": [],
+      "season_total": 190
+    },
+    {
+      "name": "Englishtown Mill Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 440,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "W",
+          "count": 330
+        },
+        {
+          "week": 2,
+          "day": "F",
+          "count": 330
+        },
+        {
+          "week": 3,
+          "day": "T",
+          "count": 330
+        }
+      ],
+      "season_total": 1430
+    },
+    {
+      "name": "Franklin Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 370,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "T",
+          "count": 280
+        },
+        {
+          "week": 2,
+          "day": "T",
+          "count": 280
+        },
+        {
+          "week": 3,
+          "day": "M",
+          "count": 280
+        }
+      ],
+      "season_total": 1210
+    },
+    {
+      "name": "Franklin Pond Creek",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 460,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "M",
+          "count": 180
+        },
+        {
+          "week": 3,
+          "day": "T",
+          "count": 180
+        },
+        {
+          "week": 4,
+          "day": "M",
+          "count": 180
+        },
+        {
+          "week": 5,
+          "day": "M",
+          "count": 180
+        },
+        {
+          "week": 6,
+          "day": "M",
+          "count": 110
+        }
+      ],
+      "season_total": 1290
+    },
+    {
+      "name": "Frelinghuysen Forest Preserve Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 140,
+      "schedule": [],
+      "season_total": 140
+    },
+    {
+      "name": "Furnace Brook",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 110,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "T",
+          "count": 110
+        },
+        {
+          "week": 4,
+          "day": "W",
+          "count": 110
+        }
+      ],
+      "season_total": 330
+    },
+    {
+      "name": "Furnace Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 560,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "T",
+          "count": 420
+        },
+        {
+          "week": 2,
+          "day": "T",
+          "count": 420
+        },
+        {
+          "week": 3,
+          "day": "T",
+          "count": 420
+        }
+      ],
+      "season_total": 1820
+    },
+    {
+      "name": "Garvey's Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 160,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "W",
+          "count": 120
+        },
+        {
+          "week": 2,
+          "day": "F",
+          "count": 120
+        },
+        {
+          "week": 3,
+          "day": "T",
+          "count": 120
+        }
+      ],
+      "season_total": 520
+    },
+    {
+      "name": "Giampietro Park Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 430,
+      "schedule": [],
+      "season_total": 430
+    },
+    {
+      "name": "Glenwood Brook",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 140,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "M",
+          "count": 140
+        },
+        {
+          "week": 4,
+          "day": "W",
+          "count": 140
+        }
+      ],
+      "season_total": 420
+    },
+    {
+      "name": "Gloucester City Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 100,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "W",
+          "count": 100
+        },
+        {
+          "week": 2,
+          "day": "W",
+          "count": 100
+        },
+        {
+          "week": 3,
+          "day": "T",
+          "count": 100
+        },
+        {
+          "week": 4,
+          "day": "R",
+          "count": 100
+        }
+      ],
+      "season_total": 500
+    },
+    {
+      "name": "Green Brook",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 150,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "M",
+          "count": 150
+        },
+        {
+          "week": 3,
+          "day": "M",
+          "count": 150
+        }
+      ],
+      "season_total": 450
+    },
+    {
+      "name": "Green Turtle Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 500,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "F",
+          "count": 370
+        },
+        {
+          "week": 2,
+          "day": "F",
+          "count": 370
+        },
+        {
+          "week": 3,
+          "day": "F",
+          "count": 370
+        }
+      ],
+      "season_total": 1610
+    },
+    {
+      "name": "Greenwich Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 480,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "T",
+          "count": 360
+        },
+        {
+          "week": 2,
+          "day": "W",
+          "count": 360
+        },
+        {
+          "week": 3,
+          "day": "R",
+          "count": 360
+        }
+      ],
+      "season_total": 1560
+    },
+    {
+      "name": "Grenloch Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 400,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "W",
+          "count": 300
+        },
+        {
+          "week": 2,
+          "day": "W",
+          "count": 300
+        },
+        {
+          "week": 3,
+          "day": "T",
+          "count": 300
+        }
+      ],
+      "season_total": 1300
+    },
+    {
+      "name": "Grover Cleveland Park Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 100,
+      "schedule": [],
+      "season_total": 100
+    },
+    {
+      "name": "Hackensack River",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 710,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "M",
+          "count": 280
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 280
+        },
+        {
+          "week": 4,
+          "day": "M",
+          "count": 280
+        },
+        {
+          "week": 5,
+          "day": "W",
+          "count": 280
+        }
+      ],
+      "season_total": 1830
+    },
+    {
+      "name": "Haddon Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 510,
+      "schedule": [],
+      "season_total": 510
+    },
+    {
+      "name": "Hakihokake Creek",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 440,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "F",
+          "count": 440
+        },
+        {
+          "week": 4,
+          "day": "F",
+          "count": 440
+        }
+      ],
+      "season_total": 1320
+    },
+    {
+      "name": "Hammonton Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 570,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "W",
+          "count": 430
+        },
+        {
+          "week": 2,
+          "day": "W",
+          "count": 430
+        },
+        {
+          "week": 3,
+          "day": "T",
+          "count": 430
+        }
+      ],
+      "season_total": 1860
+    },
+    {
+      "name": "Harrisonville Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 470,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "T",
+          "count": 350
+        },
+        {
+          "week": 2,
+          "day": "W",
+          "count": 350
+        },
+        {
+          "week": 3,
+          "day": "R",
+          "count": 350
+        }
+      ],
+      "season_total": 1520
+    },
+    {
+      "name": "Heritage Park Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 430,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "W",
+          "count": 330
+        },
+        {
+          "week": 2,
+          "day": "W",
+          "count": 330
+        },
+        {
+          "week": 3,
+          "day": "T",
+          "count": 330
+        }
+      ],
+      "season_total": 1420
+    },
+    {
+      "name": "Hibernia Brook",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 510,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "W",
+          "count": 200
+        },
+        {
+          "week": 3,
+          "day": "R",
+          "count": 200
+        },
+        {
+          "week": 4,
+          "day": "W",
+          "count": 200
+        },
+        {
+          "week": 5,
+          "day": "M",
+          "count": 200
+        },
+        {
+          "week": 6,
+          "day": "M",
+          "count": 130
+        }
+      ],
+      "season_total": 1440
+    },
+    {
+      "name": "Hockhocksen Brook",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 470,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "T",
+          "count": 190
+        },
+        {
+          "week": 3,
+          "day": "M",
+          "count": 190
+        },
+        {
+          "week": 4,
+          "day": "T",
+          "count": 190
+        },
+        {
+          "week": 5,
+          "day": "M",
+          "count": 190
+        },
+        {
+          "week": 6,
+          "day": "M",
+          "count": 120
+        }
+      ],
+      "season_total": 1350
+    },
+    {
+      "name": "Hohokus Brook",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 640,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "R",
+          "count": 260
+        },
+        {
+          "week": 3,
+          "day": "R",
+          "count": 260
+        },
+        {
+          "week": 4,
+          "day": "R",
+          "count": 260
+        },
+        {
+          "week": 5,
+          "day": "R",
+          "count": 260
+        }
+      ],
+      "season_total": 1680
+    },
+    {
+      "name": "Holmdel Park Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 220,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "W",
+          "count": 160
+        },
+        {
+          "week": 2,
+          "day": "F",
+          "count": 160
+        },
+        {
+          "week": 3,
+          "day": "T",
+          "count": 160
+        }
+      ],
+      "season_total": 700
+    },
+    {
+      "name": "Honey Run",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 220,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "F",
+          "count": 220
+        },
+        {
+          "week": 4,
+          "day": "T",
+          "count": 220
+        }
+      ],
+      "season_total": 660
+    },
+    {
+      "name": "Hughes Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 260,
+      "schedule": [],
+      "season_total": 260
+    },
+    {
+      "name": "India Brook",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 420,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "W",
+          "count": 170
+        },
+        {
+          "week": 3,
+          "day": "R",
+          "count": 170
+        },
+        {
+          "week": 4,
+          "day": "W",
+          "count": 170
+        },
+        {
+          "week": 5,
+          "day": "W",
+          "count": 170
+        },
+        {
+          "week": 6,
+          "day": "W",
+          "count": 100
+        }
+      ],
+      "season_total": 1200
+    },
+    {
+      "name": "Indian Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 440,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "T",
+          "count": 330
+        },
+        {
+          "week": 2,
+          "day": "T",
+          "count": 330
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 330
+        },
+        {
+          "week": 4,
+          "day": "T",
+          "count": 330
+        }
+      ],
+      "season_total": 1760
+    },
+    {
+      "name": "Iona Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 440,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "T",
+          "count": 330
+        },
+        {
+          "week": 2,
+          "day": "W",
+          "count": 330
+        },
+        {
+          "week": 3,
+          "day": "R",
+          "count": 330
+        }
+      ],
+      "season_total": 1430
+    },
+    {
+      "name": "Ireland Brook",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 100,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "R",
+          "count": 100
+        },
+        {
+          "week": 3,
+          "day": "R",
+          "count": 100
+        }
+      ],
+      "season_total": 300
+    },
+    {
+      "name": "Jacksonburg Creek",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 210,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "R",
+          "count": 210
+        },
+        {
+          "week": 4,
+          "day": "R",
+          "count": 210
+        }
+      ],
+      "season_total": 630
+    },
+    {
+      "name": "John F Kennedy Park Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 170,
+      "schedule": [],
+      "season_total": 170
+    },
+    {
+      "name": "Lafayette Park Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 140,
+      "schedule": [],
+      "season_total": 140
+    },
+    {
+      "name": "Lake Aeroflex",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 620,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "M",
+          "count": 620
+        },
+        {
+          "week": 4,
+          "day": "R",
+          "count": 620
+        },
+        {
+          "week": 6,
+          "day": "R",
+          "count": 620
+        }
+      ],
+      "season_total": 2480
+    },
+    {
+      "name": "Lake Hopatcong",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 2280,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "M",
+          "count": 2280
+        },
+        {
+          "week": 2,
+          "day": "W",
+          "count": 2280
+        },
+        {
+          "week": 3,
+          "day": "M",
+          "count": 2280
+        }
+      ],
+      "season_total": 9120
+    },
+    {
+      "name": "Lake Musconetcong",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 680,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "F",
+          "count": 510
+        },
+        {
+          "week": 2,
+          "day": "F",
+          "count": 510
+        },
+        {
+          "week": 3,
+          "day": "F",
+          "count": 510
+        }
+      ],
+      "season_total": 2210
+    },
+    {
+      "name": "Lake Ocquittunk",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 380,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "R",
+          "count": 280
+        },
+        {
+          "week": 2,
+          "day": "F",
+          "count": 280
+        },
+        {
+          "week": 3,
+          "day": "F",
+          "count": 280
+        }
+      ],
+      "season_total": 1220
+    },
+    {
+      "name": "Lake Papaianni",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 400,
+      "schedule": [],
+      "season_total": 400
+    },
+    {
+      "name": "Lake Shenandoah",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 550,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "M",
+          "count": 410
+        },
+        {
+          "week": 2,
+          "day": "M",
+          "count": 410
+        },
+        {
+          "week": 3,
+          "day": "M",
+          "count": 410
+        }
+      ],
+      "season_total": 1780
+    },
+    {
+      "name": "Lamington River",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 490,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "W",
+          "count": 200
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 200
+        },
+        {
+          "week": 4,
+          "day": "W",
+          "count": 200
+        },
+        {
+          "week": 5,
+          "day": "W",
+          "count": 200
+        }
+      ],
+      "season_total": 1290
+    },
+    {
+      "name": "Laurel Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 260,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "W",
+          "count": 190
+        },
+        {
+          "week": 2,
+          "day": "W",
+          "count": 190
+        },
+        {
+          "week": 3,
+          "day": "T",
+          "count": 190
+        }
+      ],
+      "season_total": 830
+    },
+    {
+      "name": "Lawrence Brook",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 1230,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "R",
+          "count": 490
+        },
+        {
+          "week": 3,
+          "day": "R",
+          "count": 490
+        },
+        {
+          "week": 4,
+          "day": "T",
+          "count": 490
+        },
+        {
+          "week": 5,
+          "day": "W",
+          "count": 490
+        }
+      ],
+      "season_total": 3190
+    },
+    {
+      "name": "Little Flat Brook",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 850,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "F",
+          "count": 340
+        },
+        {
+          "week": 3,
+          "day": "F",
+          "count": 340
+        },
+        {
+          "week": 4,
+          "day": "W",
+          "count": 340
+        },
+        {
+          "week": 5,
+          "day": "R",
+          "count": 340
+        },
+        {
+          "week": 6,
+          "day": "F",
+          "count": 210
+        }
+      ],
+      "season_total": 2420
+    },
+    {
+      "name": "Little Swartswood Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 430,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "R",
+          "count": 320
+        },
+        {
+          "week": 2,
+          "day": "R",
+          "count": 320
+        },
+        {
+          "week": 3,
+          "day": "R",
+          "count": 320
+        }
+      ],
+      "season_total": 1390
+    },
+    {
+      "name": "Lockatong Creek",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 820,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "W",
+          "count": 330
+        },
+        {
+          "week": 3,
+          "day": "M",
+          "count": 330
+        },
+        {
+          "week": 4,
+          "day": "W",
+          "count": 330
+        },
+        {
+          "week": 5,
+          "day": "M",
+          "count": 330
+        },
+        {
+          "week": 6,
+          "day": "W",
+          "count": 200
+        }
+      ],
+      "season_total": 2340
+    },
+    {
+      "name": "Lopatcong Creek",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 1070,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "T",
+          "count": 430
+        },
+        {
+          "week": 3,
+          "day": "T",
+          "count": 430
+        },
+        {
+          "week": 4,
+          "day": "W",
+          "count": 430
+        },
+        {
+          "week": 5,
+          "day": "T",
+          "count": 430
+        },
+        {
+          "week": 6,
+          "day": "T",
+          "count": 270
+        }
+      ],
+      "season_total": 3060
+    },
+    {
+      "name": "Lower Echo Park Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 410,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "W",
+          "count": 310
+        },
+        {
+          "week": 2,
+          "day": "R",
+          "count": 310
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 310
+        }
+      ],
+      "season_total": 1340
+    },
+    {
+      "name": "Lubbers Run",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 570,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "F",
+          "count": 230
+        },
+        {
+          "week": 3,
+          "day": "F",
+          "count": 230
+        },
+        {
+          "week": 4,
+          "day": "F",
+          "count": 230
+        },
+        {
+          "week": 5,
+          "day": "F",
+          "count": 230
+        },
+        {
+          "week": 6,
+          "day": "F",
+          "count": 140
+        }
+      ],
+      "season_total": 1630
+    },
+    {
+      "name": "Mac's Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 160,
+      "schedule": [],
+      "season_total": 160
+    },
+    {
+      "name": "Manalapan Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 600,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "W",
+          "count": 450
+        },
+        {
+          "week": 2,
+          "day": "F",
+          "count": 450
+        },
+        {
+          "week": 3,
+          "day": "T",
+          "count": 450
+        }
+      ],
+      "season_total": 1950
+    },
+    {
+      "name": "Manasquan River",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 2880,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "M",
+          "count": 1080
+        },
+        {
+          "week": 2,
+          "day": "M",
+          "count": 960
+        },
+        {
+          "week": 3,
+          "day": "M",
+          "count": 960
+        },
+        {
+          "week": 4,
+          "day": "M",
+          "count": 960
+        },
+        {
+          "week": 5,
+          "day": "M",
+          "count": 960
+        },
+        {
+          "week": 6,
+          "day": "M",
+          "count": 1200
+        }
+      ],
+      "season_total": 9000
+    },
+    {
+      "name": "Manny's Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 290,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "T",
+          "count": 220
+        },
+        {
+          "week": 2,
+          "day": "T",
+          "count": 220
+        },
+        {
+          "week": 3,
+          "day": "M",
+          "count": 220
+        }
+      ],
+      "season_total": 950
+    },
+    {
+      "name": "Mary Elmer Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 530,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "R",
+          "count": 390
+        },
+        {
+          "week": 2,
+          "day": "R",
+          "count": 390
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 390
+        }
+      ],
+      "season_total": 1700
+    },
+    {
+      "name": "Maurice River",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 810,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "R",
+          "count": 320
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 320
+        },
+        {
+          "week": 4,
+          "day": "R",
+          "count": 320
+        },
+        {
+          "week": 5,
+          "day": "R",
+          "count": 320
+        }
+      ],
+      "season_total": 2090
+    },
+    {
+      "name": "Merrill Creek Reservoir",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 0,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "M",
+          "count": 3500
+        }
+      ],
+      "season_total": 3500
+    },
+    {
+      "name": "Metedeconk River N/B",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 950,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "M",
+          "count": 360
+        },
+        {
+          "week": 2,
+          "day": "M",
+          "count": 320
+        },
+        {
+          "week": 3,
+          "day": "M",
+          "count": 320
+        },
+        {
+          "week": 4,
+          "day": "M",
+          "count": 320
+        },
+        {
+          "week": 5,
+          "day": "M",
+          "count": 320
+        },
+        {
+          "week": 6,
+          "day": "M",
+          "count": 400
+        }
+      ],
+      "season_total": 2990
+    },
+    {
+      "name": "Metedeconk River S/B",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 1480,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "M",
+          "count": 550
+        },
+        {
+          "week": 2,
+          "day": "M",
+          "count": 490
+        },
+        {
+          "week": 3,
+          "day": "M",
+          "count": 490
+        },
+        {
+          "week": 4,
+          "day": "M",
+          "count": 490
+        },
+        {
+          "week": 5,
+          "day": "M",
+          "count": 490
+        },
+        {
+          "week": 6,
+          "day": "M",
+          "count": 620
+        }
+      ],
+      "season_total": 4610
+    },
+    {
+      "name": "Middle Brook",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 150,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "M",
+          "count": 150
+        },
+        {
+          "week": 4,
+          "day": "R",
+          "count": 150
+        }
+      ],
+      "season_total": 450
+    },
+    {
+      "name": "Mill Pond",
+      "suspended": true,
+      "tca": false,
+      "pre_season_count": 0,
+      "schedule": [],
+      "season_total": 0
+    },
+    {
+      "name": "Milton Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 460,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "W",
+          "count": 340
+        },
+        {
+          "week": 2,
+          "day": "R",
+          "count": 340
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 340
+        },
+        {
+          "week": 4,
+          "day": "M",
+          "count": 340
+        }
+      ],
+      "season_total": 1820
+    },
+    {
+      "name": "Mingamahone Brook",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 310,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "M",
+          "count": 120
+        },
+        {
+          "week": 3,
+          "day": "M",
+          "count": 120
+        },
+        {
+          "week": 4,
+          "day": "M",
+          "count": 120
+        },
+        {
+          "week": 5,
+          "day": "M",
+          "count": 120
+        },
+        {
+          "week": 6,
+          "day": "M",
+          "count": 100
+        }
+      ],
+      "season_total": 890
+    },
+    {
+      "name": "Mohawk Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 170,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "W",
+          "count": 130
+        },
+        {
+          "week": 2,
+          "day": "F",
+          "count": 130
+        },
+        {
+          "week": 3,
+          "day": "T",
+          "count": 130
+        },
+        {
+          "week": 4,
+          "day": "T",
+          "count": 130
+        }
+      ],
+      "season_total": 690
+    },
+    {
+      "name": "Mountain Farm Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 360,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "T",
+          "count": 270
+        },
+        {
+          "week": 2,
+          "day": "T",
+          "count": 270
+        },
+        {
+          "week": 3,
+          "day": "M",
+          "count": 270
+        }
+      ],
+      "season_total": 1170
+    },
+    {
+      "name": "Mountain Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 620,
+      "schedule": [],
+      "season_total": 620
+    },
+    {
+      "name": "Mt. Hope Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 420,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "M",
+          "count": 320
+        },
+        {
+          "week": 2,
+          "day": "W",
+          "count": 320
+        },
+        {
+          "week": 3,
+          "day": "M",
+          "count": 320
+        }
+      ],
+      "season_total": 1380
+    },
+    {
+      "name": "Mulhockaway Creek",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 380,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "T",
+          "count": 150
+        },
+        {
+          "week": 3,
+          "day": "M",
+          "count": 150
+        },
+        {
+          "week": 4,
+          "day": "M",
+          "count": 150
+        },
+        {
+          "week": 5,
+          "day": "W",
+          "count": 150
+        },
+        {
+          "week": 6,
+          "day": "W",
+          "count": 100
+        }
+      ],
+      "season_total": 1080
+    },
+    {
+      "name": "Musconetcong River",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 16500,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "F",
+          "count": 6180
+        },
+        {
+          "week": 2,
+          "day": "F",
+          "count": 5490
+        },
+        {
+          "week": 3,
+          "day": "F",
+          "count": 5490
+        },
+        {
+          "week": 4,
+          "day": "F",
+          "count": 5490
+        },
+        {
+          "week": 5,
+          "day": "F",
+          "count": 5490
+        },
+        {
+          "week": 6,
+          "day": "F",
+          "count": 3440
+        },
+        {
+          "week": 7,
+          "day": "F",
+          "count": 3440
+        }
+      ],
+      "season_total": 51520
+    },
+    {
+      "name": "Musconetcong River TCA",
+      "suspended": false,
+      "tca": true,
+      "pre_season_count": 920,
+      "schedule": [
+        {
+          "week": 3,
+          "day": "F",
+          "count": 310
+        },
+        {
+          "week": 6,
+          "day": "F",
+          "count": 190
+        },
+        {
+          "week": 7,
+          "day": "F",
+          "count": 190
+        }
+      ],
+      "season_total": 1610
+    },
+    {
+      "name": "Neshanic River",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 290,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "W",
+          "count": 110
+        },
+        {
+          "week": 4,
+          "day": "W",
+          "count": 110
+        }
+      ],
+      "season_total": 510
+    },
+    {
+      "name": "Nishisakawick Creek",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 430,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "W",
+          "count": 430
+        },
+        {
+          "week": 3,
+          "day": "M",
+          "count": 430
+        }
+      ],
+      "season_total": 1290
+    },
+    {
+      "name": "Nomahegan Park Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 400,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "W",
+          "count": 300
+        },
+        {
+          "week": 2,
+          "day": "R",
+          "count": 300
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 300
+        },
+        {
+          "week": 4,
+          "day": "M",
+          "count": 300
+        }
+      ],
+      "season_total": 1600
+    },
+    {
+      "name": "North Hudson Park Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 540,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "T",
+          "count": 400
+        },
+        {
+          "week": 2,
+          "day": "T",
+          "count": 400
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 400
+        },
+        {
+          "week": 4,
+          "day": "T",
+          "count": 400
+        }
+      ],
+      "season_total": 2140
+    },
+    {
+      "name": "Northern Community Park Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 100,
+      "schedule": [],
+      "season_total": 100
+    },
+    {
+      "name": "Oak Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 430,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "W",
+          "count": 330
+        },
+        {
+          "week": 2,
+          "day": "W",
+          "count": 330
+        },
+        {
+          "week": 3,
+          "day": "T",
+          "count": 330
+        }
+      ],
+      "season_total": 1420
+    },
+    {
+      "name": "Oldham Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 440,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "R",
+          "count": 330
+        },
+        {
+          "week": 2,
+          "day": "T",
+          "count": 330
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 330
+        }
+      ],
+      "season_total": 1430
+    },
+    {
+      "name": "Papakating Creek",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 270,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "M",
+          "count": 110
+        },
+        {
+          "week": 4,
+          "day": "M",
+          "count": 110
+        }
+      ],
+      "season_total": 490
+    },
+    {
+      "name": "Papakating Creek W/B",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 180,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "M",
+          "count": 180
+        },
+        {
+          "week": 3,
+          "day": "T",
+          "count": 180
+        }
+      ],
+      "season_total": 540
+    },
+    {
+      "name": "Pascack Creek",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 630,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "M",
+          "count": 250
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 250
+        },
+        {
+          "week": 4,
+          "day": "M",
+          "count": 250
+        },
+        {
+          "week": 5,
+          "day": "W",
+          "count": 250
+        }
+      ],
+      "season_total": 1630
+    },
+    {
+      "name": "Passaic River",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 2780,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "M",
+          "count": 1110
+        },
+        {
+          "week": 3,
+          "day": "M",
+          "count": 1110
+        },
+        {
+          "week": 4,
+          "day": "R",
+          "count": 1110
+        },
+        {
+          "week": 5,
+          "day": "T",
+          "count": 1110
+        }
+      ],
+      "season_total": 7220
+    },
+    {
+      "name": "Patriot Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 240,
+      "schedule": [],
+      "season_total": 240
+    },
+    {
+      "name": "Paulins Kill",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 9370,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "R",
+          "count": 3510
+        },
+        {
+          "week": 2,
+          "day": "R",
+          "count": 3120
+        },
+        {
+          "week": 3,
+          "day": "R",
+          "count": 3120
+        },
+        {
+          "week": 4,
+          "day": "R",
+          "count": 3120
+        },
+        {
+          "week": 5,
+          "day": "R",
+          "count": 3120
+        },
+        {
+          "week": 6,
+          "day": "R",
+          "count": 1950
+        },
+        {
+          "week": 7,
+          "day": "R",
+          "count": 1950
+        }
+      ],
+      "season_total": 29260
+    },
+    {
+      "name": "Peapack Brook",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 510,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "W",
+          "count": 200
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 200
+        },
+        {
+          "week": 4,
+          "day": "W",
+          "count": 200
+        },
+        {
+          "week": 5,
+          "day": "W",
+          "count": 200
+        },
+        {
+          "week": 6,
+          "day": "W",
+          "count": 130
+        }
+      ],
+      "season_total": 1440
+    },
+    {
+      "name": "Pemberton Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 550,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "R",
+          "count": 410
+        },
+        {
+          "week": 2,
+          "day": "W",
+          "count": 410
+        },
+        {
+          "week": 3,
+          "day": "F",
+          "count": 410
+        }
+      ],
+      "season_total": 1780
+    },
+    {
+      "name": "Pequannock River",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 2000,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "T",
+          "count": 800
+        },
+        {
+          "week": 3,
+          "day": "F",
+          "count": 800
+        },
+        {
+          "week": 4,
+          "day": "T",
+          "count": 800
+        },
+        {
+          "week": 5,
+          "day": "T",
+          "count": 800
+        },
+        {
+          "week": 6,
+          "day": "W",
+          "count": 500
+        },
+        {
+          "week": 7,
+          "day": "F",
+          "count": 500
+        }
+      ],
+      "season_total": 6200
+    },
+    {
+      "name": "Pequannock River TCA",
+      "suspended": false,
+      "tca": true,
+      "pre_season_count": 240,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "T",
+          "count": 100
+        },
+        {
+          "week": 3,
+          "day": "F",
+          "count": 100
+        },
+        {
+          "week": 4,
+          "day": "T",
+          "count": 100
+        },
+        {
+          "week": 5,
+          "day": "T",
+          "count": 100
+        },
+        {
+          "week": 6,
+          "day": "W",
+          "count": 100
+        },
+        {
+          "week": 7,
+          "day": "F",
+          "count": 100
+        }
+      ],
+      "season_total": 840
+    },
+    {
+      "name": "Pequest River",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 8290,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "F",
+          "count": 3110
+        },
+        {
+          "week": 2,
+          "day": "F",
+          "count": 2770
+        },
+        {
+          "week": 3,
+          "day": "F",
+          "count": 2770
+        },
+        {
+          "week": 4,
+          "day": "F",
+          "count": 2770
+        },
+        {
+          "week": 5,
+          "day": "F",
+          "count": 2770
+        },
+        {
+          "week": 6,
+          "day": "F",
+          "count": 1730
+        },
+        {
+          "week": 7,
+          "day": "F",
+          "count": 1730
+        }
+      ],
+      "season_total": 25940
+    },
+    {
+      "name": "Pequest River TCA",
+      "suspended": false,
+      "tca": true,
+      "pre_season_count": 1230,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "F",
+          "count": 460
+        },
+        {
+          "week": 2,
+          "day": "F",
+          "count": 410
+        },
+        {
+          "week": 3,
+          "day": "F",
+          "count": 410
+        },
+        {
+          "week": 4,
+          "day": "F",
+          "count": 410
+        },
+        {
+          "week": 5,
+          "day": "F",
+          "count": 410
+        },
+        {
+          "week": 6,
+          "day": "F",
+          "count": 260
+        },
+        {
+          "week": 7,
+          "day": "F",
+          "count": 260
+        }
+      ],
+      "season_total": 3850
+    },
+    {
+      "name": "Pohatcong Creek (above Rt. 31)",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 370,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "T",
+          "count": 150
+        },
+        {
+          "week": 4,
+          "day": "T",
+          "count": 150
+        }
+      ],
+      "season_total": 670
+    },
+    {
+      "name": "Pohatcong Creek (below Rt. 31)",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 6130,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "T",
+          "count": 2300
+        },
+        {
+          "week": 2,
+          "day": "T",
+          "count": 2040
+        },
+        {
+          "week": 3,
+          "day": "T",
+          "count": 2040
+        },
+        {
+          "week": 4,
+          "day": "T",
+          "count": 2040
+        },
+        {
+          "week": 5,
+          "day": "T",
+          "count": 2040
+        },
+        {
+          "week": 6,
+          "day": "T",
+          "count": 1280
+        },
+        {
+          "week": 7,
+          "day": "T",
+          "count": 1280
+        }
+      ],
+      "season_total": 19150
+    },
+    {
+      "name": "Pohatcong Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 630,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "W",
+          "count": 470
+        },
+        {
+          "week": 2,
+          "day": "F",
+          "count": 470
+        },
+        {
+          "week": 3,
+          "day": "F",
+          "count": 470
+        },
+        {
+          "week": 4,
+          "day": "T",
+          "count": 470
+        }
+      ],
+      "season_total": 2510
+    },
+    {
+      "name": "Pompton River",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 2490,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "T",
+          "count": 1000
+        },
+        {
+          "week": 3,
+          "day": "F",
+          "count": 1000
+        },
+        {
+          "week": 4,
+          "day": "T",
+          "count": 1000
+        },
+        {
+          "week": 5,
+          "day": "T",
+          "count": 1000
+        }
+      ],
+      "season_total": 6490
+    },
+    {
+      "name": "Pond Brook",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 120,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "R",
+          "count": 100
+        },
+        {
+          "week": 3,
+          "day": "R",
+          "count": 100
+        },
+        {
+          "week": 4,
+          "day": "R",
+          "count": 100
+        },
+        {
+          "week": 5,
+          "day": "R",
+          "count": 100
+        },
+        {
+          "week": 6,
+          "day": "R",
+          "count": 100
+        }
+      ],
+      "season_total": 620
+    },
+    {
+      "name": "Ponderlodge Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 490,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "R",
+          "count": 370
+        },
+        {
+          "week": 2,
+          "day": "R",
+          "count": 370
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 370
+        },
+        {
+          "week": 4,
+          "day": "R",
+          "count": 370
+        }
+      ],
+      "season_total": 1970
+    },
+    {
+      "name": "Pophandusing Creek",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 200,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "T",
+          "count": 200
+        },
+        {
+          "week": 4,
+          "day": "W",
+          "count": 200
+        }
+      ],
+      "season_total": 600
+    },
+    {
+      "name": "Potash Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 490,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "R",
+          "count": 370
+        },
+        {
+          "week": 2,
+          "day": "R",
+          "count": 370
+        },
+        {
+          "week": 3,
+          "day": "R",
+          "count": 370
+        }
+      ],
+      "season_total": 1600
+    },
+    {
+      "name": "Prospertown Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 380,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "M",
+          "count": 280
+        },
+        {
+          "week": 2,
+          "day": "M",
+          "count": 280
+        },
+        {
+          "week": 3,
+          "day": "M",
+          "count": 280
+        }
+      ],
+      "season_total": 1220
+    },
+    {
+      "name": "Rahway River",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 4580,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "R",
+          "count": 1830
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 1830
+        },
+        {
+          "week": 4,
+          "day": "M",
+          "count": 1830
+        },
+        {
+          "week": 5,
+          "day": "W",
+          "count": 1830
+        }
+      ],
+      "season_total": 11900
+    },
+    {
+      "name": "Rahway River W/B",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 100,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "R",
+          "count": 100
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 100
+        },
+        {
+          "week": 4,
+          "day": "M",
+          "count": 100
+        }
+      ],
+      "season_total": 400
+    },
+    {
+      "name": "Ramapo River",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 5370,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "R",
+          "count": 2010
+        },
+        {
+          "week": 2,
+          "day": "R",
+          "count": 1790
+        },
+        {
+          "week": 3,
+          "day": "R",
+          "count": 1790
+        },
+        {
+          "week": 4,
+          "day": "R",
+          "count": 1790
+        },
+        {
+          "week": 5,
+          "day": "R",
+          "count": 1790
+        },
+        {
+          "week": 6,
+          "day": "R",
+          "count": 1120
+        },
+        {
+          "week": 7,
+          "day": "R",
+          "count": 1120
+        }
+      ],
+      "season_total": 16780
+    },
+    {
+      "name": "Rancocas Creek SW/B",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 440,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "W",
+          "count": 180
+        },
+        {
+          "week": 3,
+          "day": "F",
+          "count": 180
+        },
+        {
+          "week": 4,
+          "day": "W",
+          "count": 180
+        },
+        {
+          "week": 5,
+          "day": "R",
+          "count": 180
+        }
+      ],
+      "season_total": 1160
+    },
+    {
+      "name": "Raritan River",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 1300,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "W",
+          "count": 520
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 520
+        },
+        {
+          "week": 4,
+          "day": "W",
+          "count": 520
+        },
+        {
+          "week": 5,
+          "day": "W",
+          "count": 520
+        }
+      ],
+      "season_total": 3380
+    },
+    {
+      "name": "Raritan River N/B",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 7150,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "W",
+          "count": 2680
+        },
+        {
+          "week": 2,
+          "day": "W",
+          "count": 2380
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 2380
+        },
+        {
+          "week": 4,
+          "day": "W",
+          "count": 2380
+        },
+        {
+          "week": 5,
+          "day": "W",
+          "count": 2380
+        },
+        {
+          "week": 6,
+          "day": "W",
+          "count": 1490
+        },
+        {
+          "week": 7,
+          "day": "W",
+          "count": 1490
+        }
+      ],
+      "season_total": 22330
+    },
+    {
+      "name": "Raritan River S/B",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 11380,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "T",
+          "count": 4270
+        },
+        {
+          "week": 2,
+          "day": "T",
+          "count": 3790
+        },
+        {
+          "week": 3,
+          "day": "T",
+          "count": 3790
+        },
+        {
+          "week": 4,
+          "day": "T",
+          "count": 3790
+        },
+        {
+          "week": 5,
+          "day": "T",
+          "count": 3790
+        },
+        {
+          "week": 6,
+          "day": "T",
+          "count": 2370
+        },
+        {
+          "week": 7,
+          "day": "T",
+          "count": 2370
+        }
+      ],
+      "season_total": 35550
+    },
+    {
+      "name": "Raritan River S/B TCA Gorge",
+      "suspended": false,
+      "tca": true,
+      "pre_season_count": 1560,
+      "schedule": [
+        {
+          "week": 3,
+          "day": "T",
+          "count": 520
+        },
+        {
+          "week": 6,
+          "day": "T",
+          "count": 320
+        },
+        {
+          "week": 7,
+          "day": "T",
+          "count": 320
+        }
+      ],
+      "season_total": 2720
+    },
+    {
+      "name": "Ringwood Brook",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 340,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "F",
+          "count": 140
+        },
+        {
+          "week": 3,
+          "day": "F",
+          "count": 140
+        },
+        {
+          "week": 4,
+          "day": "F",
+          "count": 140
+        },
+        {
+          "week": 5,
+          "day": "F",
+          "count": 140
+        },
+        {
+          "week": 6,
+          "day": "W",
+          "count": 100
+        }
+      ],
+      "season_total": 1000
+    },
+    {
+      "name": "Rock Brook",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 380,
+      "schedule": [
+        {
+          "week": 3,
+          "day": "W",
+          "count": 380
+        }
+      ],
+      "season_total": 760
+    },
+    {
+      "name": "Rockaway Creek",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 140,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "T",
+          "count": 100
+        },
+        {
+          "week": 3,
+          "day": "M",
+          "count": 100
+        },
+        {
+          "week": 4,
+          "day": "M",
+          "count": 100
+        },
+        {
+          "week": 5,
+          "day": "W",
+          "count": 100
+        }
+      ],
+      "season_total": 540
+    },
+    {
+      "name": "Rockaway River",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 7470,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "M",
+          "count": 2800
+        },
+        {
+          "week": 2,
+          "day": "M",
+          "count": 2490
+        },
+        {
+          "week": 3,
+          "day": "M",
+          "count": 2490
+        },
+        {
+          "week": 4,
+          "day": "M",
+          "count": 2490
+        },
+        {
+          "week": 5,
+          "day": "M",
+          "count": 2490
+        },
+        {
+          "week": 6,
+          "day": "M",
+          "count": 3120
+        }
+      ],
+      "season_total": 23350
+    },
+    {
+      "name": "Roosevelt Park Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 420,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "T",
+          "count": 310
+        },
+        {
+          "week": 2,
+          "day": "R",
+          "count": 310
+        },
+        {
+          "week": 3,
+          "day": "R",
+          "count": 310
+        }
+      ],
+      "season_total": 1350
+    },
+    {
+      "name": "Rosedale Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 480,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "R",
+          "count": 360
+        },
+        {
+          "week": 2,
+          "day": "W",
+          "count": 360
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 360
+        }
+      ],
+      "season_total": 1560
+    },
+    {
+      "name": "Round Valley Reservoir",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 0,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "W",
+          "count": 6440
+        }
+      ],
+      "season_total": 6440
+    },
+    {
+      "name": "Rowands Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 100,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "W",
+          "count": 100
+        },
+        {
+          "week": 2,
+          "day": "W",
+          "count": 100
+        },
+        {
+          "week": 3,
+          "day": "T",
+          "count": 100
+        }
+      ],
+      "season_total": 400
+    },
+    {
+      "name": "Russia Brook",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 100,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "M",
+          "count": 100
+        },
+        {
+          "week": 4,
+          "day": "M",
+          "count": 100
+        }
+      ],
+      "season_total": 300
+    },
+    {
+      "name": "Saddle River (above Allendale Rd.)",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 400,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "M",
+          "count": 160
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 160
+        },
+        {
+          "week": 4,
+          "day": "M",
+          "count": 160
+        },
+        {
+          "week": 5,
+          "day": "W",
+          "count": 160
+        },
+        {
+          "week": 6,
+          "day": "R",
+          "count": 100
+        }
+      ],
+      "season_total": 1140
+    },
+    {
+      "name": "Saddle River (below Allendale Rd.)",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 1080,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "M",
+          "count": 430
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 430
+        },
+        {
+          "week": 4,
+          "day": "M",
+          "count": 430
+        },
+        {
+          "week": 5,
+          "day": "W",
+          "count": 430
+        }
+      ],
+      "season_total": 2800
+    },
+    {
+      "name": "Saw Mill Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 430,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "R",
+          "count": 330
+        },
+        {
+          "week": 2,
+          "day": "F",
+          "count": 330
+        },
+        {
+          "week": 3,
+          "day": "F",
+          "count": 330
+        }
+      ],
+      "season_total": 1420
+    },
+    {
+      "name": "Schadler's Sand Wash Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 400,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "T",
+          "count": 300
+        },
+        {
+          "week": 2,
+          "day": "W",
+          "count": 300
+        },
+        {
+          "week": 3,
+          "day": "R",
+          "count": 300
+        }
+      ],
+      "season_total": 1300
+    },
+    {
+      "name": "Seeley's Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 240,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "W",
+          "count": 180
+        },
+        {
+          "week": 2,
+          "day": "M",
+          "count": 180
+        },
+        {
+          "week": 3,
+          "day": "M",
+          "count": 180
+        }
+      ],
+      "season_total": 780
+    },
+    {
+      "name": "Shark River",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 660,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "T",
+          "count": 270
+        },
+        {
+          "week": 3,
+          "day": "M",
+          "count": 270
+        },
+        {
+          "week": 4,
+          "day": "T",
+          "count": 270
+        },
+        {
+          "week": 5,
+          "day": "M",
+          "count": 270
+        },
+        {
+          "week": 6,
+          "day": "M",
+          "count": 170
+        }
+      ],
+      "season_total": 1910
+    },
+    {
+      "name": "Shaws Mill Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 520,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "R",
+          "count": 390
+        },
+        {
+          "week": 2,
+          "day": "R",
+          "count": 390
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 390
+        }
+      ],
+      "season_total": 1690
+    },
+    {
+      "name": "Sheppard's Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 580,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "F",
+          "count": 580
+        },
+        {
+          "week": 4,
+          "day": "F",
+          "count": 580
+        },
+        {
+          "week": 6,
+          "day": "W",
+          "count": 580
+        }
+      ],
+      "season_total": 2320
+    },
+    {
+      "name": "Silver Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 450,
+      "schedule": [],
+      "season_total": 450
+    },
+    {
+      "name": "South Vineland Park Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 480,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "R",
+          "count": 360
+        },
+        {
+          "week": 2,
+          "day": "R",
+          "count": 360
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 360
+        }
+      ],
+      "season_total": 1560
+    },
+    {
+      "name": "Speedwell Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 520,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "M",
+          "count": 390
+        },
+        {
+          "week": 2,
+          "day": "W",
+          "count": 390
+        },
+        {
+          "week": 3,
+          "day": "R",
+          "count": 390
+        },
+        {
+          "week": 4,
+          "day": "W",
+          "count": 390
+        }
+      ],
+      "season_total": 2080
+    },
+    {
+      "name": "Spooky Brook Park Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 400,
+      "schedule": [],
+      "season_total": 400
+    },
+    {
+      "name": "Spring Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 450,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "W",
+          "count": 340
+        },
+        {
+          "week": 2,
+          "day": "T",
+          "count": 340
+        },
+        {
+          "week": 3,
+          "day": "T",
+          "count": 340
+        }
+      ],
+      "season_total": 1470
+    },
+    {
+      "name": "Spruce Run Creek",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 1120,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "T",
+          "count": 450
+        },
+        {
+          "week": 3,
+          "day": "M",
+          "count": 450
+        },
+        {
+          "week": 4,
+          "day": "M",
+          "count": 450
+        },
+        {
+          "week": 5,
+          "day": "W",
+          "count": 450
+        },
+        {
+          "week": 6,
+          "day": "W",
+          "count": 280
+        }
+      ],
+      "season_total": 3200
+    },
+    {
+      "name": "Stacy's Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 170,
+      "schedule": [],
+      "season_total": 170
+    },
+    {
+      "name": "Stony Brook",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 1160,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "W",
+          "count": 460
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 460
+        },
+        {
+          "week": 4,
+          "day": "W",
+          "count": 460
+        },
+        {
+          "week": 5,
+          "day": "W",
+          "count": 460
+        }
+      ],
+      "season_total": 3000
+    },
+    {
+      "name": "Stony Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 410,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "R",
+          "count": 310
+        },
+        {
+          "week": 2,
+          "day": "M",
+          "count": 310
+        },
+        {
+          "week": 3,
+          "day": "R",
+          "count": 310
+        }
+      ],
+      "season_total": 1340
+    },
+    {
+      "name": "Swartswood Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 950,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "R",
+          "count": 720
+        },
+        {
+          "week": 2,
+          "day": "R",
+          "count": 720
+        },
+        {
+          "week": 3,
+          "day": "R",
+          "count": 720
+        }
+      ],
+      "season_total": 3110
+    },
+    {
+      "name": "Swedesboro Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 540,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "T",
+          "count": 400
+        },
+        {
+          "week": 2,
+          "day": "W",
+          "count": 400
+        },
+        {
+          "week": 3,
+          "day": "R",
+          "count": 400
+        }
+      ],
+      "season_total": 1740
+    },
+    {
+      "name": "Sydney Brook",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 120,
+      "schedule": [
+        {
+          "week": 3,
+          "day": "M",
+          "count": 120
+        }
+      ],
+      "season_total": 240
+    },
+    {
+      "name": "Sylvan Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 430,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "R",
+          "count": 330
+        },
+        {
+          "week": 2,
+          "day": "W",
+          "count": 330
+        },
+        {
+          "week": 3,
+          "day": "F",
+          "count": 330
+        }
+      ],
+      "season_total": 1420
+    },
+    {
+      "name": "Takanassee Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 410,
+      "schedule": [],
+      "season_total": 410
+    },
+    {
+      "name": "Tienakill Creek",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 430,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "M",
+          "count": 170
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 170
+        },
+        {
+          "week": 4,
+          "day": "M",
+          "count": 170
+        }
+      ],
+      "season_total": 940
+    },
+    {
+      "name": "Tippins Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 520,
+      "schedule": [],
+      "season_total": 520
+    },
+    {
+      "name": "Toms River",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 1560,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "M",
+          "count": 590
+        },
+        {
+          "week": 2,
+          "day": "M",
+          "count": 520
+        },
+        {
+          "week": 3,
+          "day": "M",
+          "count": 520
+        },
+        {
+          "week": 4,
+          "day": "M",
+          "count": 520
+        },
+        {
+          "week": 5,
+          "day": "M",
+          "count": 520
+        },
+        {
+          "week": 6,
+          "day": "M",
+          "count": 660
+        }
+      ],
+      "season_total": 4890
+    },
+    {
+      "name": "Toms River TCA",
+      "suspended": false,
+      "tca": true,
+      "pre_season_count": 620,
+      "schedule": [
+        {
+          "week": 3,
+          "day": "M",
+          "count": 210
+        },
+        {
+          "week": 6,
+          "day": "M",
+          "count": 260
+        }
+      ],
+      "season_total": 1090
+    },
+    {
+      "name": "Topenemus Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 440,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "W",
+          "count": 330
+        },
+        {
+          "week": 2,
+          "day": "F",
+          "count": 330
+        },
+        {
+          "week": 3,
+          "day": "T",
+          "count": 330
+        }
+      ],
+      "season_total": 1430
+    },
+    {
+      "name": "Tuckahoe Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 560,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "R",
+          "count": 420
+        },
+        {
+          "week": 2,
+          "day": "R",
+          "count": 420
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 420
+        },
+        {
+          "week": 4,
+          "day": "R",
+          "count": 420
+        }
+      ],
+      "season_total": 2240
+    },
+    {
+      "name": "Verona Park Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 480,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "T",
+          "count": 360
+        },
+        {
+          "week": 2,
+          "day": "T",
+          "count": 360
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 360
+        },
+        {
+          "week": 4,
+          "day": "T",
+          "count": 360
+        }
+      ],
+      "season_total": 1920
+    },
+    {
+      "name": "Wallkill River",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 2410,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "M",
+          "count": 970
+        },
+        {
+          "week": 3,
+          "day": "T",
+          "count": 970
+        },
+        {
+          "week": 4,
+          "day": "M",
+          "count": 970
+        },
+        {
+          "week": 5,
+          "day": "M",
+          "count": 970
+        },
+        {
+          "week": 6,
+          "day": "M",
+          "count": 260
+        }
+      ],
+      "season_total": 6550
+    },
+    {
+      "name": "Wanaque River Lower",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 750,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "F",
+          "count": 340
+        },
+        {
+          "week": 2,
+          "day": "F",
+          "count": 300
+        },
+        {
+          "week": 3,
+          "day": "F",
+          "count": 300
+        },
+        {
+          "week": 4,
+          "day": "F",
+          "count": 300
+        },
+        {
+          "week": 5,
+          "day": "F",
+          "count": 300
+        },
+        {
+          "week": 6,
+          "day": "F",
+          "count": 190
+        },
+        {
+          "week": 7,
+          "day": "F",
+          "count": 190
+        }
+      ],
+      "season_total": 2670
+    },
+    {
+      "name": "Wanaque River Upper",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 1330,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "F",
+          "count": 500
+        },
+        {
+          "week": 2,
+          "day": "F",
+          "count": 440
+        },
+        {
+          "week": 3,
+          "day": "F",
+          "count": 440
+        },
+        {
+          "week": 4,
+          "day": "F",
+          "count": 440
+        },
+        {
+          "week": 5,
+          "day": "F",
+          "count": 440
+        },
+        {
+          "week": 6,
+          "day": "F",
+          "count": 280
+        },
+        {
+          "week": 7,
+          "day": "F",
+          "count": 280
+        }
+      ],
+      "season_total": 4150
+    },
+    {
+      "name": "Wargo Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 360,
+      "schedule": [],
+      "season_total": 360
+    },
+    {
+      "name": "Warinanco Park Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 440,
+      "schedule": [],
+      "season_total": 440
+    },
+    {
+      "name": "Wawayanda Creek",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 470,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "M",
+          "count": 190
+        },
+        {
+          "week": 3,
+          "day": "T",
+          "count": 190
+        },
+        {
+          "week": 4,
+          "day": "W",
+          "count": 190
+        },
+        {
+          "week": 5,
+          "day": "M",
+          "count": 190
+        },
+        {
+          "week": 6,
+          "day": "F",
+          "count": 120
+        }
+      ],
+      "season_total": 1350
+    },
+    {
+      "name": "Wawayanda Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 760,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "M",
+          "count": 760
+        },
+        {
+          "week": 4,
+          "day": "W",
+          "count": 760
+        },
+        {
+          "week": 6,
+          "day": "F",
+          "count": 760
+        }
+      ],
+      "season_total": 3040
+    },
+    {
+      "name": "West Hudson County Pk. Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 350,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "T",
+          "count": 260
+        },
+        {
+          "week": 2,
+          "day": "T",
+          "count": 260
+        },
+        {
+          "week": 3,
+          "day": "W",
+          "count": 260
+        },
+        {
+          "week": 4,
+          "day": "T",
+          "count": 260
+        }
+      ],
+      "season_total": 1390
+    },
+    {
+      "name": "Westville Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 170,
+      "schedule": [],
+      "season_total": 170
+    },
+    {
+      "name": "Whippany River (above Whitehead Rd.)",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 250,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "R",
+          "count": 250
+        },
+        {
+          "week": 4,
+          "day": "W",
+          "count": 250
+        }
+      ],
+      "season_total": 750
+    },
+    {
+      "name": "Whippany River (below Whitehead Rd.)",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 500,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "R",
+          "count": 500
+        },
+        {
+          "week": 3,
+          "day": "R",
+          "count": 500
+        }
+      ],
+      "season_total": 1500
+    },
+    {
+      "name": "White Lake",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 290,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "R",
+          "count": 290
+        },
+        {
+          "week": 4,
+          "day": "R",
+          "count": 290
+        },
+        {
+          "week": 6,
+          "day": "R",
+          "count": 290
+        }
+      ],
+      "season_total": 1160
+    },
+    {
+      "name": "Whites Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 440,
+      "schedule": [
+        {
+          "week": 1,
+          "day": "R",
+          "count": 330
+        },
+        {
+          "week": 2,
+          "day": "R",
+          "count": 330
+        },
+        {
+          "week": 3,
+          "day": "R",
+          "count": 330
+        },
+        {
+          "week": 4,
+          "day": "R",
+          "count": 330
+        }
+      ],
+      "season_total": 1760
+    },
+    {
+      "name": "Wichecheoke Creek",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 300,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "W",
+          "count": 300
+        },
+        {
+          "week": 3,
+          "day": "M",
+          "count": 300
+        }
+      ],
+      "season_total": 900
+    },
+    {
+      "name": "Wood Dale County Park Pond",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 320,
+      "schedule": [],
+      "season_total": 320
+    },
+    {
+      "name": "Yellow Brook",
+      "suspended": false,
+      "tca": false,
+      "pre_season_count": 120,
+      "schedule": [
+        {
+          "week": 2,
+          "day": "T",
+          "count": 120
+        },
+        {
+          "week": 3,
+          "day": "M",
+          "count": 120
+        }
+      ],
+      "season_total": 360
+    }
+  ]
+}
