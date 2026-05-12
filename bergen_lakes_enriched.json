@@ -1,0 +1,1243 @@
+{
+  "$schema_notes": {
+    "purpose": "Bergen County, NJ waterbody dataset for fishing web app",
+    "source_primary": "NJDEP Division of Fish and Wildlife, 'Places to Fish' 2003 PDF (https://nj.gov/dep/fgw/pdf/2003/plcpnds03.pdf)",
+    "source_secondary": "Wikipedia, NJDEP Lake Survey Maps page, Veolia Watershed Recreation Program, individual park websites",
+    "data_date_warning": "NJDEP master list is from 2003. Acres, species, and fishing quality are 22+ years old. Access rules, fees, and facilities may have changed. Project should verify current conditions before publishing.",
+    "depth_data_warning": "Most Bergen ponds have no published depth survey. Where max_depth_ft is null, data is genuinely unavailable, not omitted. The 4 Veolia reservoirs (Oradell, Tappan, Woodcliff, DeForest) have published or estimated depths but no public bathymetric chart that I could verify.",
+    "fish_quality_codes": {
+      "1": "Very good",
+      "2": "Good",
+      "3": "Fair",
+      "4": "Poor or none",
+      "5": "Trout available only during stocking season",
+      "6": "Trout available during entire legal fishing season"
+    },
+    "owner_codes": {
+      "F": "Federal",
+      "S": "State",
+      "C": "County",
+      "M": "Municipal",
+      "P": "Private"
+    },
+    "outboard_codes": {
+      "Y": "Yes, all motors allowed",
+      "N": "No motors",
+      "E": "Electric only",
+      "L": "Limited to 9.9 hp max",
+      "U": "Unlimited horsepower"
+    }
+  },
+  "waterbodies": [
+    {
+      "id": "oradell-reservoir",
+      "name": "Oradell Reservoir",
+      "aliases": [
+        "Oradell Res"
+      ],
+      "town": "Oradell",
+      "municipalities": [
+        "Oradell",
+        "Haworth",
+        "Emerson",
+        "Closter",
+        "Harrington Park"
+      ],
+      "county": "Bergen",
+      "lat": 40.956129,
+      "lng": -74.029001,
+      "elevation_ft": 20,
+      "acres": 796,
+      "acres_source": "Dams of the World / NJDEP-NJIT FMERC study (normal storage area). NJDEP 2003 'Places to Fish' lists 620 ac, likely older or different water level reference.",
+      "max_depth_ft": null,
+      "mean_depth_ft": null,
+      "depth_data_status": "no public bathymetric chart found",
+      "owner_type": "private utility",
+      "owner": "Veolia Water New Jersey (formerly Suez North America, formerly United Water)",
+      "access_type": "permit_required",
+      "access_notes": "Open April 15 \u2013 November 30. Requires Veolia Watershed Recreation Program membership. Shore fishing only, no boats. NJ fishing license also required.",
+      "permit_url": "https://mywater.veolia.us/community-environment/veolia-watershed-recreation-program",
+      "facilities": {
+        "shore_fishing": true,
+        "car_top_launch": false,
+        "boat_ramp": false,
+        "boat_livery": false,
+        "outboards_allowed": "N",
+        "swimming": false,
+        "picnic": false,
+        "camping": false
+      },
+      "species": {
+        "largemouth_bass": 2,
+        "smallmouth_bass": 3,
+        "pickerel": 2,
+        "catfish": 2,
+        "yellow_perch": 2,
+        "carp": 2,
+        "sunfish": 1,
+        "northern_pike": "reported by anglers, not confirmed by NJDEP list"
+      },
+      "depth_map_url": null,
+      "notes": "Largest waterbody in Bergen County by far. Drains 113 sq mi. Supplies drinking water to ~750,000 people. CSX rail bridge and Old Hook Road cross it.",
+      "sources": [
+        "https://nj.gov/dep/fgw/pdf/2003/plcpnds03.pdf",
+        "https://en.wikipedia.org/wiki/Oradell_Reservoir",
+        "https://damsoftheworld.com/usa/new-jersey/oradell-reservoir-dam/",
+        "https://mywater.veolia.us/community-environment/veolia-watershed-recreation-program",
+        "https://dep.nj.gov/njfw/fishing/freshwater/fishing-permits-for-nj-reservoirs/"
+      ],
+      "trout_stocked_2026_spring": false,
+      "usgs_gauge_id": "01378480",
+      "usgs_gauge_url": "https://waterdata.usgs.gov/monitoring-location/USGS-01378480/",
+      "usgs_gauge_measures": "Lake/reservoir water surface elevation above NGVD 1929 (feet). Not depth.",
+      "depth_map_status": "no NJDEP bathymetric map published",
+      "veolia_permit": {
+        "program_name": "Veolia Watershed Recreation Program",
+        "program_url": "https://mywater.veolia.us/community-environment/veolia-watershed-recreation-program",
+        "season": "April 15 - November 30",
+        "fees_usd": {
+          "veolia_customer": {
+            "adult_18_61": 40,
+            "senior_62_plus": 30,
+            "junior_6_17": 30,
+            "guest_max_4": 40,
+            "family_plan_2_adults_2_juniors": 100,
+            "children_5_and_under": 0
+          },
+          "non_veolia_customer": {
+            "adult": 50,
+            "senior": 50,
+            "junior": 50,
+            "guest": 50,
+            "children_5_and_under": 0
+          }
+        },
+        "fees_verified_date": "2026-05-12",
+        "additional_requirements": [
+          "NJ freshwater fishing license required in addition to Veolia permit",
+          "Shore fishing only, no boats",
+          "No swimming, no ice fishing"
+        ]
+      }
+    },
+    {
+      "id": "lake-tappan",
+      "name": "Lake Tappan",
+      "aliases": [
+        "Tappan Reservoir",
+        "Lake Tappan Reservoir"
+      ],
+      "town": "Old Tappan / River Vale",
+      "municipalities": [
+        "Old Tappan",
+        "River Vale",
+        "Orangetown NY"
+      ],
+      "county": "Bergen (majority) / Rockland NY (minority)",
+      "lat": 41.037672,
+      "lng": -73.99,
+      "elevation_ft": 56,
+      "acres": 1255,
+      "acres_source": "Wikipedia, citing Leiby 1969",
+      "max_depth_ft": 43,
+      "mean_depth_ft": 21,
+      "depth_data_status": "summary values published, no public bathymetric chart found",
+      "depth_source": "lakelubbers.com via Wikipedia citation",
+      "owner_type": "private utility",
+      "owner": "Veolia Water New Jersey (formerly Suez North America)",
+      "access_type": "permit_required",
+      "access_notes": "Veolia Watershed Recreation Program membership required, same as Oradell. April 15 \u2013 November 30 season. Shore fishing only.",
+      "permit_url": "https://mywater.veolia.us/community-environment/veolia-watershed-recreation-program",
+      "facilities": {
+        "shore_fishing": true,
+        "car_top_launch": false,
+        "boat_ramp": false,
+        "boat_livery": false,
+        "outboards_allowed": "N",
+        "swimming": false,
+        "picnic": false,
+        "camping": false
+      },
+      "species": {
+        "largemouth_bass": "present, no NJDEP quality rating",
+        "smallmouth_bass": "present (bass family)",
+        "bluegill": "present",
+        "perch": "present",
+        "catfish": "present",
+        "carp": "present"
+      },
+      "depth_map_url": null,
+      "notes": "Holds 3.5 billion gallons. Drains into Oradell Reservoir downstream. Flooded former CAPROC Field airstrip in 1967.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lake_Tappan",
+        "https://mywater.veolia.us/community-environment/veolia-watershed-recreation-program",
+        "https://dep.nj.gov/njfw/fishing/freshwater/fishing-permits-for-nj-reservoirs/"
+      ],
+      "trout_stocked_2026_spring": false,
+      "usgs_gauge_id": "01376950",
+      "usgs_gauge_url": "https://waterdata.usgs.gov/monitoring-location/USGS-01376950/",
+      "usgs_gauge_measures": "Lake/reservoir water surface elevation above NGVD 1929 (feet). Not depth.",
+      "depth_map_status": "no NJDEP bathymetric map published; max depth from secondary source only",
+      "veolia_permit": {
+        "program_name": "Veolia Watershed Recreation Program",
+        "program_url": "https://mywater.veolia.us/community-environment/veolia-watershed-recreation-program",
+        "season": "April 15 - November 30",
+        "fees_usd": {
+          "veolia_customer": {
+            "adult_18_61": 40,
+            "senior_62_plus": 30,
+            "junior_6_17": 30,
+            "guest_max_4": 40,
+            "family_plan_2_adults_2_juniors": 100,
+            "children_5_and_under": 0
+          },
+          "non_veolia_customer": {
+            "adult": 50,
+            "senior": 50,
+            "junior": 50,
+            "guest": 50,
+            "children_5_and_under": 0
+          }
+        },
+        "fees_verified_date": "2026-05-12",
+        "additional_requirements": [
+          "NJ freshwater fishing license required in addition to Veolia permit",
+          "Shore fishing only, no boats",
+          "No swimming, no ice fishing"
+        ]
+      }
+    },
+    {
+      "id": "woodcliff-lake-reservoir",
+      "name": "Woodcliff Lake Reservoir",
+      "aliases": [
+        "Woodcliff Lake"
+      ],
+      "town": "Woodcliff Lake",
+      "municipalities": [
+        "Woodcliff Lake",
+        "Hillsdale",
+        "Park Ridge"
+      ],
+      "county": "Bergen",
+      "lat": 41.019089,
+      "lng": -74.043388,
+      "elevation_ft": 98,
+      "acres": 152.38,
+      "acres_source": "Wikipedia",
+      "max_depth_ft": null,
+      "mean_depth_ft": null,
+      "depth_data_status": "no published depth data found",
+      "owner_type": "private utility",
+      "owner": "Veolia Water New Jersey (formerly Suez North America)",
+      "access_type": "permit_required",
+      "access_notes": "Veolia Watershed Recreation Program membership required. NJ fishing license also required.",
+      "permit_url": "https://mywater.veolia.us/community-environment/veolia-watershed-recreation-program",
+      "facilities": {
+        "shore_fishing": true,
+        "car_top_launch": false,
+        "boat_ramp": false,
+        "boat_livery": false,
+        "outboards_allowed": "N",
+        "swimming": false,
+        "picnic": false,
+        "camping": false
+      },
+      "species": {
+        "largemouth_bass": "present",
+        "smallmouth_bass": "present",
+        "carp": "present",
+        "pumpkinseed": "present",
+        "bluegill": "present",
+        "brown_bullhead": "present",
+        "yellow_bullhead": "present",
+        "yellow_perch": "present (large schools reported)",
+        "white_perch": "present (large schools reported)"
+      },
+      "depth_map_url": null,
+      "notes": "Held capacity 871M gallons. Pascack Brook impoundment. NOT the same as 'Wooddale Park Pond' in Woodcliff Lake borough (that's a separate 2-acre county park pond also in this list).",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Woodcliff_Lake_Reservoir",
+        "https://mywater.veolia.us/community-environment/veolia-watershed-recreation-program"
+      ],
+      "trout_stocked_2026_spring": false,
+      "depth_map_status": "no NJDEP bathymetric map published",
+      "veolia_permit": {
+        "program_name": "Veolia Watershed Recreation Program",
+        "program_url": "https://mywater.veolia.us/community-environment/veolia-watershed-recreation-program",
+        "season": "April 15 - November 30",
+        "fees_usd": {
+          "veolia_customer": {
+            "adult_18_61": 40,
+            "senior_62_plus": 30,
+            "junior_6_17": 30,
+            "guest_max_4": 40,
+            "family_plan_2_adults_2_juniors": 100,
+            "children_5_and_under": 0
+          },
+          "non_veolia_customer": {
+            "adult": 50,
+            "senior": 50,
+            "junior": 50,
+            "guest": 50,
+            "children_5_and_under": 0
+          }
+        },
+        "fees_verified_date": "2026-05-12",
+        "additional_requirements": [
+          "NJ freshwater fishing license required in addition to Veolia permit",
+          "Shore fishing only, no boats",
+          "No swimming, no ice fishing"
+        ]
+      }
+    },
+    {
+      "id": "ramapo-lake",
+      "name": "Ramapo Lake",
+      "aliases": [
+        "Rotten Pond (historical)"
+      ],
+      "town": "Oakland",
+      "municipalities": [
+        "Oakland",
+        "Wanaque"
+      ],
+      "county": "Listed by NJDEP under Bergen; lake itself sits in Ramapo Mountain State Forest which straddles Bergen and Passaic. Treat as Bergen-adjacent.",
+      "lat": 41.037995,
+      "lng": -74.262599,
+      "elevation_ft": 550,
+      "acres": 120,
+      "acres_source": "Wikipedia / NJDEP / NJ State Park system. NJDEP 2003 list says 120; NJDEP Places to Fish PDF body says 91 \u2014 conflict, use 120 (matches state park system and Wikipedia)",
+      "max_depth_ft": 22,
+      "mean_depth_ft": null,
+      "depth_data_status": "max depth published, no public bathymetric chart verified",
+      "depth_source": "Wikipedia",
+      "owner_type": "state",
+      "owner": "New Jersey Division of Parks & Forestry (Ramapo Mountain State Forest)",
+      "access_type": "open_public",
+      "access_notes": "Open daily. No vehicle access \u2014 boats must be carried in approximately 1.2 miles. NJ fishing license required. Ice fishing permitted in winter. No swimming.",
+      "facilities": {
+        "shore_fishing": true,
+        "car_top_launch": false,
+        "boat_ramp": false,
+        "boat_livery": false,
+        "outboards_allowed": "N",
+        "swimming": false,
+        "picnic": false,
+        "camping": false
+      },
+      "species": {
+        "largemouth_bass": 2,
+        "pickerel": 1,
+        "catfish": 2,
+        "yellow_perch": 1,
+        "carp": 4,
+        "crappie": 2,
+        "sunfish": 1
+      },
+      "depth_map_url": null,
+      "notes": "Centerpiece of Ramapo Mountain State Forest. Clearwater mountain lake with tannic water. One of the best-rated public fishing lakes in the region for pickerel and yellow perch per NJDEP quality codes.",
+      "sources": [
+        "https://nj.gov/dep/fgw/pdf/2003/plcpnds03.pdf",
+        "https://en.wikipedia.org/wiki/Ramapo_Lake",
+        "https://dep.nj.gov/parksandforests/state-park/ramapo-mountain-state-forest/"
+      ],
+      "trout_stocked_2026_spring": false,
+      "depth_map_status": "no NJDEP bathymetric map published; max depth from secondary source only"
+    },
+    {
+      "id": "overpeck-lake",
+      "name": "Overpeck Lake",
+      "aliases": [
+        "Overpeck Creek (lake portion)"
+      ],
+      "town": "Teaneck",
+      "municipalities": [
+        "Teaneck",
+        "Leonia",
+        "Ridgefield Park",
+        "Palisades Park"
+      ],
+      "county": "Bergen",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "acres": 157,
+      "acres_source": "NJDEP 2003 Places to Fish",
+      "max_depth_ft": null,
+      "mean_depth_ft": null,
+      "depth_data_status": "no published depth data found",
+      "owner_type": "county",
+      "owner": "Bergen County (Overpeck County Park)",
+      "access_type": "open_public",
+      "access_notes": "Open public park. NJ fishing license required. Canoe/kayak launch available.",
+      "facilities": {
+        "shore_fishing": true,
+        "car_top_launch": true,
+        "boat_ramp": false,
+        "boat_livery": false,
+        "outboards_allowed": "L",
+        "swimming": false,
+        "picnic": true,
+        "camping": false
+      },
+      "species": {
+        "largemouth_bass": 3,
+        "pickerel": 4,
+        "catfish": 3,
+        "yellow_perch": 4,
+        "carp": 2,
+        "crappie": 4,
+        "sunfish": 2
+      },
+      "depth_map_url": null,
+      "notes": "Largest publicly accessible (non-permit) lake in Bergen County. Tidal influence from Overpeck Creek. 770-acre county park around it.",
+      "sources": [
+        "https://nj.gov/dep/fgw/pdf/2003/plcpnds03.pdf",
+        "https://thelocalgirl.com/bergen/best-parks-bergen-county-nj/"
+      ],
+      "trout_stocked_2026_spring": false,
+      "depth_map_status": "no NJDEP bathymetric map published"
+    },
+    {
+      "id": "scarlet-oak-pond",
+      "name": "Scarlet Oak Pond",
+      "aliases": [],
+      "town": "Mahwah",
+      "municipalities": [
+        "Mahwah"
+      ],
+      "county": "Bergen",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "acres": 22,
+      "acres_source": "NJDEP 2003 Places to Fish (lists as 22 ac; 'Places to Fish' PDF body shows 16 ac \u2014 conflict, project should verify)",
+      "max_depth_ft": null,
+      "mean_depth_ft": null,
+      "depth_data_status": "no published depth data; former gravel quarry so may be deeper than typical pond",
+      "owner_type": "county",
+      "owner": "Bergen County (Ramapo Valley County Reservation)",
+      "access_type": "open_public",
+      "access_notes": "Catch-and-release only. NJ fishing license required for ages 14+. Tent campsites nearby (permit from Darlington 201-327-3500).",
+      "facilities": {
+        "shore_fishing": true,
+        "car_top_launch": false,
+        "boat_ramp": false,
+        "boat_livery": false,
+        "outboards_allowed": "N",
+        "swimming": false,
+        "picnic": true,
+        "camping": true
+      },
+      "species": {
+        "largemouth_bass": 2,
+        "channel_catfish": 2,
+        "trout": 5,
+        "sunfish": 2
+      },
+      "depth_map_url": "https://dep.nj.gov/njfw/wp-content/uploads/njfw/scarletoak.pdf",
+      "notes": "Former gravel quarry. Loop trail around pond is one of the most-trafficked in Bergen County.",
+      "sources": [
+        "https://nj.gov/dep/fgw/pdf/2003/plcpnds03.pdf",
+        "https://bergencountynj.gov/bergen-county-department-of-parks/ramapo-valley-county-reservation/"
+      ],
+      "trout_stocked_2026_spring": false,
+      "depth_map_status": "NJDEP bathymetric map available (URL verified by user)"
+    },
+    {
+      "id": "macmillan-reservoir",
+      "name": "MacMillan Reservoir",
+      "aliases": [
+        "Macmillan Reservoir"
+      ],
+      "town": "Mahwah",
+      "municipalities": [
+        "Mahwah"
+      ],
+      "county": "Bergen",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "acres": 12,
+      "acres_source": "NJDEP 2003 Places to Fish",
+      "max_depth_ft": null,
+      "mean_depth_ft": null,
+      "depth_data_status": "no published depth data found",
+      "owner_type": "county",
+      "owner": "Bergen County (Ramapo Valley County Reservation)",
+      "access_type": "open_public",
+      "access_notes": "Within Ramapo Valley County Reservation. NJ fishing license required. Historic \u2014 once supplied the Crocker Mansion.",
+      "facilities": {
+        "shore_fishing": true,
+        "car_top_launch": false,
+        "boat_ramp": false,
+        "boat_livery": false,
+        "outboards_allowed": "N",
+        "swimming": false,
+        "picnic": true,
+        "camping": false
+      },
+      "species": {
+        "largemouth_bass": 3,
+        "pickerel": 2,
+        "catfish": 2,
+        "yellow_perch": 2,
+        "sunfish": 1
+      },
+      "depth_map_url": null,
+      "notes": "Trail-accessed hike-in destination above Scarlet Oak Pond.",
+      "sources": [
+        "https://nj.gov/dep/fgw/pdf/2003/plcpnds03.pdf"
+      ],
+      "trout_stocked_2026_spring": false,
+      "depth_map_status": "no NJDEP bathymetric map published"
+    },
+    {
+      "id": "darlington-pond",
+      "name": "Darlington Park Pond",
+      "aliases": [
+        "Darlington Lake",
+        "Darlington fishing lake"
+      ],
+      "town": "Mahwah",
+      "municipalities": [
+        "Mahwah"
+      ],
+      "county": "Bergen",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "acres": 18,
+      "acres_source": "NJDEP 2003 / Lake-Link / lakehub.com \u2014 multiple sources agree on 18",
+      "max_depth_ft": null,
+      "mean_depth_ft": null,
+      "depth_data_status": "no published depth data found",
+      "owner_type": "county",
+      "owner": "Bergen County (Darlington County Park)",
+      "access_type": "open_public",
+      "access_notes": "Catch-and-release only. NJ fishing license required. Ice fishing NOT permitted at any time. Darlington Park has 3 lakes \u2014 2 for swimming, this one for fishing. 178-acre park, 600 Darlington Ave.",
+      "facilities": {
+        "shore_fishing": true,
+        "car_top_launch": false,
+        "boat_ramp": false,
+        "boat_livery": true,
+        "outboards_allowed": "N",
+        "swimming": false,
+        "picnic": true,
+        "camping": false
+      },
+      "species": {
+        "largemouth_bass": 3,
+        "catfish": 2,
+        "sunfish": 1,
+        "bluegill": "reported",
+        "black_crappie": "reported"
+      },
+      "depth_map_url": null,
+      "notes": "NJDEP 2003 lists town as 'Ramsey' but park is in Mahwah. Bass reputation: 'lots of lunkers' per local anglers.",
+      "sources": [
+        "https://nj.gov/dep/fgw/pdf/2003/plcpnds03.pdf",
+        "https://www.lake-link.com/new-jersey-lakes/bergen-county/darlington-lake/325275/",
+        "https://www.mypacer.com/routes/229933/darlington-lake-walking-and-running-trail-mahwah-new-jersey-usa"
+      ],
+      "trout_stocked_2026_spring": false,
+      "depth_map_status": "no NJDEP bathymetric map published"
+    },
+    {
+      "id": "bear-swamp-lake",
+      "name": "Bear Swamp Lake",
+      "aliases": [],
+      "town": "Oakland",
+      "municipalities": [
+        "Oakland",
+        "Mahwah"
+      ],
+      "county": "Bergen-adjacent (listed under Bergen by NJDEP; sits at Bergen/Passaic line in Ramapo Mountain State Forest)",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "acres": 48,
+      "acres_source": "NJDEP 2003 Places to Fish",
+      "max_depth_ft": null,
+      "mean_depth_ft": null,
+      "depth_data_status": "no published depth data found",
+      "owner_type": "state",
+      "owner": "New Jersey (Ramapo Mountain State Forest)",
+      "access_type": "open_public",
+      "access_notes": "Hike-in only, no vehicle access to lake. Shore fishing.",
+      "facilities": {
+        "shore_fishing": true,
+        "car_top_launch": false,
+        "boat_ramp": false,
+        "boat_livery": false,
+        "outboards_allowed": "N",
+        "swimming": false,
+        "picnic": false,
+        "camping": false
+      },
+      "species": {
+        "largemouth_bass": 2,
+        "pickerel": 2,
+        "catfish": 2,
+        "yellow_perch": 3,
+        "crappie": 2,
+        "sunfish": 2
+      },
+      "depth_map_url": null,
+      "notes": "On Ramapo Reservation Loop Trail. Lower pressure than Ramapo Lake.",
+      "sources": [
+        "https://nj.gov/dep/fgw/pdf/2003/plcpnds03.pdf"
+      ],
+      "trout_stocked_2026_spring": false,
+      "depth_map_status": "no NJDEP bathymetric map published"
+    },
+    {
+      "id": "whites-pond",
+      "name": "Whites Pond",
+      "aliases": [],
+      "town": "Waldwick",
+      "municipalities": [
+        "Waldwick"
+      ],
+      "county": "Bergen",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "acres": 6,
+      "acres_source": "NJDEP 2003 Places to Fish (7 ac in alt source)",
+      "max_depth_ft": null,
+      "mean_depth_ft": null,
+      "depth_data_status": "no published depth data found",
+      "owner_type": "municipal",
+      "owner": "Borough of Waldwick",
+      "access_type": "open_public",
+      "access_notes": "Municipal pond. NJ fishing license required.",
+      "facilities": {
+        "shore_fishing": true,
+        "car_top_launch": false,
+        "boat_ramp": false,
+        "boat_livery": false,
+        "outboards_allowed": "N",
+        "swimming": false,
+        "picnic": true,
+        "camping": false
+      },
+      "species": {
+        "trout": 5,
+        "largemouth_bass": 2,
+        "smallmouth_bass": 3,
+        "pickerel": 2,
+        "catfish": 2,
+        "channel_catfish": 2,
+        "yellow_perch": 2,
+        "carp": 2,
+        "sunfish": 1
+      },
+      "depth_map_url": null,
+      "notes": "Strong species mix for size \u2014 one of the most diverse small ponds in Bergen per 2003 NJDEP ratings.",
+      "sources": [
+        "https://nj.gov/dep/fgw/pdf/2003/plcpnds03.pdf"
+      ],
+      "trout_stocked_2026_spring": false,
+      "name_collision_warning": "A 'Whites Pond' appears in the 2026 NJDEP stocking PDF with 1,760 trout allocated. This Bergen Whites Pond is ~6 acres; allocation suggests a different, larger waterbody. Verify before claiming stocked."
+    },
+    {
+      "id": "wild-duck-pond",
+      "name": "Wild Duck Pond",
+      "aliases": [],
+      "town": "Ridgewood",
+      "municipalities": [
+        "Ridgewood"
+      ],
+      "county": "Bergen",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "acres": 4,
+      "acres_source": "NJDEP 2003 Places to Fish (3 ac in alt source)",
+      "max_depth_ft": null,
+      "mean_depth_ft": null,
+      "depth_data_status": "no published depth data found",
+      "owner_type": "county",
+      "owner": "Bergen County (Saddle River County Park, Wild Duck Pond Area)",
+      "access_type": "open_public",
+      "access_notes": "Open public park. NJ fishing license required. Entrance off East Ridgewood Avenue. Connected to 6-mile multi-use path through Saddle River County Park.",
+      "facilities": {
+        "shore_fishing": true,
+        "car_top_launch": false,
+        "boat_ramp": false,
+        "boat_livery": false,
+        "outboards_allowed": "N",
+        "swimming": false,
+        "picnic": true,
+        "camping": false
+      },
+      "species": {
+        "catfish": 2,
+        "sunfish": 1,
+        "bass": "reported by anglers, not in 2003 NJDEP list"
+      },
+      "depth_map_url": null,
+      "notes": "Part of Saddle River County Park's chain of 3 ponds (also Glen Rock area, Otto C. Pehle area).",
+      "sources": [
+        "https://nj.gov/dep/fgw/pdf/2003/plcpnds03.pdf",
+        "https://bergencountynj.gov/bergen-county-department-of-parks/saddle-river-county-park/"
+      ],
+      "trout_stocked_2026_spring": false,
+      "depth_map_status": "no NJDEP bathymetric map published"
+    },
+    {
+      "id": "otto-pehle-pond",
+      "name": "Otto Pehle Pond",
+      "aliases": [
+        "Otto C. Pehle Pond"
+      ],
+      "town": "Saddle Brook",
+      "municipalities": [
+        "Saddle Brook"
+      ],
+      "county": "Bergen",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "acres": 8,
+      "acres_source": "NJDEP 2003 Places to Fish (9 ac in alt source)",
+      "max_depth_ft": null,
+      "mean_depth_ft": null,
+      "depth_data_status": "no published depth data found",
+      "owner_type": "county",
+      "owner": "Bergen County (Saddle River County Park, Otto C. Pehle Area)",
+      "access_type": "open_public",
+      "access_notes": "Saddle River Road, Saddle Brook. 3/4-mile loop trail around pond. Model boating allowed with permit.",
+      "facilities": {
+        "shore_fishing": true,
+        "car_top_launch": false,
+        "boat_ramp": false,
+        "boat_livery": false,
+        "outboards_allowed": "N",
+        "swimming": false,
+        "picnic": true,
+        "camping": false
+      },
+      "species": {
+        "carp": 2,
+        "catfish": 3,
+        "channel_catfish": 3,
+        "sunfish": 3
+      },
+      "depth_map_url": null,
+      "notes": "Permit required for picnic pavilion, model boating, ball fields.",
+      "sources": [
+        "https://nj.gov/dep/fgw/pdf/2003/plcpnds03.pdf",
+        "https://bergencountynj.gov/bergen-county-department-of-parks/saddle-river-county-park/"
+      ],
+      "trout_stocked_2026_spring": false,
+      "depth_map_status": "no NJDEP bathymetric map published"
+    },
+    {
+      "id": "dahnerts-lake",
+      "name": "Dahnerts Lake",
+      "aliases": [
+        "Dahnert's Lake"
+      ],
+      "town": "Garfield",
+      "municipalities": [
+        "Garfield"
+      ],
+      "county": "Bergen",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "acres": 4,
+      "acres_source": "NJDEP 2003 Places to Fish",
+      "max_depth_ft": null,
+      "mean_depth_ft": null,
+      "depth_data_status": "no published depth data found",
+      "owner_type": "county",
+      "owner": "Bergen County (Dahnert's Lake County Park)",
+      "access_type": "open_public",
+      "access_notes": "Walking/biking path around lake. NJ fishing license required.",
+      "facilities": {
+        "shore_fishing": true,
+        "car_top_launch": false,
+        "boat_ramp": false,
+        "boat_livery": false,
+        "outboards_allowed": "N",
+        "swimming": false,
+        "picnic": true,
+        "camping": false
+      },
+      "species": {
+        "catfish": 2,
+        "sunfish": 1,
+        "rainbow_trout": "reported"
+      },
+      "depth_map_url": null,
+      "notes": "Trout stocked per NJ Family. NJDEP code 4 for trout \u2014 verify current stocking schedule.",
+      "sources": [
+        "https://nj.gov/dep/fgw/pdf/2003/plcpnds03.pdf",
+        "https://www.njfamily.com/go-fishing-in-nj/",
+        "https://www.healthandlifemags.com/8-great-fishing-spots-in-bergen-county/"
+      ],
+      "trout_stocked_2026_spring": true,
+      "stocking_pdf_name": "Dahnert's Lake",
+      "stocking_match_source": "Confirmed via NJDEP 2019 Fishing Access Locations on Trout Waters (Bergen County) and current angler catch reports",
+      "acres_correction": {
+        "source_json_value": 4,
+        "corrected_value": 10.7,
+        "correction_source": "mypacer.com park listing; consistent with FishAngler GPS data"
+      },
+      "depth_map_status": "no NJDEP bathymetric map published"
+    },
+    {
+      "id": "wooddale-pond",
+      "name": "Wooddale Park Pond",
+      "aliases": [
+        "Wood Dale Pond",
+        "Woodcliff Lake County Park Pond"
+      ],
+      "town": "Woodcliff Lake",
+      "municipalities": [
+        "Woodcliff Lake"
+      ],
+      "county": "Bergen",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "acres": 2,
+      "acres_source": "NJDEP 2003 Places to Fish (4 ac in alt source)",
+      "max_depth_ft": null,
+      "mean_depth_ft": null,
+      "depth_data_status": "no published depth data found",
+      "owner_type": "county",
+      "owner": "Bergen County (Wood Dale County Park)",
+      "access_type": "open_public",
+      "access_notes": "118-acre county park. Walking distance from NJ Transit Woodcliff Lake station. DO NOT confuse with Woodcliff Lake Reservoir (the Veolia drinking-water reservoir).",
+      "facilities": {
+        "shore_fishing": true,
+        "car_top_launch": false,
+        "boat_ramp": false,
+        "boat_livery": false,
+        "outboards_allowed": "N",
+        "swimming": false,
+        "picnic": true,
+        "camping": false
+      },
+      "species": {
+        "catfish": 2,
+        "carp": 1,
+        "sunfish": 1
+      },
+      "depth_map_url": null,
+      "notes": "Small park pond, family-friendly.",
+      "sources": [
+        "https://nj.gov/dep/fgw/pdf/2003/plcpnds03.pdf",
+        "https://thelocalgirl.com/bergen/best-parks-bergen-county-nj/"
+      ],
+      "trout_stocked_2026_spring": false,
+      "depth_map_status": "no NJDEP bathymetric map published"
+    },
+    {
+      "id": "campgaw-pond",
+      "name": "Campgaw Pond",
+      "aliases": [],
+      "town": "Mahwah",
+      "municipalities": [
+        "Mahwah"
+      ],
+      "county": "Bergen",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "acres": 3,
+      "acres_source": "NJDEP 2003 Places to Fish",
+      "max_depth_ft": null,
+      "mean_depth_ft": null,
+      "depth_data_status": "no published depth data found",
+      "owner_type": "county",
+      "owner": "Bergen County (Campgaw Mountain County Reservation)",
+      "access_type": "open_public",
+      "access_notes": "NJDEP 2003 lists town as 'Ramsey' but Campgaw is in Mahwah. NJ fishing license required. Camping permitted.",
+      "facilities": {
+        "shore_fishing": true,
+        "car_top_launch": false,
+        "boat_ramp": false,
+        "boat_livery": false,
+        "outboards_allowed": "N",
+        "swimming": false,
+        "picnic": true,
+        "camping": true
+      },
+      "species": {
+        "sunfish": 2
+      },
+      "depth_map_url": null,
+      "notes": "Same property as Campgaw Mountain ski area. Small pond.",
+      "sources": [
+        "https://nj.gov/dep/fgw/pdf/2003/plcpnds03.pdf"
+      ],
+      "trout_stocked_2026_spring": false,
+      "depth_map_status": "no NJDEP bathymetric map published"
+    },
+    {
+      "id": "coopers-park-pond",
+      "name": "Cooper's Park Pond",
+      "aliases": [
+        "Cooper's Pond"
+      ],
+      "town": "Bergenfield",
+      "municipalities": [
+        "Bergenfield"
+      ],
+      "county": "Bergen",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "acres": 4,
+      "acres_source": "NJDEP 2003 Places to Fish",
+      "max_depth_ft": null,
+      "mean_depth_ft": null,
+      "depth_data_status": "no published depth data found",
+      "owner_type": "municipal",
+      "owner": "Borough of Bergenfield (Cooper's Pond Park)",
+      "access_type": "open_public",
+      "access_notes": "Small scenic municipal park. Gazebo and picnic tables.",
+      "facilities": {
+        "shore_fishing": true,
+        "car_top_launch": false,
+        "boat_ramp": false,
+        "boat_livery": false,
+        "outboards_allowed": "N",
+        "swimming": false,
+        "picnic": true,
+        "camping": false
+      },
+      "species": {
+        "carp": 2,
+        "green_sunfish": "common per local press"
+      },
+      "depth_map_url": null,
+      "notes": "Family-friendly. Common catch reports: carp and green sunfish.",
+      "sources": [
+        "https://nj.gov/dep/fgw/pdf/2003/plcpnds03.pdf",
+        "https://www.healthandlifemags.com/8-great-fishing-spots-in-bergen-county/"
+      ],
+      "trout_stocked_2026_spring": false,
+      "depth_map_status": "no NJDEP bathymetric map published"
+    },
+    {
+      "id": "crystal-lake-englewood",
+      "name": "Crystal Lake",
+      "aliases": [],
+      "town": "Englewood",
+      "municipalities": [
+        "Englewood"
+      ],
+      "county": "Bergen",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "acres": 3,
+      "acres_source": "NJDEP 2003 Places to Fish",
+      "max_depth_ft": null,
+      "mean_depth_ft": null,
+      "depth_data_status": "no published depth data found",
+      "owner_type": "municipal",
+      "owner": "City of Englewood",
+      "access_type": "open_public",
+      "access_notes": "Municipal park. NJ fishing license required.",
+      "facilities": {
+        "shore_fishing": true,
+        "car_top_launch": false,
+        "boat_ramp": false,
+        "boat_livery": false,
+        "outboards_allowed": "N",
+        "swimming": false,
+        "picnic": true,
+        "camping": false
+      },
+      "species": {
+        "catfish": 3,
+        "sunfish": 2
+      },
+      "depth_map_url": null,
+      "notes": "Not to be confused with Crystal Lake in Oakland, NJ. There is another Crystal Lake in Oakland that is not on the official NJDEP list.",
+      "sources": [
+        "https://nj.gov/dep/fgw/pdf/2003/plcpnds03.pdf"
+      ],
+      "trout_stocked_2026_spring": false,
+      "name_collision_warning": "A 'Crystal Lake' appears in the 2026 NJDEP stocking PDF with 2,190 trout allocated. This Bergen Crystal Lake is only ~3 acres; the stocked Crystal Lake is much larger and located elsewhere. Verify before claiming stocked."
+    },
+    {
+      "id": "indian-lake",
+      "name": "Indian Lake",
+      "aliases": [],
+      "town": "Little Ferry",
+      "municipalities": [
+        "Little Ferry"
+      ],
+      "county": "Bergen",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "acres": 6,
+      "acres_source": "NJDEP 2003 Places to Fish",
+      "max_depth_ft": null,
+      "mean_depth_ft": null,
+      "depth_data_status": "no published depth data found",
+      "owner_type": "municipal",
+      "owner": "Borough of Little Ferry",
+      "access_type": "open_public",
+      "access_notes": "Municipal park.",
+      "facilities": {
+        "shore_fishing": true,
+        "car_top_launch": false,
+        "boat_ramp": false,
+        "boat_livery": false,
+        "outboards_allowed": "N",
+        "swimming": false,
+        "picnic": true,
+        "camping": false
+      },
+      "species": {
+        "trout": 5,
+        "catfish": 2,
+        "carp": 1,
+        "sunfish": 1
+      },
+      "depth_map_url": null,
+      "notes": "Trout stocked seasonally. Solid mix of carp and sunfish per 2003 NJDEP ratings.",
+      "sources": [
+        "https://nj.gov/dep/fgw/pdf/2003/plcpnds03.pdf"
+      ],
+      "trout_stocked_2026_spring": false,
+      "name_collision_warning": "A 'Indian Lake' appears in the 2026 NJDEP stocking PDF with 1,760 trout allocated. This Bergen Indian Lake is ~6 acres; the stocked Indian Lake (Denville, Morris County) is ~73 acres. Different waterbody."
+    },
+    {
+      "id": "liberty-park-pond",
+      "name": "Liberty Park Pond",
+      "aliases": [],
+      "town": "Saddle River",
+      "municipalities": [
+        "Saddle River"
+      ],
+      "county": "Bergen",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "acres": 1.5,
+      "acres_source": "NJDEP 2003 Places to Fish",
+      "max_depth_ft": null,
+      "mean_depth_ft": null,
+      "depth_data_status": "no published depth data found",
+      "owner_type": "municipal",
+      "owner": "Borough of Saddle River",
+      "access_type": "open_public",
+      "access_notes": "Shore fishing only.",
+      "facilities": {
+        "shore_fishing": true,
+        "car_top_launch": false,
+        "boat_ramp": false,
+        "boat_livery": false,
+        "outboards_allowed": "N",
+        "swimming": false,
+        "picnic": false,
+        "camping": false
+      },
+      "species": {
+        "catfish": 3,
+        "sunfish": 2
+      },
+      "depth_map_url": null,
+      "notes": "Smallest waterbody on the NJDEP Bergen list. Modest fishing.",
+      "sources": [
+        "https://nj.gov/dep/fgw/pdf/2003/plcpnds03.pdf"
+      ],
+      "trout_stocked_2026_spring": false,
+      "depth_map_status": "no NJDEP bathymetric map published"
+    },
+    {
+      "id": "mill-pond-park-ridge",
+      "name": "Mill Pond",
+      "aliases": [],
+      "town": "Park Ridge",
+      "municipalities": [
+        "Park Ridge"
+      ],
+      "county": "Bergen",
+      "lat": 41.0227475,
+      "lng": -74.0950576,
+      "elevation_ft": 151,
+      "acres": 9,
+      "acres_source": "NJDEP 2003 Places to Fish",
+      "max_depth_ft": null,
+      "mean_depth_ft": null,
+      "depth_data_status": "no published depth data found",
+      "owner_type": "municipal",
+      "owner": "Borough of Park Ridge",
+      "access_type": "open_public",
+      "access_notes": "Shore fishing only. Trout stocked seasonally per 2003 NJDEP code.",
+      "facilities": {
+        "shore_fishing": true,
+        "car_top_launch": false,
+        "boat_ramp": false,
+        "boat_livery": false,
+        "outboards_allowed": "N",
+        "swimming": false,
+        "picnic": false,
+        "camping": false
+      },
+      "species": {
+        "trout": 5,
+        "catfish": 2,
+        "sunfish": 2
+      },
+      "depth_map_url": null,
+      "notes": "USGS coordinates from topozone.com.",
+      "sources": [
+        "https://nj.gov/dep/fgw/pdf/2003/plcpnds03.pdf",
+        "https://www.topozone.com/?p=1098388"
+      ],
+      "trout_stocked_2026_spring": false,
+      "name_collision_warning": "A 'Mill Pond' appears in the 2026 NJDEP stocking PDF but is marked SUSPENDED for the 2026 season. Cannot confirm this is the same waterbody as Park Ridge's Mill Pond. 'Mill Pond' is a common name across NJ."
+    },
+    {
+      "id": "zabriskies-pond",
+      "name": "Zabriskies Pond",
+      "aliases": [
+        "Hartung Lake"
+      ],
+      "town": "Wyckoff",
+      "municipalities": [
+        "Wyckoff"
+      ],
+      "county": "Bergen",
+      "lat": null,
+      "lng": null,
+      "elevation_ft": null,
+      "acres": 4,
+      "acres_source": "NJDEP 2003 Places to Fish (2 ac in alt source)",
+      "max_depth_ft": null,
+      "mean_depth_ft": null,
+      "depth_data_status": "no published depth data found",
+      "owner_type": "municipal",
+      "owner": "Township of Wyckoff",
+      "access_type": "open_public",
+      "access_notes": "Historically known for bass and catfish per local angler reports. Project should verify current access \u2014 some Wyckoff ponds have access restrictions.",
+      "facilities": {
+        "shore_fishing": true,
+        "car_top_launch": false,
+        "boat_ramp": false,
+        "boat_livery": false,
+        "outboards_allowed": "N",
+        "swimming": false,
+        "picnic": false,
+        "camping": false
+      },
+      "species": {
+        "sunfish": 2,
+        "bass": "reported by anglers historically",
+        "catfish": "reported"
+      },
+      "depth_map_url": null,
+      "notes": "Listed as Hartung Lake in some sources.",
+      "sources": [
+        "https://nj.gov/dep/fgw/pdf/2003/plcpnds03.pdf",
+        "https://www.newjerseyhunter.com/threads/bergen-county-fishing.12318/"
+      ],
+      "trout_stocked_2026_spring": false,
+      "depth_map_status": "no NJDEP bathymetric map published"
+    }
+  ],
+  "streams_open_to_angling": [
+    {
+      "id": "ramapo-river-mahwah",
+      "name": "Ramapo River",
+      "town": "Mahwah",
+      "agency": "Bergen County",
+      "park": "Ramapo Valley Reservation",
+      "length_mi": 1.0,
+      "avg_width_ft": 70,
+      "facilities": {
+        "swimming": false,
+        "picnic": true,
+        "cabins": false,
+        "campsites": false
+      },
+      "species": {
+        "trout": 5,
+        "smallmouth_bass": 3,
+        "largemouth_bass": 3,
+        "pickerel": 3,
+        "catfish_eels": 3
+      },
+      "notes": "Trout stocked during season. Best of the Bergen streams listed by NJDEP."
+    },
+    {
+      "id": "saddle-river-ridgewood",
+      "name": "Saddle River",
+      "town": "Ridgewood",
+      "agency": "Bergen County",
+      "park": "Saddle River Park",
+      "length_mi": 0.5,
+      "avg_width_ft": 30,
+      "facilities": {
+        "swimming": false,
+        "picnic": true,
+        "cabins": false,
+        "campsites": false
+      },
+      "species": {
+        "trout": 5,
+        "smallmouth_bass": 4,
+        "largemouth_bass": 4,
+        "pickerel": 4,
+        "catfish_eels": 3
+      },
+      "notes": "Trout stocked during season."
+    },
+    {
+      "id": "saddle-river-upper-saddle-river",
+      "name": "Saddle River",
+      "town": "Upper Saddle River",
+      "agency": "Municipal",
+      "park": "Lake Street Park",
+      "length_mi": 0.3,
+      "avg_width_ft": 12,
+      "facilities": {
+        "swimming": false,
+        "picnic": true,
+        "cabins": false,
+        "campsites": false
+      },
+      "species": {
+        "trout": 5,
+        "smallmouth_bass": 4,
+        "largemouth_bass": 4,
+        "pickerel": 4,
+        "catfish_eels": 3
+      },
+      "notes": "Trout stocked during season."
+    }
+  ],
+  "$enrichment_notes": {
+    "version": "2026-05-12",
+    "added_fields": [
+      "trout_stocked_2026_spring",
+      "stocking_pdf_name (when match exists)",
+      "stocking_match_source (when match exists)",
+      "usgs_gauge_id and usgs_gauge_url (Oradell + Lake Tappan only)",
+      "depth_map_url (Scarlet Oak Pond only)",
+      "name_collision_warning (4 ambiguous matches)",
+      "acres_correction (Dahnerts Lake only)"
+    ],
+    "stocking_data_source": "stocking_2026_spring.json (pairs with stocking.js)",
+    "lake_map_symbols_legend": "https://dep.nj.gov/njfw/wp-content/uploads/njfw/lksurvey_symbols.pdf",
+    "verification_status": {
+      "scarlet_oak_depth_pdf": "verified loads (user-confirmed)",
+      "veolia_fees": "verified 2026-05-12 (user-provided)",
+      "gnis_lat_lng_batch": "outstanding - 17 of 21 waterbodies still missing coordinates"
+    }
+  }
+}
