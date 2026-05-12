@@ -359,8 +359,8 @@
         "Palisades Park"
       ],
       "county": "Bergen",
-      "lat": null,
-      "lng": null,
+      "lat": 40.8643,
+      "lng": -73.997,
       "elevation_ft": null,
       "acres": 157,
       "acres_source": "NJDEP 2003 Places to Fish",
@@ -397,7 +397,9 @@
         "https://thelocalgirl.com/bergen/best-parks-bergen-county-nj/"
       ],
       "trout_stocked_2026_spring": false,
-      "depth_map_status": "no NJDEP bathymetric map published"
+      "depth_map_status": "no NJDEP bathymetric map published",
+      "coords_source": "Google Places API, verified 2026-05-12",
+      "coords_note": "Google Places: Overpeck County Park entrance. Lake extends north into Teaneck."
     },
     {
       "id": "scarlet-oak-pond",
@@ -408,8 +410,8 @@
         "Mahwah"
       ],
       "county": "Bergen",
-      "lat": null,
-      "lng": null,
+      "lat": 41.0809,
+      "lng": -74.1911,
       "elevation_ft": null,
       "acres": 22,
       "acres_source": "NJDEP 2003 Places to Fish (lists as 22 ac; 'Places to Fish' PDF body shows 16 ac \u2014 conflict, project should verify)",
@@ -443,7 +445,9 @@
         "https://bergencountynj.gov/bergen-county-department-of-parks/ramapo-valley-county-reservation/"
       ],
       "trout_stocked_2026_spring": false,
-      "depth_map_status": "NJDEP bathymetric map available (URL verified by user)"
+      "depth_map_status": "NJDEP bathymetric map available (URL verified by user)",
+      "coords_source": "Google Places API, verified 2026-05-12",
+      "coords_note": "Google Places: Scarlet Oak Pond, Ramapo Valley Reservation."
     },
     {
       "id": "macmillan-reservoir",
@@ -456,8 +460,8 @@
         "Mahwah"
       ],
       "county": "Bergen",
-      "lat": null,
-      "lng": null,
+      "lat": 41.0852,
+      "lng": -74.2029,
       "elevation_ft": null,
       "acres": 12,
       "acres_source": "NJDEP 2003 Places to Fish",
@@ -491,7 +495,9 @@
         "https://nj.gov/dep/fgw/pdf/2003/plcpnds03.pdf"
       ],
       "trout_stocked_2026_spring": false,
-      "depth_map_status": "no NJDEP bathymetric map published"
+      "depth_map_status": "no NJDEP bathymetric map published",
+      "coords_source": "Google Places API, verified 2026-05-12",
+      "coords_note": "Google Places: MacMillan Reservoir, Mahwah."
     },
     {
       "id": "darlington-pond",
@@ -505,8 +511,8 @@
         "Mahwah"
       ],
       "county": "Bergen",
-      "lat": null,
-      "lng": null,
+      "lat": 41.0658,
+      "lng": -74.1748,
       "elevation_ft": null,
       "acres": 18,
       "acres_source": "NJDEP 2003 / Lake-Link / lakehub.com \u2014 multiple sources agree on 18",
@@ -542,7 +548,9 @@
         "https://www.mypacer.com/routes/229933/darlington-lake-walking-and-running-trail-mahwah-new-jersey-usa"
       ],
       "trout_stocked_2026_spring": false,
-      "depth_map_status": "no NJDEP bathymetric map published"
+      "depth_map_status": "no NJDEP bathymetric map published",
+      "coords_source": "Google Places API, verified 2026-05-12",
+      "coords_note": "Google Places: Darlington County Park lake."
     },
     {
       "id": "bear-swamp-lake",
@@ -554,8 +562,8 @@
         "Mahwah"
       ],
       "county": "Bergen-adjacent (listed under Bergen by NJDEP; sits at Bergen/Passaic line in Ramapo Mountain State Forest)",
-      "lat": null,
-      "lng": null,
+      "lat": 41.0969,
+      "lng": -74.2168,
       "elevation_ft": null,
       "acres": 48,
       "acres_source": "NJDEP 2003 Places to Fish",
@@ -590,7 +598,9 @@
         "https://nj.gov/dep/fgw/pdf/2003/plcpnds03.pdf"
       ],
       "trout_stocked_2026_spring": false,
-      "depth_map_status": "no NJDEP bathymetric map published"
+      "depth_map_status": "no NJDEP bathymetric map published",
+      "coords_source": "Google Places API, verified 2026-05-12",
+      "coords_note": "Google Places: Bear Swamp Lake, Ramapo Mountain State Forest."
     },
     {
       "id": "whites-pond",
@@ -601,8 +611,8 @@
         "Waldwick"
       ],
       "county": "Bergen",
-      "lat": null,
-      "lng": null,
+      "lat": 41.0154,
+      "lng": -74.131,
       "elevation_ft": null,
       "acres": 6,
       "acres_source": "NJDEP 2003 Places to Fish (7 ac in alt source)",
@@ -640,7 +650,9 @@
         "https://nj.gov/dep/fgw/pdf/2003/plcpnds03.pdf"
       ],
       "trout_stocked_2026_spring": false,
-      "name_collision_warning": "A 'Whites Pond' appears in the 2026 NJDEP stocking PDF with 1,760 trout allocated. This Bergen Whites Pond is ~6 acres; allocation suggests a different, larger waterbody. Verify before claiming stocked."
+      "name_collision_warning": "A 'Whites Pond' appears in the 2026 NJDEP stocking PDF with 1,760 trout allocated. This Bergen Whites Pond is ~6 acres; allocation suggests a different, larger waterbody. Verify before claiming stocked.",
+      "coords_source": "Google Places API, verified 2026-05-12",
+      "coords_note": "Google Places: Whites Pond, Waldwick area."
     },
     {
       "id": "wild-duck-pond",
@@ -651,8 +663,8 @@
         "Ridgewood"
       ],
       "county": "Bergen",
-      "lat": null,
-      "lng": null,
+      "lat": 40.9744,
+      "lng": -74.0944,
       "elevation_ft": null,
       "acres": 4,
       "acres_source": "NJDEP 2003 Places to Fish (3 ac in alt source)",
@@ -685,7 +697,9 @@
         "https://bergencountynj.gov/bergen-county-department-of-parks/saddle-river-county-park/"
       ],
       "trout_stocked_2026_spring": false,
-      "depth_map_status": "no NJDEP bathymetric map published"
+      "depth_map_status": "no NJDEP bathymetric map published",
+      "coords_source": "Google Places API, verified 2026-05-12",
+      "coords_note": "Google Places: Wild Duck Pond, Ridgewood."
     },
     {
       "id": "otto-pehle-pond",
@@ -698,8 +712,8 @@
         "Saddle Brook"
       ],
       "county": "Bergen",
-      "lat": null,
-      "lng": null,
+      "lat": 40.9172,
+      "lng": -74.092,
       "elevation_ft": null,
       "acres": 8,
       "acres_source": "NJDEP 2003 Places to Fish (9 ac in alt source)",
@@ -733,7 +747,9 @@
         "https://bergencountynj.gov/bergen-county-department-of-parks/saddle-river-county-park/"
       ],
       "trout_stocked_2026_spring": false,
-      "depth_map_status": "no NJDEP bathymetric map published"
+      "depth_map_status": "no NJDEP bathymetric map published",
+      "coords_source": "Google Places API, verified 2026-05-12",
+      "coords_note": "Google Places: Otto C. Pehle Area of Saddle River County Park, Saddle Brook."
     },
     {
       "id": "dahnerts-lake",
@@ -746,8 +762,8 @@
         "Garfield"
       ],
       "county": "Bergen",
-      "lat": null,
-      "lng": null,
+      "lat": 40.8803,
+      "lng": -74.1023,
       "elevation_ft": null,
       "acres": 4,
       "acres_source": "NJDEP 2003 Places to Fish",
@@ -788,7 +804,9 @@
         "corrected_value": 10.7,
         "correction_source": "mypacer.com park listing; consistent with FishAngler GPS data"
       },
-      "depth_map_status": "no NJDEP bathymetric map published"
+      "depth_map_status": "no NJDEP bathymetric map published",
+      "coords_source": "Google Places API, verified 2026-05-12",
+      "coords_note": "Google Places + NJDEP Bergen trout waters listing: Dahnert's Lake County Park."
     },
     {
       "id": "wooddale-pond",
@@ -802,8 +820,8 @@
         "Woodcliff Lake"
       ],
       "county": "Bergen",
-      "lat": null,
-      "lng": null,
+      "lat": 41.0202,
+      "lng": -74.0308,
       "elevation_ft": null,
       "acres": 2,
       "acres_source": "NJDEP 2003 Places to Fish (4 ac in alt source)",
@@ -836,7 +854,9 @@
         "https://thelocalgirl.com/bergen/best-parks-bergen-county-nj/"
       ],
       "trout_stocked_2026_spring": false,
-      "depth_map_status": "no NJDEP bathymetric map published"
+      "depth_map_status": "no NJDEP bathymetric map published",
+      "coords_source": "Google Places API, verified 2026-05-12",
+      "coords_note": "Google Places: Wood Dale County Park, Woodcliff Lake."
     },
     {
       "id": "campgaw-pond",
@@ -847,8 +867,8 @@
         "Mahwah"
       ],
       "county": "Bergen",
-      "lat": null,
-      "lng": null,
+      "lat": 41.0598,
+      "lng": -74.1835,
       "elevation_ft": null,
       "acres": 3,
       "acres_source": "NJDEP 2003 Places to Fish",
@@ -878,7 +898,9 @@
         "https://nj.gov/dep/fgw/pdf/2003/plcpnds03.pdf"
       ],
       "trout_stocked_2026_spring": false,
-      "depth_map_status": "no NJDEP bathymetric map published"
+      "depth_map_status": "no NJDEP bathymetric map published",
+      "coords_source": "Google Places API, verified 2026-05-12",
+      "coords_note": "Google Places: Campgaw Mountain Reservation centroid. NOTE: Approximate \u2014 no distinct named pond in Google index; coordinate is park entrance/centroid, actual pond may be 50-200m offset."
     },
     {
       "id": "coopers-park-pond",
@@ -891,8 +913,8 @@
         "Bergenfield"
       ],
       "county": "Bergen",
-      "lat": null,
-      "lng": null,
+      "lat": 40.9308,
+      "lng": -74.0025,
       "elevation_ft": null,
       "acres": 4,
       "acres_source": "NJDEP 2003 Places to Fish",
@@ -924,7 +946,9 @@
         "https://www.healthandlifemags.com/8-great-fishing-spots-in-bergen-county/"
       ],
       "trout_stocked_2026_spring": false,
-      "depth_map_status": "no NJDEP bathymetric map published"
+      "depth_map_status": "no NJDEP bathymetric map published",
+      "coords_source": "Google Places API, verified 2026-05-12",
+      "coords_note": "Google Places: Cooper Pond, Bergenfield."
     },
     {
       "id": "crystal-lake-englewood",
@@ -935,8 +959,8 @@
         "Englewood"
       ],
       "county": "Bergen",
-      "lat": null,
-      "lng": null,
+      "lat": 40.8742,
+      "lng": -73.9812,
       "elevation_ft": null,
       "acres": 3,
       "acres_source": "NJDEP 2003 Places to Fish",
@@ -967,7 +991,9 @@
         "https://nj.gov/dep/fgw/pdf/2003/plcpnds03.pdf"
       ],
       "trout_stocked_2026_spring": false,
-      "name_collision_warning": "A 'Crystal Lake' appears in the 2026 NJDEP stocking PDF with 2,190 trout allocated. This Bergen Crystal Lake is only ~3 acres; the stocked Crystal Lake is much larger and located elsewhere. Verify before claiming stocked."
+      "name_collision_warning": "A 'Crystal Lake' appears in the 2026 NJDEP stocking PDF with 2,190 trout allocated. This Bergen Crystal Lake is only ~3 acres; the stocked Crystal Lake is much larger and located elsewhere. Verify before claiming stocked.",
+      "coords_source": "Google Places API, verified 2026-05-12",
+      "coords_note": "Google Places: Crystal Lake Park, Englewood/Leonia border."
     },
     {
       "id": "indian-lake",
@@ -978,8 +1004,8 @@
         "Little Ferry"
       ],
       "county": "Bergen",
-      "lat": null,
-      "lng": null,
+      "lat": 40.8556,
+      "lng": -74.0361,
       "elevation_ft": null,
       "acres": 6,
       "acres_source": "NJDEP 2003 Places to Fish",
@@ -1012,7 +1038,9 @@
         "https://nj.gov/dep/fgw/pdf/2003/plcpnds03.pdf"
       ],
       "trout_stocked_2026_spring": false,
-      "name_collision_warning": "A 'Indian Lake' appears in the 2026 NJDEP stocking PDF with 1,760 trout allocated. This Bergen Indian Lake is ~6 acres; the stocked Indian Lake (Denville, Morris County) is ~73 acres. Different waterbody."
+      "name_collision_warning": "A 'Indian Lake' appears in the 2026 NJDEP stocking PDF with 1,760 trout allocated. This Bergen Indian Lake is ~6 acres; the stocked Indian Lake (Denville, Morris County) is ~73 acres. Different waterbody.",
+      "coords_source": "Google Places API, verified 2026-05-12",
+      "coords_note": "Google Places: Indian Lake, Little Ferry."
     },
     {
       "id": "liberty-park-pond",
@@ -1023,8 +1051,8 @@
         "Saddle River"
       ],
       "county": "Bergen",
-      "lat": null,
-      "lng": null,
+      "lat": 41.0715,
+      "lng": -74.0887,
       "elevation_ft": null,
       "acres": 1.5,
       "acres_source": "NJDEP 2003 Places to Fish",
@@ -1055,7 +1083,9 @@
         "https://nj.gov/dep/fgw/pdf/2003/plcpnds03.pdf"
       ],
       "trout_stocked_2026_spring": false,
-      "depth_map_status": "no NJDEP bathymetric map published"
+      "depth_map_status": "no NJDEP bathymetric map published",
+      "coords_source": "Google Places API, verified 2026-05-12",
+      "coords_note": "Google Places returned 'Liberty Park Reflection Pond' in Upper Saddle River. Bergen JSON town field says 'Saddle River'. The pond is on the border \u2014 Bergen JSON town field may be incorrect; coordinate verified."
     },
     {
       "id": "mill-pond-park-ridge",
@@ -1113,8 +1143,8 @@
         "Wyckoff"
       ],
       "county": "Bergen",
-      "lat": null,
-      "lng": null,
+      "lat": 41.0108,
+      "lng": -74.1749,
       "elevation_ft": null,
       "acres": 4,
       "acres_source": "NJDEP 2003 Places to Fish (2 ac in alt source)",
@@ -1147,7 +1177,9 @@
         "https://www.newjerseyhunter.com/threads/bergen-county-fishing.12318/"
       ],
       "trout_stocked_2026_spring": false,
-      "depth_map_status": "no NJDEP bathymetric map published"
+      "depth_map_status": "no NJDEP bathymetric map published",
+      "coords_source": "Google Places API, verified 2026-05-12",
+      "coords_note": "Google Places: Zabriskies Pond, Wyckoff."
     }
   ],
   "streams_open_to_angling": [
@@ -1237,7 +1269,7 @@
     "verification_status": {
       "scarlet_oak_depth_pdf": "verified loads (user-confirmed)",
       "veolia_fees": "verified 2026-05-12 (user-provided)",
-      "gnis_lat_lng_batch": "outstanding - 17 of 21 waterbodies still missing coordinates"
+      "gnis_lat_lng_batch": "complete via Google Places (2026-05-12): 16 previously-null entries now have coordinates. Campgaw Pond is approximate (park centroid); all others are direct waterbody hits."
     }
   }
 }
