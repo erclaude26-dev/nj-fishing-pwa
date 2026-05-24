@@ -1,0 +1,1403 @@
+{
+  "_comment": "NJ trout-stream hatch charts transcribed from The Fly Shack. Month resolution (Jan-Dec booleans). Per-fly entomology lives in nj-aquatic-insects.json, joined on the 'name' field. Duplicate fly names within one river = split/multi-brood hatches; both rows kept intentionally.",
+  "source": {
+    "name": "The Fly Shack, Inc.",
+    "base_url": "https://www.flyshack.com/HCState.aspx"
+  },
+  "transcribed": "2026-05-24",
+  "resolution": "month",
+  "rivers": [
+    {
+      "flyshack_name": "Big Flat Brook",
+      "njdep_match": "Big Flat Brook",
+      "source_url": "https://www.flyshack.com/HatchChart.aspx?RiverID=1701",
+      "flies": [
+        {
+          "name": "Red Quill",
+          "hook_size": "12 - 14",
+          "months": [
+            false,
+            false,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Little Black Stonefly",
+          "hook_size": "16",
+          "months": [
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Blue Quill",
+          "hook_size": "18",
+          "months": [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Blue Winged Olive",
+          "hook_size": "20",
+          "months": [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            true,
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Hendrickson",
+          "hook_size": "12 - 14",
+          "months": [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Quill Gordon",
+          "hook_size": "14",
+          "months": [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Gray Caddis",
+          "hook_size": "16 - 18",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Gray Fox",
+          "hook_size": "12",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "March Brown",
+          "hook_size": "12",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Tan Caddis",
+          "hook_size": "14 - 16",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Olive Caddis",
+          "hook_size": "16",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Trico",
+          "hook_size": "24",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Terrestrials (various)",
+          "hook_size": "16 - 22",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false
+          ]
+        }
+      ]
+    },
+    {
+      "flyshack_name": "Musconetcong River",
+      "njdep_match": "Musconetcong River",
+      "source_url": "https://www.flyshack.com/HatchChart.aspx?RiverID=1702",
+      "flies": [
+        {
+          "name": "Little Black Stonefly",
+          "hook_size": "14 - 16",
+          "months": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Blue Quill",
+          "hook_size": "18",
+          "months": [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Blue Winged Olive",
+          "hook_size": "20",
+          "months": [
+            false,
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Grannom",
+          "hook_size": "16",
+          "months": [
+            false,
+            false,
+            false,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Quill Gordon",
+          "hook_size": "14",
+          "months": [
+            false,
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Tan Caddis",
+          "hook_size": "16 - 20",
+          "months": [
+            false,
+            false,
+            false,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Hendrickson",
+          "hook_size": "12 - 14",
+          "months": [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Red Quill",
+          "hook_size": "12 - 14",
+          "months": [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Green Caddis",
+          "hook_size": "16",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Light Cahill",
+          "hook_size": "14",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Slate Drake",
+          "hook_size": "12 - 14",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Sulphur",
+          "hook_size": "16",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Green Drake",
+          "hook_size": "8 - 10",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Trico",
+          "hook_size": "24",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "White Fly",
+          "hook_size": "14",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "October Caddis",
+          "hook_size": "12",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true,
+            false,
+            false
+          ]
+        }
+      ]
+    },
+    {
+      "flyshack_name": "Paulinskill River",
+      "njdep_match": "Paulins Kill",
+      "source_url": "https://www.flyshack.com/HatchChart.aspx?RiverID=1703",
+      "flies": [
+        {
+          "name": "Blue Winged Olive",
+          "hook_size": "20",
+          "months": [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Grannom",
+          "hook_size": "14 - 16",
+          "months": [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Quill Gordon",
+          "hook_size": "12 - 14",
+          "months": [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Hendrickson",
+          "hook_size": "12 - 14",
+          "months": [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Gray Fox",
+          "hook_size": "12 - 14",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Light Cahill",
+          "hook_size": "14",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "March Brown",
+          "hook_size": "14",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Sulphur",
+          "hook_size": "16 - 18",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Slate Drake",
+          "hook_size": "12 - 14",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Slate Drake",
+          "hook_size": "6 - 8",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Terrestrials (various)",
+          "hook_size": "16 - 20",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false
+          ]
+        }
+      ]
+    },
+    {
+      "flyshack_name": "Pequest River",
+      "njdep_match": "Pequest River",
+      "source_url": "https://www.flyshack.com/HatchChart.aspx?RiverID=1704",
+      "flies": [
+        {
+          "name": "Blue Quill",
+          "hook_size": "18",
+          "months": [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Hendrickson",
+          "hook_size": "12 - 14",
+          "months": [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "March Brown",
+          "hook_size": "12",
+          "months": [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Gray Fox",
+          "hook_size": "12 - 14",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Sulphur",
+          "hook_size": "16 - 18",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Light Cahill",
+          "hook_size": "14",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Slate Drake",
+          "hook_size": "12 - 14",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Trico",
+          "hook_size": "24",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Terrestrials (various)",
+          "hook_size": "12 - 20",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false
+          ]
+        }
+      ]
+    },
+    {
+      "flyshack_name": "Ramapo River",
+      "njdep_match": "Ramapo River",
+      "source_url": "https://www.flyshack.com/HatchChart.aspx?RiverID=1705",
+      "flies": [
+        {
+          "name": "Little Black Stonefly",
+          "hook_size": "10 - 16",
+          "months": [
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Midges (various)",
+          "hook_size": "20 - 28",
+          "months": [
+            false,
+            false,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Tan Caddis",
+          "hook_size": "16 - 18",
+          "months": [
+            false,
+            false,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Blue Winged Olive",
+          "hook_size": "16 - 20",
+          "months": [
+            false,
+            false,
+            false,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Gray Fox",
+          "hook_size": "12 - 14",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Light Cahill",
+          "hook_size": "14 - 16",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Slate Drake",
+          "hook_size": "10 - 12",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Sulphur",
+          "hook_size": "14 - 16",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Terrestrials (various)",
+          "hook_size": "16 - 20",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false
+          ]
+        }
+      ]
+    },
+    {
+      "flyshack_name": "South Branch Raritan River",
+      "njdep_match": "Raritan River S/B",
+      "source_url": "https://www.flyshack.com/HatchChart.aspx?RiverID=1706",
+      "flies": [
+        {
+          "name": "Little Black Stonefly",
+          "hook_size": "14 - 16",
+          "months": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Blue Quill",
+          "hook_size": "18",
+          "months": [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Hendrickson",
+          "hook_size": "12 - 14",
+          "months": [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Red Quill",
+          "hook_size": "12 - 14",
+          "months": [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Blue Winged Olive",
+          "hook_size": "14",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Gray Fox",
+          "hook_size": "12 - 14",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Light Cahill",
+          "hook_size": "14",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Little Yellow Stonefly",
+          "hook_size": "16",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "March Brown",
+          "hook_size": "12",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Slate Drake",
+          "hook_size": "12 - 14",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Sulphur",
+          "hook_size": "16",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Tan Caddis",
+          "hook_size": "14",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Olive Caddis",
+          "hook_size": "16",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Blue Winged Olive",
+          "hook_size": "20 - 24",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Brown Caddis",
+          "hook_size": "14",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "Slate Drake",
+          "hook_size": "8",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "name": "White Fly",
+          "hook_size": "14",
+          "months": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false
+          ]
+        }
+      ]
+    }
+  ]
+}

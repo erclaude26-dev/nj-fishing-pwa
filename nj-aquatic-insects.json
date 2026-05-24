@@ -1,0 +1,1096 @@
+[
+  {
+    "name": "Red Quill",
+    "category": "mayfly",
+    "latin_name": "Ephemerella subvaria",
+    "also_known_as": [
+      "Red Quill (male Hendrickson dun)"
+    ],
+    "hook_sizes": "12-14",
+    "life_stages": [
+      {
+        "stage": "nymph",
+        "fish_when": "Days before and during the hatch; fish a dark crawler nymph through riffles and along pool margins.",
+        "note": "Same nymph as Hendrickson."
+      },
+      {
+        "stage": "emerger",
+        "fish_when": "Once dead-drifted nymphs stop producing and duns appear on the surface.",
+        "note": null
+      },
+      {
+        "stage": "dun",
+        "fish_when": "Early to mid afternoon when duns ride the surface drying their wings.",
+        "note": "Red Quill is the male dun of E. subvaria; the female dun is the Dark Hendrickson."
+      },
+      {
+        "stage": "spinner",
+        "fish_when": "Evening spinner falls over riffles, often the most productive phase.",
+        "note": null
+      }
+    ],
+    "emergence": {
+      "water_temp_f": [
+        50,
+        55
+      ],
+      "time_of_day": "early to mid afternoon (roughly 1-3 pm); spinner fall at dusk",
+      "weather_light": "Cold or overcast conditions slow the duns' wing-drying and concentrate them on the surface, increasing trout vulnerability.",
+      "peak_note": "Spring hatch overlapping the Hendrickson; in northern NJ generally mid-April into May.",
+      "water_temp_basis": "estimated from Hendrickson - Red Quill is the male dun of the same species (Ephemerella subvaria)"
+    },
+    "identification": "Red Quill is not a separate insect from Hendrickson; it is the slimmer, reddish-brown male dun of Ephemerella subvaria, with three tails and gray wings. Anglers often see Red Quill and Dark Hendrickson duns on the water at the same time.",
+    "fishing_tips": "Carry both Red Quill (male) and Hendrickson (female) patterns and match what the trout select. Fish the nymph in the days before the hatch. Do not leave at dark - stay for the spinner fall.",
+    "sources": [
+      "The Fly Shack NJ hatch charts (Big Flat Brook, Musconetcong, Paulinskill, Pequest, Ramapo, South Branch Raritan): flyshack.com/HCState.aspx",
+      "Midcurrent 'How to Fish the Hendrickson Hatch'; flyfishingentomology.com 'The Hendrickson Hatch'; The River Reporter (50-55F prolific-emergence trigger, multi-source)"
+    ],
+    "uncertain_fields": [
+      "water_temp_f (inherited from Hendrickson, not independently measured for the male dun)"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Little Black Stonefly",
+    "category": "stonefly",
+    "latin_name": null,
+    "also_known_as": [
+      "Early Black Stonefly",
+      "Snowfly"
+    ],
+    "hook_sizes": "14-16 (NJ charts list 10-16)",
+    "life_stages": [
+      {
+        "stage": "nymph",
+        "fish_when": "Late winter to early spring; small dark stonefly nymph drifted near the bottom along riffles and gravel.",
+        "note": null
+      },
+      {
+        "stage": "adult",
+        "fish_when": "Warmest part of midday when adults are on or near the surface and crawling on snow and streamside structure.",
+        "note": "Egg-laying females return to the water."
+      }
+    ],
+    "emergence": {
+      "water_temp_f": null,
+      "time_of_day": "midday, the warmest hours",
+      "weather_light": "Activity concentrates on milder, sunnier late-winter days.",
+      "peak_note": "One of the earliest hatches of the year - late winter into early spring.",
+      "water_temp_basis": null
+    },
+    "identification": "Small (typically size 14-18) very dark, near-black stonefly. Adults are most visible crawling on snow, ice, and bridge rails along the stream in late winter. The group includes several families of small early-season black stoneflies.",
+    "fishing_tips": "Fish a small black stonefly nymph deep along the bottom - the nymph stage produces far more than the adult. On mild days watch for adults on snow and try a small black dry near the banks.",
+    "sources": [
+      "The Fly Shack NJ hatch charts (Big Flat Brook, Musconetcong, Paulinskill, Pequest, Ramapo, South Branch Raritan): flyshack.com/HCState.aspx"
+    ],
+    "uncertain_fields": [
+      "latin_name (a multi-family group of small early black stoneflies, e.g. Capniidae and Taeniopterygidae; no single species)",
+      "water_temp_f"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "name": "Blue Quill",
+    "category": "mayfly",
+    "latin_name": "Paraleptophlebia adoptiva",
+    "also_known_as": [
+      "Little Blue Quill"
+    ],
+    "hook_sizes": "18",
+    "life_stages": [
+      {
+        "stage": "nymph",
+        "fish_when": "Before and during the hatch; small slender nymph fished in slower water and pool edges.",
+        "note": null
+      },
+      {
+        "stage": "emerger",
+        "fish_when": "During emergence when duns are breaking the surface film.",
+        "note": null
+      },
+      {
+        "stage": "dun",
+        "fish_when": "Midday into afternoon as small duns drift the surface.",
+        "note": null
+      },
+      {
+        "stage": "spinner",
+        "fish_when": "Late day spinner falls.",
+        "note": null
+      }
+    ],
+    "emergence": {
+      "water_temp_f": [
+        44,
+        50
+      ],
+      "time_of_day": "late morning through afternoon",
+      "weather_light": "Overcast days tend to extend surface activity.",
+      "peak_note": "Early-season hatch overlapping Quill Gordon; in northern NJ generally April.",
+      "water_temp_basis": "estimated from Quill Gordon and early-season hatch-progression literature - Blue Quill emerges in the same early window"
+    },
+    "identification": "A small (size 18-20) slate-blue-winged mayfly with a slim dark body and three tails. Easy to overlook because of its size; often appears alongside Quill Gordon and early Blue Winged Olive.",
+    "fishing_tips": "Do not under-gun the fly - a true size 18 is needed. Fish slower water and pool tailouts rather than fast riffles. A small dark emerger in the film is often more productive than the dun.",
+    "sources": [
+      "The Fly Shack NJ hatch charts (Big Flat Brook, Musconetcong, Paulinskill, Pequest, Ramapo, South Branch Raritan): flyshack.com/HCState.aspx",
+      "FlyFishFinder NY hatch chart (Quill Gordon, low 40s F); general Catskill hatch literature"
+    ],
+    "uncertain_fields": [
+      "water_temp_f (estimated from early-season hatch timing, not directly sourced for this species)"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "name": "Blue Winged Olive",
+    "category": "mayfly",
+    "latin_name": null,
+    "also_known_as": [
+      "BWO",
+      "Olive"
+    ],
+    "hook_sizes": "18-20 (NJ charts list 14-24 across broods)",
+    "life_stages": [
+      {
+        "stage": "nymph",
+        "fish_when": "Year-round; small olive/brown nymphs are a reliable subsurface searching pattern.",
+        "note": null
+      },
+      {
+        "stage": "emerger",
+        "fish_when": "The most productive stage during a hatch - fish in or just under the film.",
+        "note": "BWO emergers are notoriously slow to leave the water."
+      },
+      {
+        "stage": "dun",
+        "fish_when": "During the hatch, especially on overcast days when duns ride the surface longer.",
+        "note": null
+      },
+      {
+        "stage": "spinner",
+        "fish_when": "Spinner falls, often morning or evening depending on brood.",
+        "note": null
+      }
+    ],
+    "emergence": {
+      "water_temp_f": null,
+      "time_of_day": "midday, especially on overcast days",
+      "weather_light": "Overcast, cool, drizzly days reliably produce the heaviest BWO emergences and the longest surface activity; a classic 'bad weather' hatch.",
+      "peak_note": "Multi-brooded - appears in spring and again in fall, with sporadic activity in between.",
+      "water_temp_basis": null
+    },
+    "identification": "BWO is a catch-all for several small mayflies with olive bodies and dull blue-gray (dun) wings, spanning multiple genera (e.g. Baetis and others). Sizes range widely; identify by the small size, olive body, and gray wing rather than by precise color.",
+    "fishing_tips": "Lean on emerger and cripple patterns - duns alone often underperform. Fish it hardest on cold, gray, drizzly days. Carry a range of sizes because the BWO complex spans roughly size 14-24.",
+    "sources": [
+      "The Fly Shack NJ hatch charts (Big Flat Brook, Musconetcong, Paulinskill, Pequest, Ramapo, South Branch Raritan): flyshack.com/HCState.aspx"
+    ],
+    "uncertain_fields": [
+      "latin_name (multi-species, multi-genus complex; no single species)",
+      "water_temp_f (multi-brood; no single emergence trigger)",
+      "hook_sizes (varies widely by brood and stream)"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "name": "Hendrickson",
+    "category": "mayfly",
+    "latin_name": "Ephemerella subvaria",
+    "also_known_as": [
+      "Dark Hendrickson (female dun)"
+    ],
+    "hook_sizes": "12-14",
+    "life_stages": [
+      {
+        "stage": "nymph",
+        "fish_when": "In the days before the hatch; the dark crawler nymph 'practices' rising to the surface and is very catchable.",
+        "note": null
+      },
+      {
+        "stage": "emerger",
+        "fish_when": "When dead-drifted nymphs slow down and duns start appearing.",
+        "note": null
+      },
+      {
+        "stage": "dun",
+        "fish_when": "Early to mid afternoon when duns ride the surface.",
+        "note": "Female dun is the Dark Hendrickson; male dun is the Red Quill."
+      },
+      {
+        "stage": "spinner",
+        "fish_when": "Evening spinner fall over riffles - often the best fishing of the event.",
+        "note": null
+      }
+    ],
+    "emergence": {
+      "water_temp_f": [
+        50,
+        55
+      ],
+      "time_of_day": "early to mid afternoon (roughly 1-3 pm); spinner fall at dusk",
+      "weather_light": "Sporadic emergence begins in the mid-40s F; cold or overcast weather can compress the hatch and leave more helpless duns on the surface at once.",
+      "peak_note": "First major mayfly hatch of the Eastern season; prolific emergence at 50-55F, typically mid-April into May in northern NJ, lasting 2-3 weeks.",
+      "water_temp_basis": "direct"
+    },
+    "identification": "A size 12-14 mayfly with three tails and gray wings. The female dun (Dark Hendrickson) is gray-brown with a pinkish cast; the male (Red Quill) is slimmer and reddish-brown. Nymphs are dark crawlers from riffle gravel.",
+    "fishing_tips": "Fish the nymph in the days before duns appear. Switch to emergers when nymphing slows. Be on the water by 1 pm and stay through the spinner fall. Trout may key on one sex - carry both Hendrickson and Red Quill.",
+    "sources": [
+      "The Fly Shack NJ hatch charts (Big Flat Brook, Musconetcong, Paulinskill, Pequest, Ramapo, South Branch Raritan): flyshack.com/HCState.aspx",
+      "Midcurrent 'How to Fish the Hendrickson Hatch'; flyfishingentomology.com 'The Hendrickson Hatch'; The River Reporter (50-55F prolific-emergence trigger, multi-source)"
+    ],
+    "uncertain_fields": [],
+    "confidence": "high"
+  },
+  {
+    "name": "Quill Gordon",
+    "category": "mayfly",
+    "latin_name": "Epeorus pleuralis",
+    "also_known_as": [
+      "Gordon Quill"
+    ],
+    "hook_sizes": "14 (one NJ chart lists 12-14)",
+    "life_stages": [
+      {
+        "stage": "nymph",
+        "fish_when": "Before the hatch; flat clinger nymph fished in and just below fast riffles.",
+        "note": "Epeorus nymphs emerge on the streambed, so the swimming/emerger stages matter."
+      },
+      {
+        "stage": "emerger",
+        "fish_when": "During emergence - duns reach the surface already winged, so wet-fly and emerger presentations are effective.",
+        "note": null
+      },
+      {
+        "stage": "dun",
+        "fish_when": "Early afternoon during the short, intense emergence window.",
+        "note": null
+      },
+      {
+        "stage": "spinner",
+        "fish_when": "Spinner falls, typically late day.",
+        "note": null
+      }
+    ],
+    "emergence": {
+      "water_temp_f": [
+        42,
+        50
+      ],
+      "time_of_day": "early afternoon",
+      "weather_light": "Needs the warmest part of an early-spring day; a brief, intense window rather than an all-day hatch.",
+      "peak_note": "Typically the first mayfly hatch of the season, often slightly ahead of and overlapping Hendrickson; northern NJ generally early-to-mid April.",
+      "water_temp_basis": "direct"
+    },
+    "identification": "A size 14 mayfly with mottled gray-dun wings and a two-tailed dun (Epeorus has two tails, distinguishing it from the three-tailed Hendrickson). Nymphs are flat-bodied clingers from fast water.",
+    "fishing_tips": "Fish a wet fly or soft hackle through the swing - Epeorus emerges on the bottom, so subsurface presentations shine. The window is short; be ready in early afternoon. Often hatches in cool weather when trout barely respond - check for actual rises before committing to dries.",
+    "sources": [
+      "The Fly Shack NJ hatch charts (Big Flat Brook, Musconetcong, Paulinskill, Pequest, Ramapo, South Branch Raritan): flyshack.com/HCState.aspx",
+      "FlyFishFinder NY hatch chart (Quill Gordon, low 40s F); general Catskill hatch literature"
+    ],
+    "uncertain_fields": [
+      "water_temp_f (sources conflict - one regional hatch chart cites low 40s F, while general Catskill literature commonly cites near 50 F; range given spans both)"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "name": "Gray Caddis",
+    "category": "caddisfly",
+    "latin_name": null,
+    "also_known_as": [],
+    "hook_sizes": "16-18",
+    "life_stages": [
+      {
+        "stage": "larva",
+        "fish_when": "Year-round subsurface; cased or net-spinning caddis larva drifted near the bottom.",
+        "note": null
+      },
+      {
+        "stage": "pupa",
+        "fish_when": "During emergence - a rising pupa pattern is often the most productive caddis stage.",
+        "note": null
+      },
+      {
+        "stage": "adult",
+        "fish_when": "When adults are on the water, especially during egg-laying.",
+        "note": null
+      }
+    ],
+    "emergence": {
+      "water_temp_f": null,
+      "time_of_day": "afternoon into evening (typical for caddis)",
+      "weather_light": null,
+      "peak_note": "An angler color category rather than one species; consult the seasonal bar on the flyshack chart for the local window.",
+      "water_temp_basis": null
+    },
+    "identification": "'Gray Caddis' is a color-based grouping, not a single species - any caddis with a gray-toned wing of roughly size 16-18. Identify caddis generally by the tent-shaped wing held over the body at rest and erratic, moth-like flight.",
+    "fishing_tips": "Match size and silhouette first, color second. Fish a pupa pattern in or just under the film during emergence. A skittered or twitched adult imitates egg-laying behavior and can trigger strikes.",
+    "sources": [
+      "The Fly Shack NJ hatch charts (Big Flat Brook, Musconetcong, Paulinskill, Pequest, Ramapo, South Branch Raritan): flyshack.com/HCState.aspx"
+    ],
+    "uncertain_fields": [
+      "latin_name (color category, not a species; gray-toned caddis can span multiple genera)",
+      "water_temp_f",
+      "weather_light"
+    ],
+    "confidence": "low"
+  },
+  {
+    "name": "Gray Fox",
+    "category": "mayfly",
+    "latin_name": "Maccaffertium vicarium",
+    "also_known_as": [
+      "Gray Fox (historically Stenonema fuscum)"
+    ],
+    "hook_sizes": "12-14",
+    "life_stages": [
+      {
+        "stage": "nymph",
+        "fish_when": "Before the hatch; flat clinger nymph in moderate-to-fast water.",
+        "note": null
+      },
+      {
+        "stage": "emerger",
+        "fish_when": "During emergence in the surface film.",
+        "note": null
+      },
+      {
+        "stage": "dun",
+        "fish_when": "Afternoon into evening when duns are on the surface.",
+        "note": null
+      },
+      {
+        "stage": "spinner",
+        "fish_when": "Evening spinner falls.",
+        "note": null
+      }
+    ],
+    "emergence": {
+      "water_temp_f": null,
+      "time_of_day": "afternoon into evening",
+      "weather_light": null,
+      "peak_note": "Late-spring hatch overlapping March Brown; northern NJ generally mid-to-late May.",
+      "water_temp_basis": null
+    },
+    "identification": "Gray Fox is a paler, lighter individual of what modern taxonomy treats as the same species as the March Brown (Maccaffertium vicarium). It is a size 12-14 mayfly with mottled wings; older references treated it as a separate species, Stenonema fuscum.",
+    "fishing_tips": "Treat Gray Fox and March Brown as one hatch with light and dark variants - carry both shades. Fish afternoons into evening. A flat-water clinger nymph works well in the days before duns appear.",
+    "sources": [
+      "The Fly Shack NJ hatch charts (Big Flat Brook, Musconetcong, Paulinskill, Pequest, Ramapo, South Branch Raritan): flyshack.com/HCState.aspx"
+    ],
+    "uncertain_fields": [
+      "latin_name (Gray Fox is now generally lumped into Maccaffertium vicarium / March Brown; historically separated as Stenonema fuscum - taxonomic conflict)",
+      "water_temp_f"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "name": "March Brown",
+    "category": "mayfly",
+    "latin_name": "Maccaffertium vicarium",
+    "also_known_as": [
+      "American March Brown"
+    ],
+    "hook_sizes": "12 (one NJ chart lists 14)",
+    "life_stages": [
+      {
+        "stage": "nymph",
+        "fish_when": "Before the hatch; flat clinger nymph in moderate-to-fast riffles.",
+        "note": null
+      },
+      {
+        "stage": "emerger",
+        "fish_when": "During the typically sparse, drawn-out emergence.",
+        "note": null
+      },
+      {
+        "stage": "dun",
+        "fish_when": "Afternoon into evening; emergence is often sporadic across the day.",
+        "note": null
+      },
+      {
+        "stage": "spinner",
+        "fish_when": "Evening spinner falls, which can concentrate fish more than the scattered dun emergence.",
+        "note": null
+      }
+    ],
+    "emergence": {
+      "water_temp_f": null,
+      "time_of_day": "afternoon into evening; emergence often spread thinly across the day",
+      "weather_light": null,
+      "peak_note": "Late-spring hatch (despite the name, it is not an early-spring insect in the Northeast); northern NJ generally mid-to-late May into June.",
+      "water_temp_basis": null
+    },
+    "identification": "A large (size 12-14) mayfly with strongly mottled gray-brown wings and a banded body. Modern taxonomy treats it and the Gray Fox as the same species (Maccaffertium vicarium), with the March Brown being the darker individual.",
+    "fishing_tips": "Emergence is usually sparse and scattered rather than a blanket hatch - a searching dry in likely lies often beats waiting for a thick hatch. Do not be misled by the name; this is a May/June insect in NJ. Fish the spinner fall in the evening.",
+    "sources": [
+      "The Fly Shack NJ hatch charts (Big Flat Brook, Musconetcong, Paulinskill, Pequest, Ramapo, South Branch Raritan): flyshack.com/HCState.aspx"
+    ],
+    "uncertain_fields": [
+      "water_temp_f (no credible single-value emergence temperature located; one general guide cited 42 F but conflated this with an early-spring insect, which is inconsistent with the species' actual late-May timing)"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "name": "Tan Caddis",
+    "category": "caddisfly",
+    "latin_name": null,
+    "also_known_as": [],
+    "hook_sizes": "14-18 (NJ charts list 14-20)",
+    "life_stages": [
+      {
+        "stage": "larva",
+        "fish_when": "Year-round subsurface near the bottom.",
+        "note": null
+      },
+      {
+        "stage": "pupa",
+        "fish_when": "During emergence - a rising/swinging pupa is often the key stage.",
+        "note": null
+      },
+      {
+        "stage": "adult",
+        "fish_when": "When adults are on the water, especially egg-laying females.",
+        "note": null
+      }
+    ],
+    "emergence": {
+      "water_temp_f": null,
+      "time_of_day": "afternoon into evening (typical for caddis)",
+      "weather_light": null,
+      "peak_note": "An angler color category; one of the most common caddis colors on Northeastern streams across much of the season.",
+      "water_temp_basis": null
+    },
+    "identification": "'Tan Caddis' is a color grouping, not a species - tan-bodied/tan-winged caddis of roughly size 14-18, frequently net-spinning caddis. Identify caddis by the tent-shaped wing at rest and erratic flight.",
+    "fishing_tips": "An Elk Hair Caddis in tan covers this group well. Fish a pupa just under the surface during emergence. Twitch the adult to imitate egg-laying. Match size before fussing over exact shade.",
+    "sources": [
+      "The Fly Shack NJ hatch charts (Big Flat Brook, Musconetcong, Paulinskill, Pequest, Ramapo, South Branch Raritan): flyshack.com/HCState.aspx"
+    ],
+    "uncertain_fields": [
+      "latin_name (color category, not a species)",
+      "water_temp_f",
+      "weather_light"
+    ],
+    "confidence": "low"
+  },
+  {
+    "name": "Olive Caddis",
+    "category": "caddisfly",
+    "latin_name": null,
+    "also_known_as": [],
+    "hook_sizes": "16",
+    "life_stages": [
+      {
+        "stage": "larva",
+        "fish_when": "Year-round subsurface near the bottom.",
+        "note": null
+      },
+      {
+        "stage": "pupa",
+        "fish_when": "During emergence - rising pupa pattern.",
+        "note": null
+      },
+      {
+        "stage": "adult",
+        "fish_when": "When adults are on the water, especially during egg-laying.",
+        "note": null
+      }
+    ],
+    "emergence": {
+      "water_temp_f": null,
+      "time_of_day": "afternoon into evening (typical for caddis)",
+      "weather_light": null,
+      "peak_note": "An angler color category; consult the seasonal bar on the flyshack chart for the local window.",
+      "water_temp_basis": null
+    },
+    "identification": "'Olive Caddis' is a color grouping, not a species - caddis with an olive-toned body of roughly size 16. Identify caddis by the tent-shaped wing held over the body at rest and erratic flight.",
+    "fishing_tips": "Match the olive body and size 16 silhouette. Fish a pupa in or below the film during emergence. A twitched adult imitates egg-laying. Color matters less than size and profile.",
+    "sources": [
+      "The Fly Shack NJ hatch charts (Big Flat Brook, Musconetcong, Paulinskill, Pequest, Ramapo, South Branch Raritan): flyshack.com/HCState.aspx"
+    ],
+    "uncertain_fields": [
+      "latin_name (color category, not a species)",
+      "water_temp_f",
+      "weather_light"
+    ],
+    "confidence": "low"
+  },
+  {
+    "name": "Trico",
+    "category": "mayfly",
+    "latin_name": "Tricorythodes",
+    "also_known_as": [
+      "Trico",
+      "Tiny White-Winged Black",
+      "White-Winged Curse"
+    ],
+    "hook_sizes": "24",
+    "life_stages": [
+      {
+        "stage": "nymph",
+        "fish_when": "Subsurface in slower water before emergence; small and difficult, less commonly targeted.",
+        "note": null
+      },
+      {
+        "stage": "dun",
+        "fish_when": "Early morning emergence, often before the spinner fall.",
+        "note": null
+      },
+      {
+        "stage": "spinner",
+        "fish_when": "The main event - mid-to-late morning spinner fall, when clouds of spent spinners blanket slow flats.",
+        "note": null
+      }
+    ],
+    "emergence": {
+      "water_temp_f": null,
+      "time_of_day": "early morning emergence; spinner fall mid-to-late morning",
+      "weather_light": "Warm summer mornings drive the timing; cooler mornings push the spinner fall later.",
+      "peak_note": "Summer into early fall; a dependable daily morning hatch on slower glides and pools.",
+      "water_temp_basis": null
+    },
+    "identification": "A tiny (size 22-26) mayfly: black-bodied with clear/white wings. Males emerge as duns, females have pale-green to olive-tinged bodies; spent spinners gather in dense clouds and fall to the water in slow sections.",
+    "fishing_tips": "This is a precise, fine-tippet game - 6X or 7X and a true small fly. Fish the spinner fall on slow flats and pick a single rising fish. Cooler mornings delay the fall, giving you a later start.",
+    "sources": [
+      "The Fly Shack NJ hatch charts (Big Flat Brook, Musconetcong, Paulinskill, Pequest, Ramapo, South Branch Raritan): flyshack.com/HCState.aspx"
+    ],
+    "uncertain_fields": [
+      "latin_name (genus given; multiple Tricorythodes species, not identified to species)",
+      "water_temp_f"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "name": "Terrestrials (various)",
+    "category": "terrestrial",
+    "latin_name": null,
+    "also_known_as": [
+      "Hoppers",
+      "Ants",
+      "Beetles",
+      "Crickets"
+    ],
+    "hook_sizes": "12-22 (varies widely; NJ charts list 12-22)",
+    "life_stages": [
+      {
+        "stage": "adult",
+        "fish_when": "Warm months, midday into afternoon, when land insects are blown or fall onto the water - fish them tight to banks and under overhanging cover.",
+        "note": "Terrestrials have no aquatic life stage; trout encounter only the adult."
+      }
+    ],
+    "emergence": {
+      "water_temp_f": null,
+      "time_of_day": "midday through afternoon, the warmest and most active hours for land insects",
+      "weather_light": "Warm, sunny, breezy days knock more terrestrials onto the water; wind is a positive factor, especially for hoppers.",
+      "peak_note": "Mid-to-late summer into early fall, when grasshopper, ant, and beetle populations peak.",
+      "water_temp_basis": null
+    },
+    "identification": "A catch-all for land-based insects that fall into the stream: ants, beetles, grasshoppers, crickets, and similar. Not aquatic - there is no nymph or hatch; trout simply intercept adults that land on or are blown onto the water.",
+    "fishing_tips": "Fish tight to grassy banks, undercut edges, and overhanging trees. Beetle and ant patterns excel on warm afternoons; hoppers fish best on breezy days. A terrestrial dropped hard near the bank often draws an immediate reaction strike.",
+    "sources": [
+      "The Fly Shack NJ hatch charts (Big Flat Brook, Musconetcong, Paulinskill, Pequest, Ramapo, South Branch Raritan): flyshack.com/HCState.aspx"
+    ],
+    "uncertain_fields": [
+      "latin_name (broad category covering many orders)",
+      "water_temp_f (not water-emergent)",
+      "hook_sizes (spans a wide range by insect type)"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "name": "Grannom",
+    "category": "caddisfly",
+    "latin_name": "Brachycentrus",
+    "also_known_as": [
+      "Mother's Day Caddis",
+      "Apple Caddis",
+      "Shad Fly"
+    ],
+    "hook_sizes": "14-16",
+    "life_stages": [
+      {
+        "stage": "larva",
+        "fish_when": "Before the hatch; the cased larva (a distinctive square/chimney case) drifted near the bottom.",
+        "note": null
+      },
+      {
+        "stage": "pupa",
+        "fish_when": "During emergence - a rising pupa is highly effective as caddis dash to the surface.",
+        "note": null
+      },
+      {
+        "stage": "adult",
+        "fish_when": "During the often dense, fast-moving adult flights and egg-laying.",
+        "note": null
+      }
+    ],
+    "emergence": {
+      "water_temp_f": null,
+      "time_of_day": "afternoon, with egg-laying often later in the day",
+      "weather_light": null,
+      "peak_note": "Spring hatch, often among the first major caddis emergences; can be very dense.",
+      "water_temp_basis": null
+    },
+    "identification": "A dark-bodied caddis (size 14-16) of the genus Brachycentrus, building a distinctive four-sided ('chimney') case as a larva. Adult emergences can be heavy and fast-moving, sometimes overwhelming the water with insects.",
+    "fishing_tips": "When the hatch is dense, switch to a pupa rather than the adult - trout often feed below a blizzard of egg-laying adults. Fish the cased larva deep beforehand. A twitched adult imitates the skittering egg-layers.",
+    "sources": [
+      "The Fly Shack NJ hatch charts (Big Flat Brook, Musconetcong, Paulinskill, Pequest, Ramapo, South Branch Raritan): flyshack.com/HCState.aspx"
+    ],
+    "uncertain_fields": [
+      "latin_name (genus given; multiple Brachycentrus species, not identified to species)",
+      "water_temp_f"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "name": "Green Caddis",
+    "category": "caddisfly",
+    "latin_name": null,
+    "also_known_as": [
+      "Caddis Green Rock Worm (larva)"
+    ],
+    "hook_sizes": "16",
+    "life_stages": [
+      {
+        "stage": "larva",
+        "fish_when": "Year-round subsurface - a bright-green caddis larva is one of the most reliable searching nymphs.",
+        "note": "The free-living green rock worm larva is widely associated with the genus Rhyacophila."
+      },
+      {
+        "stage": "pupa",
+        "fish_when": "During emergence - rising pupa pattern.",
+        "note": null
+      },
+      {
+        "stage": "adult",
+        "fish_when": "When adults are on the water, including egg-laying.",
+        "note": null
+      }
+    ],
+    "emergence": {
+      "water_temp_f": null,
+      "time_of_day": "afternoon into evening (typical for caddis)",
+      "weather_light": null,
+      "peak_note": "An angler color category; the bright-green larva is present and fishable year-round.",
+      "water_temp_basis": null
+    },
+    "identification": "'Green Caddis' refers to caddis with a bright-green body, size 16. The larval form - a free-living 'green rock worm' - is commonly associated with the genus Rhyacophila, though the chart color label may also cover other green-bodied caddis.",
+    "fishing_tips": "The green larva is a year-round producer - fish it as a bottom-bouncing nymph even when nothing is hatching. During emergence, switch to a green pupa in the film. Match size 16 and the green body.",
+    "sources": [
+      "The Fly Shack NJ hatch charts (Big Flat Brook, Musconetcong, Paulinskill, Pequest, Ramapo, South Branch Raritan): flyshack.com/HCState.aspx"
+    ],
+    "uncertain_fields": [
+      "latin_name (color category; larva commonly associated with Rhyacophila but the label is not species-specific)",
+      "water_temp_f",
+      "weather_light"
+    ],
+    "confidence": "low"
+  },
+  {
+    "name": "Light Cahill",
+    "category": "mayfly",
+    "latin_name": "Stenacron interpunctatum",
+    "also_known_as": [
+      "Cahill"
+    ],
+    "hook_sizes": "14-16",
+    "life_stages": [
+      {
+        "stage": "nymph",
+        "fish_when": "Before the hatch; flat clinger nymph in moderate current.",
+        "note": null
+      },
+      {
+        "stage": "emerger",
+        "fish_when": "During emergence in the surface film, often toward dusk.",
+        "note": null
+      },
+      {
+        "stage": "dun",
+        "fish_when": "Evening, when pale duns are most visible on the water.",
+        "note": null
+      },
+      {
+        "stage": "spinner",
+        "fish_when": "Evening spinner falls.",
+        "note": null
+      }
+    ],
+    "emergence": {
+      "water_temp_f": null,
+      "time_of_day": "evening",
+      "weather_light": "An evening hatch; low light at dusk coincides with peak activity.",
+      "peak_note": "Late spring into summer; a classic warm-evening hatch.",
+      "water_temp_basis": null
+    },
+    "identification": "A pale cream-to-yellow mayfly (size 14-16) with light wings - conspicuous in low evening light. 'Light Cahill' is used loosely for several pale clinger mayflies; Stenacron interpunctatum is the species most often given for it.",
+    "fishing_tips": "Fish the last hour of light into dusk. A pale, high-floating dry is easy to track in low light. Carry an emerger for fish that refuse the dun. Be on productive water before the light goes.",
+    "sources": [
+      "The Fly Shack NJ hatch charts (Big Flat Brook, Musconetcong, Paulinskill, Pequest, Ramapo, South Branch Raritan): flyshack.com/HCState.aspx"
+    ],
+    "uncertain_fields": [
+      "latin_name (Light Cahill is applied loosely to several pale mayflies; Stenacron interpunctatum is the most common attribution but not exclusive)",
+      "water_temp_f"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "name": "Slate Drake",
+    "category": "mayfly",
+    "latin_name": "Isonychia bicolor",
+    "also_known_as": [
+      "Mahogany Dun",
+      "Leadwing Coachman (wet-fly name)"
+    ],
+    "hook_sizes": "12-14 (NJ charts also list larger sizes, ~6-10, for late-season Isonychia)",
+    "life_stages": [
+      {
+        "stage": "nymph",
+        "fish_when": "A strong producer - Isonychia nymphs are fast swimmers that migrate to the stream edges to emerge; fish a slim dark nymph with movement, especially near shore.",
+        "note": null
+      },
+      {
+        "stage": "dun",
+        "fish_when": "Duns mostly crawl out on rocks rather than emerge midstream, so dun fishing can be hit-or-miss.",
+        "note": null
+      },
+      {
+        "stage": "spinner",
+        "fish_when": "Evening spinner falls, which bring fish up reliably.",
+        "note": null
+      }
+    ],
+    "emergence": {
+      "water_temp_f": null,
+      "time_of_day": "nymph migration and emergence into evening; spinner fall at dusk",
+      "weather_light": null,
+      "peak_note": "Long season from early summer into fall; often a dependable late-season mayfly when others have finished.",
+      "water_temp_basis": null
+    },
+    "identification": "A slate-gray-winged mayfly with a dark mahogany body, size 12-14. Nymphs are streamlined, fast swimmers with a pale dorsal stripe. Because duns often crawl out on rocks to emerge, the nymph and spinner are usually more important to the angler than the dun.",
+    "fishing_tips": "Fish the nymph aggressively near the banks and rocks where Isonychia migrate to emerge - dead drift it or give it a slight swing. Do not expect a heavy midstream dun hatch. Stay for the evening spinner fall.",
+    "sources": [
+      "The Fly Shack NJ hatch charts (Big Flat Brook, Musconetcong, Paulinskill, Pequest, Ramapo, South Branch Raritan): flyshack.com/HCState.aspx"
+    ],
+    "uncertain_fields": [
+      "latin_name (Isonychia bicolor is the most common Northeastern species; genus-level confidence is higher than species-level)",
+      "water_temp_f",
+      "hook_sizes (charts list both a 12-14 form and a larger 6-10 form)"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "name": "Sulphur",
+    "category": "mayfly",
+    "latin_name": "Ephemerella invaria",
+    "also_known_as": [
+      "Pale Evening Dun",
+      "PED",
+      "Light Hendrickson"
+    ],
+    "hook_sizes": "16-18 (NJ charts list 14-18)",
+    "life_stages": [
+      {
+        "stage": "nymph",
+        "fish_when": "Before the hatch; dark crawler nymph along riffles and margins.",
+        "note": null
+      },
+      {
+        "stage": "emerger",
+        "fish_when": "Very productive - Sulphurs are slow to leave the surface, so emergers and cripples in the film excel.",
+        "note": null
+      },
+      {
+        "stage": "dun",
+        "fish_when": "Late afternoon into evening when pale-yellow duns ride the surface.",
+        "note": null
+      },
+      {
+        "stage": "spinner",
+        "fish_when": "Evening spinner falls.",
+        "note": null
+      }
+    ],
+    "emergence": {
+      "water_temp_f": [
+        55,
+        60
+      ],
+      "time_of_day": "late afternoon into evening; on freestone streams often into dusk",
+      "weather_light": "An evening hatch on most freestone water; activity intensifies as light fades.",
+      "peak_note": "Late spring into June, following and sometimes overlapping the Hendrickson hatch; northern NJ generally May into June.",
+      "water_temp_basis": "estimated from hatch-progression literature - Sulphurs (genus Ephemerella) follow the Hendrickson hatch and require warmer water than Hendrickson's 50-55 F trigger; no clean single-value source located"
+    },
+    "identification": "A small pale-yellow to yellow-orange mayfly (size 16-18) with pale wings and three tails. 'Sulphur' covers closely related Ephemerella species (commonly E. invaria, with E. dorothea often called the smaller Sulphur). Males run smaller than females.",
+    "fishing_tips": "Fish emergers and cripples in the film - duns alone often draw refusals because the naturals sit low and emerge slowly. Be on the water for the last two hours of light. Carry sizes 16 and 18 since male and female differ in size.",
+    "sources": [
+      "The Fly Shack NJ hatch charts (Big Flat Brook, Musconetcong, Paulinskill, Pequest, Ramapo, South Branch Raritan): flyshack.com/HCState.aspx",
+      "The River Reporter (Sulphur/PED timing and Ephemerella grouping); Ascent Fly Fishing (Ephemerella invaria)"
+    ],
+    "uncertain_fields": [
+      "latin_name (Sulphur covers more than one Ephemerella species; E. invaria given as the most common)",
+      "water_temp_f (estimated from hatch progression relative to Hendrickson, not a directly sourced measurement)"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "name": "Green Drake",
+    "category": "mayfly",
+    "latin_name": "Ephemera guttulata",
+    "also_known_as": [
+      "Eastern Green Drake",
+      "Coffin Fly (spinner)"
+    ],
+    "hook_sizes": "8-10",
+    "life_stages": [
+      {
+        "stage": "nymph",
+        "fish_when": "Before the hatch; large burrowing-mayfly nymph fished near silt/gravel bottoms.",
+        "note": null
+      },
+      {
+        "stage": "emerger",
+        "fish_when": "During emergence as the large duns struggle in the film.",
+        "note": null
+      },
+      {
+        "stage": "dun",
+        "fish_when": "Evening emergence of large pale-green/cream duns.",
+        "note": null
+      },
+      {
+        "stage": "spinner",
+        "fish_when": "The Coffin Fly spinner fall at dusk - a major, sometimes frenzied event.",
+        "note": "The white-bodied spinner is called the Coffin Fly."
+      }
+    ],
+    "emergence": {
+      "water_temp_f": null,
+      "time_of_day": "evening emergence; Coffin Fly spinner fall at dusk",
+      "weather_light": "An evening event; the spinner fall concentrates in the last light.",
+      "peak_note": "Short, intense late-spring hatch, generally late May into June in the Northeast; can produce the year's largest dry-fly activity.",
+      "water_temp_basis": null
+    },
+    "identification": "The largest common Eastern mayfly hatch - duns are size 8-10 with pale green-cream bodies and heavily mottled wings. The spinner stage, the Coffin Fly, has a white body and dark-marked wings. Nymphs are burrowers from silty stream bottoms.",
+    "fishing_tips": "Be on the water in the evening - this hatch and its Coffin Fly spinner fall are short-lived but can move the biggest trout in the river. Carry both the dun and the white Coffin Fly spinner. Big flies on relatively heavy tippet are appropriate.",
+    "sources": [
+      "The Fly Shack NJ hatch charts (Big Flat Brook, Musconetcong, Paulinskill, Pequest, Ramapo, South Branch Raritan): flyshack.com/HCState.aspx"
+    ],
+    "uncertain_fields": [
+      "water_temp_f (no credible single-value emergence temperature located; timing is well established as late May-June but a specific temperature is not)"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "name": "White Fly",
+    "category": "mayfly",
+    "latin_name": "Ephoron leukon",
+    "also_known_as": [
+      "White Miller",
+      "Ephoron"
+    ],
+    "hook_sizes": "14",
+    "life_stages": [
+      {
+        "stage": "nymph",
+        "fish_when": "Before the hatch; burrowing nymph near silt bottoms.",
+        "note": null
+      },
+      {
+        "stage": "emerger",
+        "fish_when": "During the brief, dense dusk emergence.",
+        "note": null
+      },
+      {
+        "stage": "dun",
+        "fish_when": "At dusk - emergence is compressed into a short window and can be blizzard-like.",
+        "note": "The female Ephoron molts unusually fast; duns and spinners are on the water nearly together."
+      },
+      {
+        "stage": "spinner",
+        "fish_when": "Immediately after emergence at dark, with duns and spinners overlapping.",
+        "note": null
+      }
+    ],
+    "emergence": {
+      "water_temp_f": null,
+      "time_of_day": "dusk into dark - a short, concentrated evening window",
+      "weather_light": "Emergence is tied to fading light; the hatch fires hard right at dusk.",
+      "peak_note": "Late summer (commonly August into early September), often a blizzard hatch on larger, warmer streams.",
+      "water_temp_basis": null
+    },
+    "identification": "A ghostly white mayfly (size 14) that emerges in dense clouds at dusk in late summer. Ephoron is unusual in that the female molts to the spinner stage almost immediately, so white duns and spinners appear on the water nearly together.",
+    "fishing_tips": "Be in position before dusk - the window is short and ends in darkness. Fish a white dry you can track in low light. When fish ignore the dun, try a spent/spinner version. Larger, warmer streams produce the densest White Fly activity.",
+    "sources": [
+      "The Fly Shack NJ hatch charts (Big Flat Brook, Musconetcong, Paulinskill, Pequest, Ramapo, South Branch Raritan): flyshack.com/HCState.aspx"
+    ],
+    "uncertain_fields": [
+      "water_temp_f"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "name": "October Caddis",
+    "category": "caddisfly",
+    "latin_name": "Pycnopsyche",
+    "also_known_as": [
+      "Great Autumn Brown Sedge"
+    ],
+    "hook_sizes": "12",
+    "life_stages": [
+      {
+        "stage": "larva",
+        "fish_when": "Through summer and fall; a large cased-caddis larva fished near the bottom.",
+        "note": null
+      },
+      {
+        "stage": "pupa",
+        "fish_when": "During fall emergence - a large rising pupa near the bottom and in the film.",
+        "note": null
+      },
+      {
+        "stage": "adult",
+        "fish_when": "Fall afternoons and during egg-laying near the banks.",
+        "note": null
+      }
+    ],
+    "emergence": {
+      "water_temp_f": null,
+      "time_of_day": "afternoon into evening",
+      "weather_light": null,
+      "peak_note": "Fall hatch (the name reflects its autumn timing); a large caddis worth fishing as the season winds down.",
+      "water_temp_basis": null
+    },
+    "identification": "A large (size 8-12) caddis with an orange-brown body and brownish wings, emerging in autumn. In the East it is generally associated with the genus Pycnopsyche; note the Western 'October Caddis' is a different genus (Dicosmoecus).",
+    "fishing_tips": "Fish a large cased-larva imitation through fall. During emergence, a big pupa worked near the bottom draws strikes. Adults are most catchable along the banks during evening egg-laying. The large size lets you fish heavier tippet.",
+    "sources": [
+      "The Fly Shack NJ hatch charts (Big Flat Brook, Musconetcong, Paulinskill, Pequest, Ramapo, South Branch Raritan): flyshack.com/HCState.aspx"
+    ],
+    "uncertain_fields": [
+      "latin_name (Eastern October Caddis is generally Pycnopsyche at genus level; not identified to species, and the common name is applied loosely)",
+      "water_temp_f",
+      "weather_light"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "name": "Midges (various)",
+    "category": "midge",
+    "latin_name": "Chironomidae",
+    "also_known_as": [
+      "Chironomids",
+      "Midges"
+    ],
+    "hook_sizes": "20-28",
+    "life_stages": [
+      {
+        "stage": "larva",
+        "fish_when": "Year-round subsurface; a tiny midge larva is a dependable deep nymph, especially in cold months.",
+        "note": null
+      },
+      {
+        "stage": "pupa",
+        "fish_when": "During emergence - the ascending/suspended pupa is the most productive midge stage, fished in or just under the film.",
+        "note": null
+      },
+      {
+        "stage": "adult",
+        "fish_when": "When adults and mating clusters are on the surface, often in calm sections.",
+        "note": "Adults sometimes form clusters that trout take as a single mouthful."
+      }
+    ],
+    "emergence": {
+      "water_temp_f": null,
+      "time_of_day": "any time of day; often the only surface activity during cold months, frequently midday",
+      "weather_light": null,
+      "peak_note": "Active year-round; the primary cold-weather hatch when nothing else is emerging.",
+      "water_temp_basis": null
+    },
+    "identification": "A catch-all for the family Chironomidae - tiny two-winged flies, size 20-28 and smaller. Larvae are thread-like ('bloodworms' when red); pupae hang in the film during emergence; adults are mosquito-like but do not bite. Critical in winter and on tailwaters.",
+    "fishing_tips": "Fish the pupa in or just below the surface film - it outproduces the adult. In winter, a tiny midge larva deep is often the most reliable trout fly available. Use fine tippet (6X-7X) and watch calm flats for subtle rises.",
+    "sources": [
+      "The Fly Shack NJ hatch charts (Big Flat Brook, Musconetcong, Paulinskill, Pequest, Ramapo, South Branch Raritan): flyshack.com/HCState.aspx"
+    ],
+    "uncertain_fields": [
+      "latin_name (family-level only; Chironomidae contains a very large number of species)",
+      "water_temp_f (active year-round; no emergence temperature trigger)"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "name": "Little Yellow Stonefly",
+    "category": "stonefly",
+    "latin_name": "Isoperla",
+    "also_known_as": [
+      "Yellow Sally"
+    ],
+    "hook_sizes": "16",
+    "life_stages": [
+      {
+        "stage": "nymph",
+        "fish_when": "Before emergence; small yellow-brown stonefly nymph fished near the bottom in riffles.",
+        "note": null
+      },
+      {
+        "stage": "adult",
+        "fish_when": "Evening, and when egg-laying females return to the water.",
+        "note": null
+      }
+    ],
+    "emergence": {
+      "water_temp_f": null,
+      "time_of_day": "evening, with egg-laying activity late in the day",
+      "weather_light": null,
+      "peak_note": "Late spring into summer; a steady but rarely overwhelming hatch.",
+      "water_temp_basis": null
+    },
+    "identification": "A small (size 14-16) bright yellow-to-pale-olive stonefly, commonly called the Yellow Sally. Adults are slim with wings folded flat over the body and are most visible along streamside vegetation in the evening.",
+    "fishing_tips": "Fish a small yellow stonefly nymph near the bottom of riffles before evening. A yellow adult or egg-laying pattern works at dusk along the banks. The hatch is usually steady rather than dense - treat it as a searching opportunity.",
+    "sources": [
+      "The Fly Shack NJ hatch charts (Big Flat Brook, Musconetcong, Paulinskill, Pequest, Ramapo, South Branch Raritan): flyshack.com/HCState.aspx"
+    ],
+    "uncertain_fields": [
+      "latin_name (Isoperla is the most common genus for the Yellow Sally; not identified to species and other genera also apply)",
+      "water_temp_f"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "name": "Brown Caddis",
+    "category": "caddisfly",
+    "latin_name": null,
+    "also_known_as": [],
+    "hook_sizes": "14",
+    "life_stages": [
+      {
+        "stage": "larva",
+        "fish_when": "Year-round subsurface near the bottom.",
+        "note": null
+      },
+      {
+        "stage": "pupa",
+        "fish_when": "During emergence - rising pupa pattern.",
+        "note": null
+      },
+      {
+        "stage": "adult",
+        "fish_when": "When adults are on the water, including egg-laying.",
+        "note": null
+      }
+    ],
+    "emergence": {
+      "water_temp_f": null,
+      "time_of_day": "afternoon into evening (typical for caddis)",
+      "weather_light": null,
+      "peak_note": "An angler color category; consult the seasonal bar on the flyshack chart for the local window.",
+      "water_temp_basis": null
+    },
+    "identification": "'Brown Caddis' is a color grouping, not a species - caddis with a brown body/wing of roughly size 14. Identify caddis by the tent-shaped wing held over the body at rest and erratic, moth-like flight.",
+    "fishing_tips": "Match the brown body and size 14 profile. Fish a pupa in or under the film during emergence and twitch the adult to imitate egg-laying. Prioritize size and silhouette over exact shade.",
+    "sources": [
+      "The Fly Shack NJ hatch charts (Big Flat Brook, Musconetcong, Paulinskill, Pequest, Ramapo, South Branch Raritan): flyshack.com/HCState.aspx"
+    ],
+    "uncertain_fields": [
+      "latin_name (color category, not a species; brown-toned caddis can span multiple genera)",
+      "water_temp_f",
+      "weather_light"
+    ],
+    "confidence": "low"
+  }
+]
